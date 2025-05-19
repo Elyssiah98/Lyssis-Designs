@@ -1,0 +1,149 @@
+.blog-home {
+  background: linear-gradient(to bottom, #fff6fb, #ffffff); /* Soft gradient */
+  padding: 0.5rem 2rem;
+  min-height: 100vh;
+}
+
+.blog-post {
+  background: white;
+  max-width: 900px;
+  margin: 2rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  border: 2px solid #e6d1eb;
+}
+
+.blog-post-inner {
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+}
+
+.thumbnail-top .blog-post-inner {
+  flex-direction: column;
+}
+
+.thumbnail-right .blog-thumbnail-right {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  border: 4px solid #e8c5ef;
+  flex-shrink: 0;
+  order: 2;
+}
+
+.thumbnail-top .blog-thumbnail-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  border: 4px solid #e8c5ef;
+  margin-bottom: 1rem;
+}
+
+.no-thumbnail .blog-post-inner {
+  flex-direction: column;
+}
+
+.blog-thumbnail {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+  flex-shrink: 0;
+  border: 4px solid #e8c5ef;
+}
+
+.blog-title a {
+  font-family: 'Dancing Script';
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #a64ca6;
+  margin-bottom: 0.3rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.blog-post-content {
+  flex: 1;
+}
+
+.blog-title a:hover {
+  color: #8c3f8e;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+.blog-meta {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 0.5rem;
+}
+
+.blog-category {
+  display: inline-block;
+  background: #f6d0fa;
+  color: #701070;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  margin-right: 0.5rem;
+}
+
+.blog-excerpt {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.read-more {
+  margin-top: 1rem;
+  display: inline-block;
+  color: #a64ca6;
+  font-weight: 600;
+}
+
+.read-more a:hover {
+  text-decoration: underline;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  gap: 0.5rem;
+}
+
+.pagination button {
+  background-color: transparent;
+  border: 2px solid #d1a5e8;
+  color: #a64ca6;
+  font-weight: bold;
+  padding: 0.4rem 0.8rem;
+  margin: 0 0.3rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pagination button:hover {
+  background-color: #f4e0fa;
+}
+
+.pagination .active {
+  background-color: #a64ca6;
+  color: white;
+  border-color: #a64ca6;
+}
+
+@media (min-width: 768px) {
+  .blog-post.has-image {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}

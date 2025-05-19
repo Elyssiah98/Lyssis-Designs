@@ -1,0 +1,269 @@
+/* Hamburger button hidden by default */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #ebd6f2;
+  cursor: pointer;
+}
+
+/* Nav structure for mobile */
+.nav-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  flex: 0 0 auto;
+}
+
+.nav-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  flex: 1 1 100%;
+  min-width: 0;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex: 1 1 auto;
+  min-width: 0;
+  text-align: center;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  #main-header {
+    position: static;
+  }
+
+  .hamburger {
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 10001;
+    background-color: #3c1742; /* same as nav background */
+    padding: 0.5rem 1rem;
+    width: auto;
+    order: 0;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .nav-main {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      background-color: #3c1742;
+      align-items: flex-start;
+      width: 100%;
+      padding: 1rem;
+      margin-bottom: 0.5rem;
+      border-radius: 0 0 10px 10px;
+      text-align: left;
+  }
+
+  .nav-links.show {
+      display: flex;
+  }
+  
+  .search-container {
+    display: none; /* Hide search bar outside menu */
+  }
+
+/* Inside hamburger menu: make search appear */
+  .nav-links .search-container {
+    display: flex;
+  }
+
+  .nav-links .dropdown-content {
+    position: static;        /* normal flow */
+    max-height: 0;           /* hidden */
+    overflow: hidden;
+    opacity: 0;
+    transition:
+      max-height 1s
+      cubic-bezier(0.8, 0, 0.4, 2),
+      opacity 0.6s ease 0.2s,
+      transform 0.6s ease;
+    visibility: visible;     /* keep visible to allow animation */
+    width: 100%;
+    background-color: #3c1742;
+    box-shadow: none;
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+    flex-direction: column;
+  }
+
+  .nav-links .dropdown-content.open {
+    max-height: 500px;       /* max height big enough for content */
+    opacity: 1;
+  }
+
+  .dropdown-title-wrapper {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 0.25rem;
+  }
+  
+  .dropdown-arrow {
+    display: block !important;
+    transition: transform 0.3s ease;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    border-width: 4px;
+  }
+  
+  .dropdown-arrow.rotated {
+    transform: rotate(180deg);
+  }
+}
+
+.nav-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  width: 100%;
+}
+
+#main-header .nav-bar {
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+}
+
+#main-header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: #3c1742;
+  z-index: 9999; /* Keep it on top */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* subtle shadow */
+}
+
+.icon-link img {
+  vertical-align: middle;
+  transition: opacity 0.3s ease;
+}
+
+.icon-link:hover img {
+  opacity: 0.8;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #3c1742;
+  min-width: 150px;
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition:
+    max-height 1s cubic-bezier(0.8, 0, 0.4, 2),
+    opacity 0.6s ease 0.2s,
+    transform 0.6s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);  
+  pointer-events: none;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.dropdown-content.open {
+  max-height: 500px;
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+  visibility: visible;
+}
+
+/* Navigation */
+nav {
+  background-color: #3c1742; /* Deep purple */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  padding: 0px 20px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.homepage-redirect a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ebd6f2;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.homepage-redirect img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* Links and dropdowns */
+nav a {
+  color: #ebd6f2;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav .dropdown {
+  position: relative;
+}
+
+nav a:hover,
+nav .dropdown-content a:hover {
+  background-color: #7a3682;
+}
+
+/* Search */
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* space between icon and input */
+  flex-shrink: 1;
+  margin-left: auto;
+  min-width: 150px;
+}
+
+.search-icon {
+  height: 24px;
+  width: auto;
+  user-select: none;
+}
+
+nav input[type="text"] {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #e6d1f2;
+}
+
+.dropdown-arrow {
+  display: none;
+}

@@ -1,0 +1,33 @@
+/* Header Banner */
+.top-banner {
+    height: 100px;
+    background: #542259; /* Soft purple placeholder */
+  }
+  
+  /* Section layout */
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .carousel {
+    height: 200px;
+    background-color: #ddd;
+    text-align: center;
+    padding-top: 80px;
+  }
+    
+  .announcements {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+    
+  .announcements h2 {
+    color: #3c1742;
+    font-size: 2.5rem;
+  }
+
+.content {
+  min-height: 200vh; /* Add temporary scroll height */
+}
