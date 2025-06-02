@@ -729,20 +729,20 @@ tags: ["metalwork", "jewellery", "butterflyearrings"]
 These earrings started as an experiment with roller printing. I played around with different materials and textures, and the textured ribbons gave me this organic pattern that reminded me of butterfly wings.
 
 ## Tools :
-Rolling mill
-Jeweller’s saw and blades
-Needle files
-Drill + drill bits (1mm)
-Emery sticks (varying grits)
-Round-nose pliers
-Chain-nose pliers
-Glue stick
-Sharpie
+- Rolling mill
+- Jeweller’s saw and blades
+- Needle files
+- Drill + drill bits (1mm)
+- Emery sticks (varying grits)
+- Round-nose pliers
+- Chain-nose pliers
+- Glue stick
+- Sharpie
 
 ## Materials :
-Aluminium sheet (1mm)
-Textured ribbon (for roller printing)
-Silver wire
+- Aluminium sheet (1mm)
+- Textured ribbon (for roller printing)
+- Silver wire
 
 ## Process :
 Technically I started these earrings with experimentation using the rolling mill. I had experimented with many different materials and found a texture from a ribbon that I liked. See Roller Printing Experimentation.
@@ -750,14 +750,19 @@ Technically I started these earrings with experimentation using the rolling mill
 I then when home and sketched some designs and decided I wanted to do a butterfly-like design.
 
 I started by cutting the aluminium sheet into 3cm x 3cm squares. I then glued the ribbon in a way that could created a butterfly once cut out. Once the glue had dried, the aluminium went through the rolling mill. See Roller Printing for how to use a rolling mill.
-![Photo](./src/Pages/Blog/Posts/DigitalPortfolioPictures/Jewellery/ButterflyEarringsRollingMillPrep.jpg)
+<figure>
+    <img src="./src/Pages/Blog/Posts/DigitalPortfolioPictures/Jewellery/ButterflyEarringsRollingMillPrep.jpg" alt="Textured ribbon glued to aluminium. Ready to go through the rolling mill."
+    style="width: 20rem;">
+    <figcaption>Textured ribbon glued to aluminium. Ready to go through the rolling mill.</figcaption>
+</figure>
+
 Next, I removed the leftover ribbon and drew a butterfly onto the aluminium. These designs were cut out using the jewellers saw. See Sawing Metal for Jewellery to learn how to use a jewellers saw.
 
 The butterflies were not symmetrical, but I was already trying to achieve this organic shape, so I was very happy with it. The edges were tidied with the needle files and then further smoothed with the emery sticks. See Filing Metal Edges in Jewellery to learn how.
 
 The top corner of a wing on each butterfly was marked about 5mm in. I took the butterflies over to the drill press and carefully lowered the drill into the metal. Once the hole was drilled, emery sticks were used to clean up the rough edges.
 
-The final step to create my butterflies was to make the hooks. See how I did this in How to Make Earring Hooks (Two Methods). The earrings turned out well and I am happy with the product.`,Dw=`---
+The final step to create my butterflies was to make the hooks. See how I did this in <Link to="../Jewellery/Silversmithing-Techniques/How-to-Make-Earring-Hooks-(Two-Methods).md">How to Make Earring Hooks (Two Methods).</Link> The earrings turned out well and I am happy with the product.`,Dw=`---
 title: 'Roller Printing Experimentation'
 date: '2025-02-11'
 excerpt: "These earrings started as an experiment with roller printing. I played around with different materials..."
