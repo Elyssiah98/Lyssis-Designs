@@ -61,7 +61,7 @@ tags: ["photography", "analoguephotography", "photoenlarger", "darkroom"]
 
 A darkroom photo enlarger is a machine that allows you to develop photos on light sensitive paper from negatives. In this post I will walk you through setting up and using a darkroom photo enlarger.
 
-## Tools & Materials:
+## Tools & Materials :
 
 - Darkroom photo enlarger
 - Film carrier
@@ -73,7 +73,7 @@ A darkroom photo enlarger is a machine that allows you to develop photos on ligh
 - Notebook (for recording settings)
 - Negatives
 
-## Process:
+## Process :
 In this tutorial I will use proper terminology of the darkroom photo enlarger. If you are unsure as to what I am referring to, please refer to the diagram. Throughout the setup, ensure that all light-sensitive paper is not in any light until taking the actual photo. At TAFE SA, there is a separate draw by each machine that will not let any light through. It is also advice that any electronic devices stay out of the room. Ensure the room is fully light proof with block-out doors, curtains, materials, etc.
 
 Turn on the overhead safelights (red lights), as these need to be on to see and will not expose the light-sensitive (unless left for many, many hours). Test the exposure timer at 3 seconds (this time can vary as needed). Count to ensure the timer is at three seconds, as this overtime can become inaccurate. For the timer that we had available, there was a knob and 3 buttons. The knob is used to adjust the amount of time that the light on the photo enlarger is on. The three buttons each have a coloured dot. From left to right: red, white and green. Pressing the green button turns on the machine light for the duration of the timer. Pressing the green and white light together turns on the machine light indefinitely. Pressing the red button turns off the light and resets the timer.
@@ -90,7 +90,7 @@ Set the aperture to most open lens (brightest setting). Now adjust the aperture 
 
 A printable checklist of the above is also available.
 
-### Notes:
+### Notes :
 It is best to always do an exposure test before taking the final photo. See How to Make a Test Exposure Strip.
 
 Exposure, contrast filters, aperture and height all interact and change each other’s settings. Only change one of these variables at a time.
@@ -192,7 +192,7 @@ tags: ["photography", "analoguephotography", "developingphotos", "darkroom", "fi
 
 Once the photo paper has been exposed; it needs to go through various chemicals to fully develop into the final picture. Here is the step-by-step process.
 
-## Tools & Materials:
+## Tools & Materials :
 - Photo to be developed
 - 4 Trays
 - 4 Tongs
@@ -204,7 +204,7 @@ Once the photo paper has been exposed; it needs to go through various chemicals 
 - Pegs
 - Line to hold pegs
 
-## Process:
+## Process :
 This process is done in the darkroom under the safe lights. See Darkroom Machine Setup for more information on how to set up the darkroom machine. Start by laying all the trays out in a row. Fill the first with developer, the second with stop bath, the third with fixer, and the last should have running water. A set of tongs should be next to each solution tray and should not be mixed up.
 
 Once you have exposed your light sensitive photo paper, place it in the developer tray with the tongs for recommended 1 minute minimum. Ensure to fully cover the photograph for this duration, otherwise it will not develop. This is done by gently agitating the tray to move the solution and possibly using the tongs to assist.
@@ -215,12 +215,12 @@ Once the time has passed, use the tongs by this tray to pick up the photo and pl
 
 Once the time has passed, use the tongs by this tray to pick up the photo and place it in the final rinse tray. These tongs should not touch this solution. Leave the photo in the running water for at least 5 minutes. The water needs to be running to help prevent the chemicals from building up in the tray and to help wash away these chemicals. Use the last pair of tongs to pick up the picture. Hang the picture up with pegs on a line to dry. This should take a few hours.
 
-## Tips;
-Always use separate tongs for each tray.
+### Notes :
+- Always use separate tongs for each tray.
 
-Label the chemicals and trays clearly.
+- Label the chemicals and trays clearly.
 
-The chemicals can damaged clothing, so either wear an apron, or clothes that you don’t mind getting ruined.`,E_=`---
+- The chemicals can damaged clothing, so either wear an apron, or clothes that you don’t mind getting ruined.`,E_=`---
 title: 'Ho-oh Photogrpahy'
 date: '2025-03-18'
 excerpt: "Sawing is one of the most common ways to cut out shapes from sheet metal..."
@@ -727,7 +727,7 @@ tags: ["metalwork", "jewellery", "butterflyearrings"]
 
 These earrings started as an experiment with roller printing. I played around with different materials and textures, and the textured ribbons gave me this organic pattern that reminded me of butterfly wings.
 
-## Tools:
+## Tools :
 Rolling mill
 Jeweller’s saw and blades
 Needle files
@@ -738,12 +738,12 @@ Chain-nose pliers
 Glue stick
 Sharpie
 
-## Materials:
+## Materials :
 Aluminium sheet (1mm)
 Textured ribbon (for roller printing)
 Silver wire
 
-## Process:
+## Process :
 Technically I started these earrings with experimentation using the rolling mill. I had experimented with many different materials and found a texture from a ribbon that I liked. See Roller Printing Experimentation.
 
 I then when home and sketched some designs and decided I wanted to do a butterfly-like design.
@@ -811,7 +811,7 @@ tags: ["metalwork", "jewellery", "filingmetal"]
 
 After sawing out a design on metal sheet, the edges are left rough, sharp and in need of refinement. Filing and sanding is need for smoot, tidy edges.
 
-## Tools & Materials:
+## Tools & Materials :
 
 - Piece to be refined
 - Needle files
@@ -824,8 +824,8 @@ After sawing out a design on metal sheet, the edges are left rough, sharp and in
     -	1200 grit
     -	2500 grit
 
-## Process:
-### Filing:
+## Process :
+### Filing :
 First, start with the needle files to remove the bulk of the roughness. The type of file chosen depends on the shape of the edge:
 -	Flat files are best for straight edges.
 -	Half-round files are best for gentle curves and corners.
@@ -835,7 +835,7 @@ There are many other file shapes available, dependent on the situation, but thes
 
 File in one direction, applying pressure on the forward stroke. Filing back and forth can clog or damage the needle files. Position your piece securely on a bench pin to help manoeuvre the metal while filing. Once smooth, move on to the emery sticks.
 
-### Sanding:
+### Sanding :
 Emery paper is graded by grit, the higher the number, the finer the grit.
 
 Start with the 400-grit emery paper. Wrap it around a wooden stick to make a custom emery stick. Sand in a direction perpendicular to your filing marks. This helps remove them more efficiently. Move on to the 800-grit, then the 1200-grit and finally the 2500-grit, sanding in alternate directions each time.
@@ -854,7 +854,7 @@ tags: ["metalwork", "jewellery", "earringhook"]
 ---
 
 Earring hooks are made separately from the earring itself. There are many methods, but her are the two methods I have learnt using wire.
-## Tools & Materials:
+## Tools & Materials :
 - Practice wire (I used copper wire)
 - Jewellery pliers
     - Round-nose pliers
@@ -863,12 +863,12 @@ Earring hooks are made separately from the earring itself. There are many method
 - Ruler
 - Emery stick
 
-### Optional:
+### Optional :
 - Small round cylindrical shape (like knitting needles) [method 1]
 - Hook jig [method 2]
 
-## Process:
-### Method 1 – By Hand
+## Process :
+### Method 1 – By Hand :
 Start by cutting 1 piece of wire, between 10cm and 20cm in length. Fold the wire in half.
 
 Using round nose pliers, grip the wires at the fold and wrap it around. Take note of the placement on the round nose pliers as they taper, which can change the final size of this loop. Bend the loop back slightly so that it is centred, and not to the side, of the tail.
@@ -879,7 +879,7 @@ Saw between the wires at the fold. Use an emery stick to tidy up the tails. Bend
 
 Use the chain-nose pliers to open the loop and close it back up. To open and close the loop, the pliers should twist the wires open.
 
-### Method 2 – With a Jig
+### Method 2 – With a Jig :
 Start by cutting 2 pieces of wire, between 5cm and 10cm in length. Ensure they are both the same length.
 
 Using round nose pliers, grip the wires at the fold and wrap it around. Take note of the placement on the round nose pliers as they taper, which can change the final size of this loop. Bend the loop back slightly so that it is centred, and not to the side, of the tail.
@@ -901,7 +901,7 @@ tags: ["metalwork", "jewellery", "emerystick", "jewellerytools"]
 
 An emery stick is a tool used in silversmithing for smoothing and finishing metal edges. Having the emery paper wrapped around a wooden stick allows for better pressure and control when finishing pieces, as apposed to the loose sheets on their own.
 
-## Tools & Materials:
+## Tools & Materials :
 
 - Wooden Stick
 - Emery paper
@@ -914,10 +914,10 @@ An emery stick is a tool used in silversmithing for smoothing and finishing meta
 - Ruler
 - Pen/Pencil
 
-## Process:
+## Process :
 Mark and cut the emery paper into strips that are slightly smaller than the wooden stick and long enough to wrap around it and over itself for an extra length. Attach one side of the emery paper to the stick using tape. Wrap the rest of the paper tightly around the stick and tape down the ends at the top and bottom to hold it in place. Clearly label the emery stick at the top with the grit number.
 
-### Notes:
+### Notes :
 I recently came across someone using paper tacks, and I thought this was a smart idea. Will try the next time I create an emery stick.`,P_=`---
 title: "Roller Printing"
 date: "2025-02-11"
@@ -931,14 +931,15 @@ tags: ["metalwork", "jewellery", "rollerprinting"]
 
 Roller printing is a technique used to create a debossed (indented) design on metals surfaces in jewellery making.
 
-## Tools & Materials: 
+## Tools & Materials : 
 - Roller Printer
 - Metal for debossing (e.g., aluminium, copper, silver)
 - A die
-### Optional:
+
+### Optional :
 - Glue
 
-## Process:
+## Process :
 A die is a tool used to cut or mould metal into a specific shape. Dies can be made from various materials, including card, wire or textiles such as lace and ribbon. It is important to note that the die will typically be destroyed during the roller printing process. A die can also be used on both sides of the metal sheet; however, this may result in unwanted embossing on the reverse side. A die can be created; an example would be cutting out a design on card.
 
 Once both the metal and die have been prepared, the die can either be glued in place or positioned directly before going through the rollers. If glue is used, it must be completely dry before printing, as wet glue may damage or corrode the rollers.
@@ -964,7 +965,7 @@ tags: ["metalwork", "jewellery", "sawing"]
 
 Sawing is one of the most common ways to cut out shapes from sheet metal in jewellery making. It allows for precision, especially when working with detailed or delicate designs.
 
-## Tools & Materials:
+## Tools & Materials :
 
 - Jeweller’s saw frame
 - Saw blades (various sizes depending on metal thickness)
@@ -972,11 +973,11 @@ Sawing is one of the most common ways to cut out shapes from sheet metal in jewe
 - Metal sheet (e.g., aluminium, copper, silver)
 - Safety glasses
 
-### Optional:
+### Optional :
 - Design template
 - Glue (to secure template)
 
-## Process:
+## Process :
 Before starting, ensure the design is clearly marked on the metal. This can be done in many ways; by gently etching or drawing on it, or by gluing a paper template.
 
 To load the saw blade, first loosen the top wingnut of the jeweller’s saw frame. The blade must be inserted in the correct orientation; the teeth should point downwards and away from the frame. Place the blade into the top clamp and tighten the wingnut. Use the wingnut on the frame to adjust the height of the saw. Press the frame against a bench to slightly compress it. Insert the other end of the blade into the bottom clamp and tighten the corresponding wingnut. A properly tightened blade will produce a high-pitched ping sound when gently flicked with a fingernail. If the sound is dull, it may need to be tightened further. Be careful as overtightening can cause the blade to snap.
@@ -989,7 +990,7 @@ When navigating corners and curves, reduce the forwards motion and continue sawi
 
 To do inner cut-outs or designs, drill a small hole inside the section to be removed. Unclamp the top end of the blade, and thread it through the hole. Re-tighten the blade and saw as you would have on the perimeter of the design.
 
-## Tips and Safety for Sawing:
+### Notes :
 - A V-shaped notch in the bench pin is helpful for supporting smaller pieces and allowing room for the blade to move.
 - The non-dominant hand should be holding the metal in place. Always keep the fingers behind the blade and out of its path.
 - Safety glasses and enclosed shoes should be worn in case of a blade snapping or shrapnel coming off the metal.
