@@ -979,13 +979,26 @@ For this design, the bear had already been cut out, and I glued it onto the meta
 
 ### String
 <div class="clearfix">
-<figure class="side-by-side" style="max-width: 400px;">
-  <img src="/Lyssis-Designs/Images/Jewellery/RolllerPrintingString1.jpg" alt="Rolller Printing String Front">
-  <img src="/Lyssis-Designs/Images/Jewellery/RolllerPrintingString2.jpg" alt="Rolller Printing String Back">
-  <figcaption style="text-align: center;">Left to Right: String unused as die, printed aluminium, string used as die.</figcaption>
+<figure class="flex-right" style="max-width: 8rem; margin-left: 1rem;">
+  <img src="/Lyssis-Designs/Images/Jewellery/WrappedStringExperimentation.jpg">
+  <figcaption>Aluminium wrapped with string.</figcaption>
 </figure>
 
 For the final experimentation using the rolling mill, I wanted to test seeing a different design coming through on both sides. I wrapped a piece of string around the metal, to then go through the rolling mill. The results were successful, but it is not my preference in design.
+</div>
+
+<div class="clearfix">
+<figure class="side-by-side">
+  <img
+    src="/Lyssis-Designs/Images/Jewellery/RolllerPrintingString1.jpg"
+    alt="Rolller Printing String Front"
+    style="width: 100%; max-width: 300px; cursor: zoom-in;">
+  <img
+    src="/Lyssis-Designs/Images/Jewellery/RolllerPrintingString2.jpg"
+    alt="Rolller Printing String Back"
+    style="width: 100%; max-width: 300px; cursor: zoom-in;">
+    <figcaption>Left to Right: String unused as die, printed aluminium, string used as die. First picture shows front of aluminium, second picture shows back of aluminium.</figcaption>
+</figure>
 </div>
 
 > ### Final Comments :
