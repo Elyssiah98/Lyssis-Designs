@@ -1003,6 +1003,104 @@ For the final experimentation using the rolling mill, I wanted to test seeing a 
 
 > ### Final Comments :
 >Thank you for reading all about my experimentation using the rolling mill. I hope that this encourages you to explore different ideas and techniques in future.`,Pw=`---
+title: 'Star & Moon Earrings'
+date: '2025-02-25'
+excerpt: "Sawing is one of the most common ways to cut out shapes from sheet metal..."
+thumbnail: "/Lyssis-Designs/Images/Jewellery/StarMoonEarringFinal.jpg"
+thumbnailPosition: "top"
+category: "Jewellery"
+subcategory: "Completed Jewellery"
+tags: ["metalwork", "jewellery", "starandmoonearrings", "earrings", "star", "moon"]
+---
+
+<br>
+
+<div class="clearfix">
+<figure class="flex-right" style="max-width: 7rem; margin-left: 1rem;">
+  <img src="/Lyssis-Designs/Images/Jewellery/StarVinylExperimentation.jpg">
+    <figcaption>Hand cut-out stars on aluminium.</figcaption>
+</figure>
+
+These earrings started while I was [experimenting with the rolling mill](#/Blog/Jewellery/Completed-Jewellery/Roller-Printing-Experimentation). I tried to use star shapes hand cut from vinyl and printed them onto aluminium. The prints looked promising, so I planned to develop the idea further.</div>
+
+## Tools :
+- Rolling mill
+- Jeweller’s saw and blades
+- Needle files
+- Drill + drill bits (1mm)
+- Emery sticks (varying grits)
+- Round-nose pliers
+- Chain-nose pliers
+- Glue stick
+- Sharpie
+- Cricut machine
+- Digital drawing tools (for making SVG's)
+- Disk cutter
+
+## Materials :
+- Aluminium sheet (1mm)
+- Textured card (for roller printing)
+- Silver wire
+
+## Process:
+
+<div class="clearfix">
+<figure class="flex-right" style="max-width: 7rem; margin-left: 1rem;">
+  <img src="/Lyssis-Designs/Images/Jewellery/RollerPrintingStarPractice1.jpg">
+    <figcaption>Vinyl star stretched out of proportion.</figcaption>
+</figure>
+
+The vinyl was tricky to work with. It was fiddly to cut out and the designs would shift and stretch when they were rolled, which made the final prints inconsistent.
+</div>
+
+<div class="clearfix">
+<figure class="flex-left" style="width: 20rem;">
+    <img src="/Lyssis-Designs/Images/Jewellery/StarMoonEarringExperimentation.jpg">
+    <figcaption>Initial sketches of star and moon earrings.</figcaption>
+</figure>
+
+At home, I came up with different designs based on the stars and moon. I wanted to keep the roller printed stars in my design, but needed a consistent way to get clean, consistent shapes.
+</div>
+
+<div class="clearfix">
+<figure class="flex-right" style="max-width: 7rem; margin-left: 1rem;">
+  <img src="/Lyssis-Designs/Images/Jewellery/PlanningStarLayout.jpg">
+    <figcaption>SVG of stars to be printed by the Cricut machine.</figcaption>
+</figure>
+
+Looking back over my previous roller printing experiments, I realised that the textured card held up much better than the vinyl. I create a new star design as a scalable vector graphic (SVG) using my iPad.
+</div>
+
+<div class="clearfix">
+<figure class="flex-left" style="width: 10rem;">
+    <img src="/Lyssis-Designs/Images/Jewellery/SparkleCardStars.jpg">
+    <figcaption>Stars cut out of glitter card.</figcaption>
+</figure>
+
+I then cut out the SVG stars using my Cricut machine in several sizes, so that I had options to choose from. This gave me much more accurate results and cleaner shapes than hand-cut vinyl.
+</div>
+
+<div class="clearfix">
+<figure class="flex-right" style="max-width: 10rem; margin-left: 1rem;">
+  <img src="/Lyssis-Designs/Images/Jewellery/RollerPrintingStarPractice2.jpg">
+    <figcaption>Glitter card stars stretched out of proportion.</figcaption>
+</figure>
+
+Next, I glued the stars to onto the aluminium and ran the metal through the rolling mill again. See [Roller Printing](#/blog/Jewellery/Silversmithing-Techniques/Roller-Printing) for how to use a rolling mill. I had to repeat this a few times as the pressure wasn’t quite right at first, but eventually I had nice, clear prints.
+</div>
+
+Originally, I wanted to cut the printed pieces into circles with a disk cutter. [See Using a Disk Cutter](#/blog/Jewellery/Silversmithing-Techniques/Using-a-Disk-Cutter). Unfortunately, TAFE did not have the size I required, so I adapted the design by leaving flat edges at the top and bottom, which could still be adapted into a moon shape.
+
+Once shaped, I used needle files and emery sticks to smooth the edges. See how in [Filing Metal Edges](#/blog/Jewellery/Silversmithing-Techniques/Filing-Metal-Edges). I drilled a hole at the top of each piece for the hooks.
+
+I then made the hooks for the earrings. See how I did this in [How to Make Earring Hooks (Two Methods)](#/blog/Jewellery/Silversmithing-Techniques/How-to-Make-Earring-Hooks-Two-Methods). My original plan was to cut a quarter moon and a star from the middle of each earring, but I ran out of time. That’s something I still plan to try and finish in the future.
+
+<figure class="side-by-side">
+  <img src="/Lyssis-Designs/Images/Jewellery/StarMoonEarringFinal.jpg"
+       alt="Front view of the star and moon earrings"
+       style="width: 100%; max-width: 400px; cursor: zoom-in;">
+  <figcaption style="width: 100%; text-align: center;">Front view of the star and moon earrings.</figcaption>
+</figure>`,Bw=`---
 title: 'Filing Metal Edges'
 date: '2020-01-14'
 excerpt: "After sawing out a design on metal sheet, the edges are left rough..."
@@ -1046,7 +1144,7 @@ Start with the 400-grit emery paper. Wrap it around a wooden stick to make a cus
 
 See [Making an Emery Stick](#/blog/Jewellery/Silversmithing-Techniques/Making-an-Emery-Stick) for how to prepare them.
 
-![Photo](/images/shoes.jpg)`,Bw=`---
+![Photo](/images/shoes.jpg)`,Uw=`---
 title: 'How to Make Earring Hooks (Two Methods)'
 date: '2025-02-25'
 excerpt: "Sawing is one of the most common ways to cut out shapes from sheet metal..."
@@ -1092,7 +1190,7 @@ Place the loop onto the jig starting point and follow the guides to create the e
 
 Cut both sides to the same length and use an emery stick to tidy up the tails.
 
-Use the chain-nose pliers to open the loop and close it back up. To open and close the loop, the pliers should twist the wires open.`,Uw=`---
+Use the chain-nose pliers to open the loop and close it back up. To open and close the loop, the pliers should twist the wires open.`,Hw=`---
 title: 'Making an Emery Stick'
 date: '2020-01-14'
 excerpt: "An emery stick is a tool used in silversmithing for smoothing and finishing metal edges..."
@@ -1122,7 +1220,7 @@ An emery stick is a tool used in silversmithing for smoothing and finishing meta
 Mark and cut the emery paper into strips that are slightly smaller than the wooden stick and long enough to wrap around it and over itself for an extra length. Attach one side of the emery paper to the stick using tape. Wrap the rest of the paper tightly around the stick and tape down the ends at the top and bottom to hold it in place. Clearly label the emery stick at the top with the grit number.
 
 > ### Notes :
-> I recently came across someone using paper tacks, and I thought this was a smart idea. Will try the next time I create an emery stick.`,Hw=`---
+> I recently came across someone using paper tacks, and I thought this was a smart idea. Will try the next time I create an emery stick.`,jw=`---
 title: "Roller Printing"
 date: "2025-02-11"
 excerpt: "Roller printing is a technique used to create a debossed (indented) design on..."
@@ -1156,7 +1254,7 @@ As the printing process causes the metal to expand, it is best not to pre-cut th
 
 After printing the metal, it most likely curved. Use a rawhide mallet on a flat surface such as an anvil, to flatten the embossed metal.
   
-![Photo](/images/shoes.jpg)`,jw=`---
+![Photo](/images/shoes.jpg)`,Fw=`---
 title: 'Sawing Metal for Jewellery'
 date: '2020-01-14'
 excerpt: "Sawing is one of the most common ways to cut out shapes from sheet metal..."
@@ -1199,49 +1297,7 @@ To do inner cut-outs or designs, drill a small hole inside the section to be rem
 > - The non-dominant hand should be holding the metal in place. Always keep the fingers behind the blade and out of its path.
 > - Safety glasses and enclosed shoes should be worn in case of a blade snapping or shrapnel coming off the metal.
 > - Long hair should be tied back.
-`,Fw=`---
-title: 'Star & Moon Earrings'
-date: '2025-02-25'
-excerpt: "Sawing is one of the most common ways to cut out shapes from sheet metal..."
-thumbnail: "/images/blog1.jpg"
-thumbnailPosition: "top"
-category: "Jewellery"
-subcategory: "Completed Jewellery"
-tags: ["metalwork", "jewellery", "sawing"]
----
-
-Sawing is one of the most common ways to cut out shapes from sheet metal in jewellery making. It allows for precision, especially when working with detailed or delicate designs.
-
-## Tools & Materials:
-
-- Jeweller’s saw frame
-- Saw blades (various sizes depending on metal thickness)
-- Wooden bench pin
-- Metal sheet (e.g., aluminium, copper, silver)
-- Safety glasses
-
-### Optional:
-- Design template
-- Glue (to secure template)
-
-## Process:
-Before starting, ensure the design is clearly marked on the metal. This can be done in many ways; by gently etching or drawing on it, or by gluing a paper template.
-
-To load the saw blade, first loosen the top wingnut of the jeweller’s saw frame. The blade must be inserted in the correct orientation; the teeth should point downwards and away from the frame. Place the blade into the top clamp and tighten the wingnut. Use the wingnut on the frame to adjust the height of the saw. Press the frame against a bench to slightly compress it. Insert the other end of the blade into the bottom clamp and tighten the corresponding wingnut. A properly tightened blade will produce a high-pitched ping sound when gently flicked with a fingernail. If the sound is dull, it may need to be tightened further. Be careful as overtightening can cause the blade to snap.
-
-Sawing is done in always done vertically, using a downward motion. This allows the blade to do the work. Do not force the saw forward, instead apply gentle, even pressure.
-
-To begin sawing, use a light up and down motion to create a notch for the blade to sit in.
-
-When navigating corners and curves, reduce the forwards motion and continue sawing in place, while rotating the metal slowly.
-
-To do inner cut-outs or designs, drill a small hole inside the section to be removed. Unclamp the top end of the blade, and thread it through the hole. Re-tighten the blade and saw as you would have on the perimeter of the design.
-
-## Tips and Safety for Sawing:
-- A V-shaped notch in the bench pin is helpful for supporting smaller pieces and allowing room for the blade to move.
-- The non-dominant hand should be holding the metal in place. Always keep the fingers behind the blade and out of its path.
-- Safety glasses and enclosed shoes should be worn in case of a blade snapping or shrapnel coming off the metal.
-- Long hair should be tied back.`,zw=`---
+`,zw=`---
 title: 'Using a Disk Cutter'
 date: '2025-02-25'
 excerpt: "Sawing is one of the most common ways to cut out shapes from sheet metal..."
@@ -1478,7 +1534,7 @@ To do inner cut-outs or designs, drill a small hole inside the section to be rem
 `+x.slice(Ne+1):Ie+=x.slice(xe),Ie.slice(1)}function ht(x){for(var ue="",ye,Ae,xe,ge=0;ge<x.length;ge++){if(ye=x.charCodeAt(ge),ye>=55296&&ye<=56319&&(Ae=x.charCodeAt(ge+1),Ae>=56320&&Ae<=57343)){ue+=T((ye-55296)*1024+Ae-56320+65536),ge++;continue}xe=F[ye],ue+=!xe&&C(ye)?x[ge]:xe||T(ye)}return ue}function gt(x,ue,ye){var Ae="",xe=x.tag,ge,Ne;for(ge=0,Ne=ye.length;ge<Ne;ge+=1)le(x,ue,ye[ge],!1,!1)&&(ge!==0&&(Ae+=","+(x.condenseFlow?"":" ")),Ae+=x.dump);x.tag=xe,x.dump="["+Ae+"]"}function xt(x,ue,ye,Ae){var xe="",ge=x.tag,Ne,we;for(Ne=0,we=ye.length;Ne<we;Ne+=1)le(x,ue+1,ye[Ne],!0,!0)&&((!Ae||Ne!==0)&&(xe+=h(x,ue)),x.dump&&y===x.dump.charCodeAt(0)?xe+="-":xe+="- ",xe+=x.dump);x.tag=ge,x.dump=xe||"[]"}function on(x,ue,ye){var Ae="",xe=x.tag,ge=Object.keys(ye),Ne,we,Ie,Ge,Ye;for(Ne=0,we=ge.length;Ne<we;Ne+=1)Ye="",Ne!==0&&(Ye+=", "),x.condenseFlow&&(Ye+='"'),Ie=ge[Ne],Ge=ye[Ie],le(x,ue,Ie,!1,!1)&&(x.dump.length>1024&&(Ye+="? "),Ye+=x.dump+(x.condenseFlow?'"':"")+":"+(x.condenseFlow?"":" "),le(x,ue,Ge,!1,!1)&&(Ye+=x.dump,Ae+=Ye));x.tag=xe,x.dump="{"+Ae+"}"}function Tn(x,ue,ye,Ae){var xe="",ge=x.tag,Ne=Object.keys(ye),we,Ie,Ge,Ye,cn,kt;if(x.sortKeys===!0)Ne.sort();else if(typeof x.sortKeys=="function")Ne.sort(x.sortKeys);else if(x.sortKeys)throw new n("sortKeys must be a boolean or a function");for(we=0,Ie=Ne.length;we<Ie;we+=1)kt="",(!Ae||we!==0)&&(kt+=h(x,ue)),Ge=Ne[we],Ye=ye[Ge],le(x,ue+1,Ge,!0,!0,!0)&&(cn=x.tag!==null&&x.tag!=="?"||x.dump&&x.dump.length>1024,cn&&(x.dump&&y===x.dump.charCodeAt(0)?kt+="?":kt+="? "),kt+=x.dump,cn&&(kt+=h(x,ue)),le(x,ue+1,Ye,!0,cn)&&(x.dump&&y===x.dump.charCodeAt(0)?kt+=":":kt+=": ",kt+=x.dump,xe+=kt));x.tag=ge,x.dump=xe||"{}"}function E(x,ue,ye){var Ae,xe,ge,Ne,we,Ie;for(xe=ye?x.explicitTypes:x.implicitTypes,ge=0,Ne=xe.length;ge<Ne;ge+=1)if(we=xe[ge],(we.instanceOf||we.predicate)&&(!we.instanceOf||typeof ue=="object"&&ue instanceof we.instanceOf)&&(!we.predicate||we.predicate(ue))){if(x.tag=ye?we.tag:"?",we.represent){if(Ie=x.styleMap[we.tag]||we.defaultStyle,o.call(we.represent)==="[object Function]")Ae=we.represent(ue,Ie);else if(s.call(we.represent,Ie))Ae=we.represent[Ie](ue,Ie);else throw new n("!<"+we.tag+'> tag resolver accepts not "'+Ie+'" style');x.dump=Ae}return!0}return!1}function le(x,ue,ye,Ae,xe,ge){x.tag=null,x.dump=ye,E(x,ye,!1)||E(x,ye,!0);var Ne=o.call(x.dump);Ae&&(Ae=x.flowLevel<0||x.flowLevel>ue);var we=Ne==="[object Object]"||Ne==="[object Array]",Ie,Ge;if(we&&(Ie=x.duplicates.indexOf(ye),Ge=Ie!==-1),(x.tag!==null&&x.tag!=="?"||Ge||x.indent!==2&&ue>0)&&(xe=!1),Ge&&x.usedDuplicates[Ie])x.dump="*ref_"+Ie;else{if(we&&Ge&&!x.usedDuplicates[Ie]&&(x.usedDuplicates[Ie]=!0),Ne==="[object Object]")Ae&&Object.keys(x.dump).length!==0?(Tn(x,ue,x.dump,xe),Ge&&(x.dump="&ref_"+Ie+x.dump)):(on(x,ue,x.dump),Ge&&(x.dump="&ref_"+Ie+" "+x.dump));else if(Ne==="[object Array]"){var Ye=x.noArrayIndent&&ue>0?ue-1:ue;Ae&&x.dump.length!==0?(xt(x,Ye,x.dump,xe),Ge&&(x.dump="&ref_"+Ie+x.dump)):(gt(x,Ye,x.dump),Ge&&(x.dump="&ref_"+Ie+" "+x.dump))}else if(Ne==="[object String]")x.tag!=="?"&&Xe(x,x.dump,ue,ge);else{if(x.skipInvalid)return!1;throw new n("unacceptable kind of an object to dump "+Ne)}x.tag!==null&&x.tag!=="?"&&(x.dump="!<"+x.tag+"> "+x.dump)}return!0}function U(x,ue){var ye=[],Ae=[],xe,ge;for($(x,ye,Ae),xe=0,ge=Ae.length;xe<ge;xe+=1)ue.duplicates.push(ye[Ae[xe]]);ue.usedDuplicates=new Array(ge)}function $(x,ue,ye){var Ae,xe,ge;if(x!==null&&typeof x=="object")if(xe=ue.indexOf(x),xe!==-1)ye.indexOf(xe)===-1&&ye.push(xe);else if(ue.push(x),Array.isArray(x))for(xe=0,ge=x.length;xe<ge;xe+=1)$(x[xe],ue,ye);else for(Ae=Object.keys(x),xe=0,ge=Ae.length;xe<ge;xe+=1)$(x[Ae[xe]],ue,ye)}function ae(x,ue){ue=ue||{};var ye=new Ce(ue);return ye.noRefs||U(x,ye),le(ye,0,x,!0,!0)?ye.dump+`
 `:""}function Ee(x,ue){return ae(x,e.extend({schema:l},ue))}return Ao.dump=ae,Ao.safeDump=Ee,Ao}var yy;function d_(){if(yy)return Rt;yy=1;var e=c_(),n=f_();function r(l){return function(){throw new Error("Function "+l+" is deprecated and cannot be used.")}}return Rt.Type=Wt(),Rt.Schema=xi(),Rt.FAILSAFE_SCHEMA=Xd(),Rt.JSON_SCHEMA=M1(),Rt.CORE_SCHEMA=P1(),Rt.DEFAULT_SAFE_SCHEMA=Jl(),Rt.DEFAULT_FULL_SCHEMA=Qo(),Rt.load=e.load,Rt.loadAll=e.loadAll,Rt.safeLoad=e.safeLoad,Rt.safeLoadAll=e.safeLoadAll,Rt.dump=n.dump,Rt.safeDump=n.safeDump,Rt.YAMLException=ru(),Rt.MINIMAL_SCHEMA=Xd(),Rt.SAFE_SCHEMA=Jl(),Rt.DEFAULT_SCHEMA=Qo(),Rt.scan=r("scan"),Rt.parse=r("parse"),Rt.compose=r("compose"),Rt.addConstructor=r("addConstructor"),Rt}var ld,by;function h_(){if(by)return ld;by=1;var e=d_();return ld=e,ld}var Ey;function p_(){if(Ey)return _o.exports;Ey=1;var e=h_(),n="\\ufeff?",r=typeof process<"u"?process.platform:"",l="^("+n+"(= yaml =|---)$([\\s\\S]*?)^(?:\\2|\\.\\.\\.)\\s*$"+(r==="win32"?"\\r?":"")+"(?:\\n)?)",o=new RegExp(l,"m");_o.exports=s,_o.exports.test=m;function s(d,b){d=d||"";var v={allowUnsafe:!1};b=b instanceof Object?{...v,...b}:v,b.allowUnsafe=!!b.allowUnsafe;var _=d.split(/(\r?\n)/);return _[0]&&/= yaml =|---/.test(_[0])?y(d,b.allowUnsafe):{attributes:{},body:d,bodyBegin:1}}function f(d,b){for(var v=1,_=b.indexOf(`
 `),A=d.index+d[0].length;_!==-1;){if(_>=A)return v;v++,_=b.indexOf(`
-`,_+1)}return v}function y(d,b){var v=o.exec(d);if(!v)return{attributes:{},body:d,bodyBegin:1};var _=b?e.load:e.safeLoad,A=v[v.length-1].replace(/^\s+|\s+$/g,""),I=_(A)||{},L=d.replace(v[0],""),te=f(v,d);return{attributes:I,body:L,bodyBegin:te,frontmatter:A}}function m(d){return d=d||"",o.test(d)}return _o.exports}var m_=p_();const g_=ra(m_),y_=Object.assign({"./Posts/Analogue-Photography/Analogue-Photo-Techniques/Developing-Photos.md":bw,"./Posts/Analogue-Photography/Analogue-Photo-Techniques/How-to-Set-Up-Darkroom-Photo-Machine.md":Ew,"./Posts/Analogue-Photography/Darkroom-Initial-Experimentation.md":Tw,"./Posts/Analogue-Photography/Darkroom-Machine-Setup-Checklist.md":vw,"./Posts/Analogue-Photography/Ho-oh-Photography.md":Sw,"./Posts/Analogue-Photography/How-to-Make-a-Test-Exposure-Strip.md":ww,"./Posts/Analogue-Photography/Pressed-Flower-Negatives.md":_w,"./Posts/Ceramics/Clay-Bowl.md":Aw,"./Posts/Ceramics/Clay-Pitcher.md":xw,"./Posts/Ceramics/Clay-Strawberry.md":Cw,"./Posts/Ceramics/Coil-Building-a-Clay-Bowl.md":Ow,"./Posts/Ceramics/Glazing-Clay.md":Nw,"./Posts/Ceramics/Making-a-Clay-Pitcher.md":Rw,"./Posts/Ceramics/Making-a-Hollow-Sphere-with-Pinch-Pots.md":Dw,"./Posts/Ceramics/Sgraffito.md":kw,"./Posts/Ceramics/Slip-Decorating-Clay.md":Lw,"./Posts/Jewellery/Completed-Jewellery/Butterfly-Earrings.md":Iw,"./Posts/Jewellery/Completed-Jewellery/Roller-Printing-Experimentation.md":Mw,"./Posts/Jewellery/Silversmithing-Techniques/Filing-Metal-Edges.md":Pw,"./Posts/Jewellery/Silversmithing-Techniques/How-to-Make-Earring-Hooks-Two-Methods.md":Bw,"./Posts/Jewellery/Silversmithing-Techniques/Making-an-Emery-Stick.md":Uw,"./Posts/Jewellery/Silversmithing-Techniques/Roller-Printing.md":Hw,"./Posts/Jewellery/Silversmithing-Techniques/Sawing-Metal-for-Jewellery.md":jw,"./Posts/Jewellery/Star-and-Moon-Earrings.md":Fw,"./Posts/Jewellery/Using-a-Disk-Cutter.md":zw,"./Posts/Other/Preparing-&-Pressing-Flowers.md":qw,"./Posts/Printmaking/Carving-Lino.md":Yw,"./Posts/Printmaking/Lino-Kirin.md":Gw,"./Posts/Printmaking/Making-Paper.md":Vw}),b_=Object.entries(y_).map(([e,n])=>{const r=e.replace("./Posts/","").replace(".md",""),{attributes:l,body:o}=g_(n);return{...l,slug:r,content:o}}),er=b_.sort((e,n)=>new Date(n.date)-new Date(e.date)),E_={title:"Spring Cosplay Showcase",date:"2024-04-13",images:["/images/events/2024/spring1.jpg","/images/events/2024/spring2.jpg"],videos:["https://www.youtube.com/watch?v=example","https://www.instagram.com/reel/example/"],description:"An amazing spring showcase featuring cosplay and aerials.",tags:["cosplay","aerial","performance"]},T_={title:"Spring Cosplay Showcase",date:"2023-04-12",images:["/images/events/2024/spring1.jpg","/images/events/2024/spring2.jpg"],videos:["https://www.youtube.com/watch?v=example","https://www.instagram.com/reel/example/"],description:"An amazing spring showcase featuring cosplay and aerials.",tags:["cosplay","aerial","performance"],blogLink:"#"},v_=[E_,T_],mi=v_.sort((e,n)=>new Date(n.date)-new Date(e.date)),S_=[...er.map(e=>({title:e.title,url:`/blog/${e.slug}`,type:"Blog"})),...mi.map(e=>({title:e.title,url:`/events/${e.slug}`,type:"Event"}))];function w_(){const{query:e}=L1(),n=S_.filter(r=>r.title.toLowerCase().includes(e.toLowerCase()));return S.jsxs("div",{className:"p-4",children:[S.jsxs("h1",{className:"text-xl mb-4",children:['Search Results for "',e,'"']}),n.length===0?S.jsx("p",{children:"No results found."}):S.jsx("ul",{children:n.map((r,l)=>S.jsx("li",{children:S.jsxs(vt,{to:r.url,className:"text-blue-600 underline",children:[r.title," — ",r.type]})},l))})]})}var ud={},od={},kl={},sd={},Ty;function __(){return Ty||(Ty=1,function(e){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var n={animating:!1,autoplaying:null,currentDirection:0,currentLeft:null,currentSlide:0,direction:1,dragging:!1,edgeDragged:!1,initialized:!1,lazyLoadedList:[],listHeight:null,listWidth:null,scrolling:!1,slideCount:null,slideHeight:null,slideWidth:null,swipeLeft:null,swiped:!1,swiping:!1,touchObject:{startX:0,startY:0,curX:0,curY:0},trackStyle:{},trackWidth:0,targetSlide:0};e.default=n}(sd)),sd}var cd,vy;function A_(){if(vy)return cd;vy=1;var e="Expected a function",n=NaN,r="[object Symbol]",l=/^\s+|\s+$/g,o=/^[-+]0x[0-9a-f]+$/i,s=/^0b[01]+$/i,f=/^0o[0-7]+$/i,y=parseInt,m=typeof So=="object"&&So&&So.Object===Object&&So,d=typeof self=="object"&&self&&self.Object===Object&&self,b=m||d||Function("return this")(),v=Object.prototype,_=v.toString,A=Math.max,I=Math.min,L=function(){return b.Date.now()};function te(M,k,X){var pe,B,R,K,J,Y,F=0,de=!1,z=!1,T=!0;if(typeof M!="function")throw new TypeError(e);k=ve(k)||0,q(X)&&(de=!!X.leading,z="maxWait"in X,R=z?A(ve(X.maxWait)||0,k):R,T="trailing"in X?!!X.trailing:T);function Ce(Re){var Me=pe,je=B;return pe=B=void 0,F=Re,K=M.apply(je,Me),K}function G(Re){return F=Re,J=setTimeout(Q,k),de?Ce(Re):K}function h(Re){var Me=Re-Y,je=Re-F,ze=k-Me;return z?I(ze,R-je):ze}function N(Re){var Me=Re-Y,je=Re-F;return Y===void 0||Me>=k||Me<0||z&&je>=R}function Q(){var Re=L();if(N(Re))return C(Re);J=setTimeout(Q,h(Re))}function C(Re){return J=void 0,T&&pe?Ce(Re):(pe=B=void 0,K)}function Z(){J!==void 0&&clearTimeout(J),F=0,pe=Y=B=J=void 0}function be(){return J===void 0?K:C(L())}function se(){var Re=L(),Me=N(Re);if(pe=arguments,B=this,Y=Re,Me){if(J===void 0)return G(Y);if(z)return J=setTimeout(Q,k),Ce(Y)}return J===void 0&&(J=setTimeout(Q,k)),K}return se.cancel=Z,se.flush=be,se}function q(M){var k=typeof M;return!!M&&(k=="object"||k=="function")}function he(M){return!!M&&typeof M=="object"}function V(M){return typeof M=="symbol"||he(M)&&_.call(M)==r}function ve(M){if(typeof M=="number")return M;if(V(M))return n;if(q(M)){var k=typeof M.valueOf=="function"?M.valueOf():M;M=q(k)?k+"":k}if(typeof M!="string")return M===0?M:+M;M=M.replace(l,"");var X=s.test(M);return X||f.test(M)?y(M.slice(2),X?2:8):o.test(M)?n:+M}return cd=te,cd}var fd={exports:{}};/*!
+`,_+1)}return v}function y(d,b){var v=o.exec(d);if(!v)return{attributes:{},body:d,bodyBegin:1};var _=b?e.load:e.safeLoad,A=v[v.length-1].replace(/^\s+|\s+$/g,""),I=_(A)||{},L=d.replace(v[0],""),te=f(v,d);return{attributes:I,body:L,bodyBegin:te,frontmatter:A}}function m(d){return d=d||"",o.test(d)}return _o.exports}var m_=p_();const g_=ra(m_),y_=Object.assign({"./Posts/Analogue-Photography/Analogue-Photo-Techniques/Developing-Photos.md":bw,"./Posts/Analogue-Photography/Analogue-Photo-Techniques/How-to-Set-Up-Darkroom-Photo-Machine.md":Ew,"./Posts/Analogue-Photography/Darkroom-Initial-Experimentation.md":Tw,"./Posts/Analogue-Photography/Darkroom-Machine-Setup-Checklist.md":vw,"./Posts/Analogue-Photography/Ho-oh-Photography.md":Sw,"./Posts/Analogue-Photography/How-to-Make-a-Test-Exposure-Strip.md":ww,"./Posts/Analogue-Photography/Pressed-Flower-Negatives.md":_w,"./Posts/Ceramics/Clay-Bowl.md":Aw,"./Posts/Ceramics/Clay-Pitcher.md":xw,"./Posts/Ceramics/Clay-Strawberry.md":Cw,"./Posts/Ceramics/Coil-Building-a-Clay-Bowl.md":Ow,"./Posts/Ceramics/Glazing-Clay.md":Nw,"./Posts/Ceramics/Making-a-Clay-Pitcher.md":Rw,"./Posts/Ceramics/Making-a-Hollow-Sphere-with-Pinch-Pots.md":Dw,"./Posts/Ceramics/Sgraffito.md":kw,"./Posts/Ceramics/Slip-Decorating-Clay.md":Lw,"./Posts/Jewellery/Completed-Jewellery/Butterfly-Earrings.md":Iw,"./Posts/Jewellery/Completed-Jewellery/Roller-Printing-Experimentation.md":Mw,"./Posts/Jewellery/Completed-Jewellery/Star-and-Moon-Earrings.md":Pw,"./Posts/Jewellery/Silversmithing-Techniques/Filing-Metal-Edges.md":Bw,"./Posts/Jewellery/Silversmithing-Techniques/How-to-Make-Earring-Hooks-Two-Methods.md":Uw,"./Posts/Jewellery/Silversmithing-Techniques/Making-an-Emery-Stick.md":Hw,"./Posts/Jewellery/Silversmithing-Techniques/Roller-Printing.md":jw,"./Posts/Jewellery/Silversmithing-Techniques/Sawing-Metal-for-Jewellery.md":Fw,"./Posts/Jewellery/Using-a-Disk-Cutter.md":zw,"./Posts/Other/Preparing-&-Pressing-Flowers.md":qw,"./Posts/Printmaking/Carving-Lino.md":Yw,"./Posts/Printmaking/Lino-Kirin.md":Gw,"./Posts/Printmaking/Making-Paper.md":Vw}),b_=Object.entries(y_).map(([e,n])=>{const r=e.replace("./Posts/","").replace(".md",""),{attributes:l,body:o}=g_(n);return{...l,slug:r,content:o}}),er=b_.sort((e,n)=>new Date(n.date)-new Date(e.date)),E_={title:"Spring Cosplay Showcase",date:"2024-04-13",images:["/images/events/2024/spring1.jpg","/images/events/2024/spring2.jpg"],videos:["https://www.youtube.com/watch?v=example","https://www.instagram.com/reel/example/"],description:"An amazing spring showcase featuring cosplay and aerials.",tags:["cosplay","aerial","performance"]},T_={title:"Spring Cosplay Showcase",date:"2023-04-12",images:["/images/events/2024/spring1.jpg","/images/events/2024/spring2.jpg"],videos:["https://www.youtube.com/watch?v=example","https://www.instagram.com/reel/example/"],description:"An amazing spring showcase featuring cosplay and aerials.",tags:["cosplay","aerial","performance"],blogLink:"#"},v_=[E_,T_],mi=v_.sort((e,n)=>new Date(n.date)-new Date(e.date)),S_=[...er.map(e=>({title:e.title,url:`/blog/${e.slug}`,type:"Blog"})),...mi.map(e=>({title:e.title,url:`/events/${e.slug}`,type:"Event"}))];function w_(){const{query:e}=L1(),n=S_.filter(r=>r.title.toLowerCase().includes(e.toLowerCase()));return S.jsxs("div",{className:"p-4",children:[S.jsxs("h1",{className:"text-xl mb-4",children:['Search Results for "',e,'"']}),n.length===0?S.jsx("p",{children:"No results found."}):S.jsx("ul",{children:n.map((r,l)=>S.jsx("li",{children:S.jsxs(vt,{to:r.url,className:"text-blue-600 underline",children:[r.title," — ",r.type]})},l))})]})}var ud={},od={},kl={},sd={},Ty;function __(){return Ty||(Ty=1,function(e){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var n={animating:!1,autoplaying:null,currentDirection:0,currentLeft:null,currentSlide:0,direction:1,dragging:!1,edgeDragged:!1,initialized:!1,lazyLoadedList:[],listHeight:null,listWidth:null,scrolling:!1,slideCount:null,slideHeight:null,slideWidth:null,swipeLeft:null,swiped:!1,swiping:!1,touchObject:{startX:0,startY:0,curX:0,curY:0},trackStyle:{},trackWidth:0,targetSlide:0};e.default=n}(sd)),sd}var cd,vy;function A_(){if(vy)return cd;vy=1;var e="Expected a function",n=NaN,r="[object Symbol]",l=/^\s+|\s+$/g,o=/^[-+]0x[0-9a-f]+$/i,s=/^0b[01]+$/i,f=/^0o[0-7]+$/i,y=parseInt,m=typeof So=="object"&&So&&So.Object===Object&&So,d=typeof self=="object"&&self&&self.Object===Object&&self,b=m||d||Function("return this")(),v=Object.prototype,_=v.toString,A=Math.max,I=Math.min,L=function(){return b.Date.now()};function te(M,k,X){var pe,B,R,K,J,Y,F=0,de=!1,z=!1,T=!0;if(typeof M!="function")throw new TypeError(e);k=ve(k)||0,q(X)&&(de=!!X.leading,z="maxWait"in X,R=z?A(ve(X.maxWait)||0,k):R,T="trailing"in X?!!X.trailing:T);function Ce(Re){var Me=pe,je=B;return pe=B=void 0,F=Re,K=M.apply(je,Me),K}function G(Re){return F=Re,J=setTimeout(Q,k),de?Ce(Re):K}function h(Re){var Me=Re-Y,je=Re-F,ze=k-Me;return z?I(ze,R-je):ze}function N(Re){var Me=Re-Y,je=Re-F;return Y===void 0||Me>=k||Me<0||z&&je>=R}function Q(){var Re=L();if(N(Re))return C(Re);J=setTimeout(Q,h(Re))}function C(Re){return J=void 0,T&&pe?Ce(Re):(pe=B=void 0,K)}function Z(){J!==void 0&&clearTimeout(J),F=0,pe=Y=B=J=void 0}function be(){return J===void 0?K:C(L())}function se(){var Re=L(),Me=N(Re);if(pe=arguments,B=this,Y=Re,Me){if(J===void 0)return G(Y);if(z)return J=setTimeout(Q,k),Ce(Y)}return J===void 0&&(J=setTimeout(Q,k)),K}return se.cancel=Z,se.flush=be,se}function q(M){var k=typeof M;return!!M&&(k=="object"||k=="function")}function he(M){return!!M&&typeof M=="object"}function V(M){return typeof M=="symbol"||he(M)&&_.call(M)==r}function ve(M){if(typeof M=="number")return M;if(V(M))return n;if(q(M)){var k=typeof M.valueOf=="function"?M.valueOf():M;M=q(k)?k+"":k}if(typeof M!="string")return M===0?M:+M;M=M.replace(l,"");var X=s.test(M);return X||f.test(M)?y(M.slice(2),X?2:8):o.test(M)?n:+M}return cd=te,cd}var fd={exports:{}};/*!
 	Copyright (c) 2018 Jed Watson.
 	Licensed under the MIT License (MIT), see
 	http://jedwatson.github.io/classnames
