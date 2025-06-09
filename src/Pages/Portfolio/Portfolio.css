@@ -1,0 +1,60 @@
+.portfolio-container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.portfolio-main-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #a64ca6;
+  text-align: center;
+  border-bottom: 3px solid #b14eb5; /* underline */
+  line-height: 1.1;
+}
+
+.portfolio-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.portfolio-header p {
+  font-size: 1.2rem;
+  color: #666;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.portfolio-section {
+  margin-bottom: 4rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #ccc;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.portfolio-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #a64ca6;
+}
+
+.portfolio-section p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+.portfolio-link {
+  color: #a64ca6;
+  font-family: 'Dancing Script';
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+  color: #8a3b8a;
+  text-decoration: underline;
+}

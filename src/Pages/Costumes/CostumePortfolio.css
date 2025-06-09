@@ -1,0 +1,108 @@
+/* Costume */
+
+.costume-title {
+  padding-top: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-left: 2rem;
+  color: #a64ca6;
+  text-align: center;
+  border-bottom: 3px solid #b14eb5; /* underline */
+  line-height: 1.1;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.portfolio-page {
+  padding: 2rem;
+  background: linear-gradient(135deg, #fff5fa, #f8f9fc);
+  min-height: 100vh;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.costume-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.costume-card {
+  background-color: #fefefe;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.costume-card:hover {
+  transform: scale(1.03);
+}
+
+.costume-card img {
+  width: 100%;
+  display: block;
+}
+
+.costume-card h3 {
+  margin: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.costume-card p {
+  margin: 0.5rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.costume-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(30, 30, 30, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.costume-modal-content {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 90%;
+  max-height: 90%;
+  position: relative;
+}
+
+.costume-modal-content img {
+  max-width: 100%;
+  max-height: 80vh;
+  display: block;
+  margin: auto;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-size: 2rem;
+  background: transparent;
+  border: none;
+  color: #444;
+  cursor: pointer;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #a64ca6;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.read-more:hover {
+  color: #7c3d8c;
+}

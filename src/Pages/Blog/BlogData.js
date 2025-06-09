@@ -1,9 +1,15 @@
-// src/blog/blogData.js
+import frontMatter from 'front-matter';
 
-import post1 from './Posts/post1';
-import post2 from './Posts/post2';
-// Add more posts here
+const postFiles = import.meta.glob('./Posts/**/*.md', { eager: true, query: '?raw', import: 'default' });
 
-const posts = [post1, post2];
+const posts = Object.entries(postFiles).map(([path, rawContent]) => {
+  const slug = path.replace('./Posts/', '').replace('.md', '');
+  const { attributes, body } = frontMatter(rawContent);
+  return {
+    ...attributes,
+    slug,
+    content: body,
+  };
+});
 
-export default posts.sort((a, b) => new Date(b.date) - new Date(a.date)); // newest first
+export default posts.sort((a, b) => new Date(b.date) - new Date(a.date));

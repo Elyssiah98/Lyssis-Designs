@@ -1,0 +1,57 @@
+/* Contact */
+
+.contact-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Cabin, sans-serif;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.contact-title {
+  padding-top: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #a64ca6;
+  text-align: center;
+  border-bottom: 3px solid #b14eb5; /* underline */
+  line-height: 1.1;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.contact-form label {
+  display: block;
+  margin: 1rem 0 0.3rem;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  background-color: #8e44ad;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-success {
+  color: green;
+}
+
+.form-error {
+  color: red;
+}
+
+.captcha-box {
+  margin: 1rem 0;
+}

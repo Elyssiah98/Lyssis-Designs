@@ -9,7 +9,6 @@ footer {
   left: 0;
   width: 100%;
   z-index: 100; /* Make sure it’s above other content */
-
   display: flex;
   flex-direction: column;  /* stack top and bottom sections */
   align-items: center;
@@ -19,7 +18,6 @@ footer {
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0.5rem 0;
   width: 100%;
   box-sizing: border-box;
 }
@@ -63,10 +61,20 @@ footer h4 {
   transform: scale(1.1);
   transform-origin: center;
 }
+
 .footer-logo-center {
-  grid-column: 2;
+  display: flex;
+  align-items: center;
   justify-self: end;
-  padding: 0.25rem 0;
+  padding: 0.65rem 0;
+}
+
+.homepage-redirect-footer {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  gap: 0.5rem;
 }
 
 .homepage-redirect {
@@ -79,7 +87,6 @@ footer h4 {
 }
 
 .homepage-redirect img {
-  height: 5rem;
   margin-right: 10px;
 }
 
@@ -135,21 +142,24 @@ footer h4 {
   opacity: 1;
   max-height: 40px;
   pointer-events: auto;
-  padding-top: 0.5rem; /* padding appears only when visible */
 }
 
 /* Hide the footer when it’s not needed */
 .footer-hidden {
+  background-color: #3c1742;
+  color: #ebd6f2;
+  font-family: Cabin, sans-serif;
+  font-size: 0.85rem;
+  width: 100%;
   opacity: 0;
   max-height: 0;
   overflow: hidden;
   transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out;
   pointer-events: none; /* Prevents interaction when hidden */
-  display: none;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  padding-top: 0; /* NO padding when hidden */
+  padding-top: 0; /* No padding when hidden */
   text-align: center;
 }
 
@@ -182,10 +192,10 @@ footer h4 {
 
   /* Show the footer-hidden bottom copyright always on mobile */
   .footer-hidden {
-    display: flex !important;  /* force visible */
-    opacity: 1 !important;
-    max-height: none !important;
-    pointer-events: auto !important;
-    padding-top: 0.5rem !important;
+    display: flex;  /* force visible */
+    opacity: 1;
+    max-height: none;
+    pointer-events: auto;
+    padding-top: 0.5rem;
   }
 }

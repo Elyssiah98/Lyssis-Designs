@@ -1,16 +1,19 @@
 import React, { useState, useRef, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import "./Header.css";
-import HamburgerMenu from "../Components/HamburgerMenu";
-import NavLink from "../Components/NavLink";
-import DropdownMenu from "../Components/DropdownMenu";
-import SearchBar from "../Components/SearchBar";
+import HamburgerMenu from "../Components/Header/HamburgerMenu";
+import NavLink from "../Components/Header/NavLink";
+import DropdownMenu from "../Components/Header/DropdownMenu";
+import SearchBar from "../Components/Header/SearchBar";
 
-function Header() {
+function Header({ scrolled }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
   const hoverTimeout = useRef(null);
   const [isMobile, setIsMobile] = useState(false);
   const closeMobileMenu = () => setMobileMenuOpen(false);
+  const location = useLocation();
+  const isHome = location.pathname === "/";
 
   useEffect(() => {
     const checkMobile = () => setIsMobile(window.innerWidth <= 768);
@@ -18,6 +21,8 @@ function Header() {
     window.addEventListener("resize", checkMobile);
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
+
+  
 
   const toggleMobileMenu = () => setMobileMenuOpen(!mobileMenuOpen);
 
@@ -41,29 +46,53 @@ function Header() {
     setOpenDropdown((prev) => (prev === menuName ? null : menuName));
   };
 
+  const handleLinkClick = () => {
+    setOpenDropdown(null);
+    closeMobileMenu();
+  };  
+
+  // On touch devices, toggle dropdown by click:
+  useEffect(() => {
+    const checkIfMobile = () => {
+      const isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+      setIsMobile(isTouch);
+    };
+  
+    checkIfMobile();
+    window.addEventListener("resize", checkIfMobile);
+    return () => window.removeEventListener("resize", checkIfMobile);
+  }, []);
+  
+
   return (
-    <header id="main-header">
+    <header
+      id="main-header"
+      className={`${isHome ? (scrolled ? "scrolled" : "on-hero") : "scrolled"}`}
+    >
       <HamburgerMenu toggleMobileMenu={toggleMobileMenu} isOpen={mobileMenuOpen} />
       <nav className="nav-bar">
         {/* Make this sticky on mobile only */}
         <div className="nav-header">
-          <div className="homepage-redirect">
-            <a href="index.html">
-              <img src="./SVG/Lyssi's Designs Logo Placeholder.png" alt="Lyssi's Designs logo, to the homepage" />
-              <span className="website-title">Lyssi's Designs</span>
-            </a>
+          <div className="homepage-redirect-header">
+          <Link to="/">
+            <img src="./SVG/Lyssi's Designs Logo ebd6f2.svg" alt="Lyssi's Designs logo, to the homepage" width="65px"/>
+            <span className="website-title">Lyssi's Designs</span>
+          </Link>
           </div>
         </div>
 
         {/* Make this sticky on desktop only */}
         <div className="nav-main">
           <div className={`nav-links ${mobileMenuOpen ? "show" : ""}`}>
+            
+          {scrolled && (
             <NavLink
-              href="index.html"
+              to="/"
               icon="./SVG/Home.svg"
-              label="Homepage"
+              className="Homepage"
               onClick={closeMobileMenu}
             />
+          )}
 
             <DropdownMenu
               title="About"
@@ -74,8 +103,9 @@ function Header() {
               onMouseLeave={handleMouseLeave}
               onToggleClick={handleDropdownClick}
               isMobile={isMobile}
+              closeMobileMenu={closeMobileMenu}
             >
-              <a href="#" onClick={closeMobileMenu}>Past Events</a>
+              <Link to="/PastEvents" onClick={closeMobileMenu}>Past Events</Link>
             </DropdownMenu>
 
             <DropdownMenu
@@ -87,13 +117,14 @@ function Header() {
               onMouseLeave={handleMouseLeave}
               onToggleClick={handleDropdownClick}
               isMobile={isMobile}
+              closeMobileMenu={closeMobileMenu}
             >
-              <a href="#" onClick={closeMobileMenu}>Costumes</a>
-              <a href="./aerials" onClick={closeMobileMenu}>Aerials</a>
-              <a href="#" onClick={closeMobileMenu}>Visual Art</a>
+              <Link to="/costumes" onClick={closeMobileMenu}>Costumes</Link>
+              <Link to="/aerials" onClick={closeMobileMenu}>Aerials</Link>
+              <Link to="/visualarts" onClick={closeMobileMenu}>Visual Arts</Link>
             </DropdownMenu>
 
-            <a href="/Blog">Blog</a>
+            <Link to="/Blog">Blog</Link>
 
             <DropdownMenu
               title="Contact"
@@ -104,14 +135,15 @@ function Header() {
               onMouseLeave={handleMouseLeave}
               onToggleClick={handleDropdownClick}
               isMobile={isMobile}
+              closeMobileMenu={closeMobileMenu}
             >
-              <a href="#" onClick={closeMobileMenu}>FAQs</a>
+              <Link to="/faqs" onClick={closeMobileMenu}>FAQs</Link>
             </DropdownMenu>
           </div>
 
           <div className="search-container">
             <img
-              src="/SVG/Search.svg"
+              src="/Lyssis-Designs/SVG/Search.svg"
               alt="Search Icon"
               className="search-icon"
             />

@@ -1,0 +1,139 @@
+.homepage {
+  margin: 0;
+  padding: 0;
+  font-family: Cabin, Verdana, sans-serif;
+}
+
+/* Hero Section */
+.hero-container {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  z-index: -1;
+  margin-bottom: -100px; /* Content overlaps when scrolling */
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.homepage-title {
+  padding-top: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #a64ca6;
+  text-align: center;
+  border-bottom: 3px solid #b14eb5; /* underline */
+  line-height: 1.1;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/* Carousel Section */
+.carousel-section {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #f8f2fa;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+.carousel-item {
+  min-width: 300px;
+  flex-shrink: 0;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Announcements Section */
+.announcements-section {
+  padding: 2rem 1rem;
+  background-color: #fff;
+}
+
+.announcements-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.announcements-section li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Blog Section */
+.latest-blog-section {
+  padding: 2rem 1rem;
+  background-color: #f8f2fa;
+}
+
+.blog-preview-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.blog-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 300px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.blog-thumbnail {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.blog-info {
+  padding: 1rem;
+}
+
+.blog-info h3 {
+  margin-top: 0;
+}
+
+.blog-date {
+  font-size: 0.85rem;
+  color: #999;
+  margin: 0.5rem 0;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #7a3682;
+  text-decoration: none;
+  font-weight: bold;
+}

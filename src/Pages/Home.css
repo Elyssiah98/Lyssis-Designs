@@ -1,33 +1,105 @@
-/* Header Banner */
-.top-banner {
-    height: 100px;
-    background: #542259; /* Soft purple placeholder */
-  }
-  
-  /* Section layout */
-  .content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .carousel {
-    height: 200px;
-    background-color: #ddd;
-    text-align: center;
-    padding-top: 80px;
-  }
-    
-  .announcements {
-    padding: 20px;
-    background-color: #f4f4f4;
-  }
-    
-  .announcements h2 {
-    color: #3c1742;
-    font-size: 2.5rem;
-  }
+/* Home */
 
-.content {
-  min-height: 200vh; /* Add temporary scroll height */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.homepage-wrapper {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  color: white;
+  text-align: center;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.7);
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  margin: 0;
+  font-family: 'Cabin', sans-serif;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.carousel-section,
+.announcements-section,
+.blog-preview-section {
+  padding: 4rem 2rem;
+  background-color: #f9f5fc;
+}
+
+.carousel-section h2,
+.announcements-section h2,
+.blog-preview-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #3c1742;
+  font-size: 2rem;
+  font-family: 'Cabin', sans-serif;
+}
+
+header.on-hero {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: transparent;
+  color: white;
+  z-index: 100;
+}
+
+header.scrolled {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: #3c1742;
+  color: white;
+  z-index: 100;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  transition: background 0.3s ease, padding 0.3s ease;
+}
+
+.hero-header {
+  background: transparent;
+  color: white;
+}
+
+.sticky-header {
+  background: #3c1742;
+  color: white;
+  padding: 0.75rem 1rem;
 }

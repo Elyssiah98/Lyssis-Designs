@@ -1,25 +1,62 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import Header from "./Header";
+import ImageCarousel from "../Components/HomePage/ImageCarousel";
+import Announcements from "../Components/HomePage/Announcements";
+import BlogPreview from "../Components/HomePage/BlogPreview";
+import supergirlImg from "../Assets/Supergirl.jpg";
 import "./Home.css";
 
 function Home() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const heroHeight = document.querySelector('.hero-section')?.offsetHeight || 0;
+      setScrolled(window.scrollY > heroHeight - 60);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    const timeout = setTimeout(handleScroll, 500); // ensure correct initial height
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      clearTimeout(timeout);
+    };
+  }, []);
+
   return (
-    <main className="content">
-    <div className="top-banner"></div>
+    <>
+      <Header className="header-homePage" scrolled={scrolled} />
 
-    <section className="image-carousel"></section>
+      <div className="homepage-wrapper">
+        <main>
+          <section className="hero-section">
+            <img
+              src={supergirlImg}
+              alt="Hero"
+              className="hero-image"
+            />
+            <div className="hero-overlay">
+              <h1 className="hero-title">Lyssi's Designs</h1>
+              <p className="hero-subtitle">Costumes • Aerials • Art</p>
+            </div>
+          </section>
 
-    <section className="blog-preview">
-      <h2>Latest Blog Posts</h2>
-      <article>
-        <h3><a href="#">Making a Leotard</a></h3>
-        <p>Behind the design choices and construction steps...</p>
-      </article>
-    </section>
-    <section className="announcements">
-      <h2>Announcements</h2>
-      <button>hey</button>
-    </section>
-  </main>
+          <section className="carousel-section">
+            <h2>Gallery Highlights</h2>
+            <ImageCarousel />
+          </section>
+
+          <section className="announcements-section">
+            <Announcements />
+          </section>
+
+          <section className="blog-preview-section">
+            <h2>Latest Updates</h2>
+            <BlogPreview />
+          </section>
+        </main>
+      </div>
+    </>
   );
 }
 

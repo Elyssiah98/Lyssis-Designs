@@ -1,8 +1,11 @@
 import React, { useState, useEffect} from "react";
+import { useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 function Footer() {
   const [showFooter, setShowFooter] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     function handleScroll() {
@@ -24,8 +27,8 @@ function Footer() {
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+    }; 
+  }, [location.pathname]);
 
   return (
 
@@ -70,13 +73,13 @@ function Footer() {
 
         {/* Logo center */}
         <div className="footer-logo-center">
-          <a href="index.html" className="homepage-redirect">
+          <Link to="index.html" className="homepage-redirect-footer">
             <img
-              src="./SVG/Lyssi's Designs Logo Placeholder.png"
-              alt="Lyssi's Designs logo"
+              src="./SVG/Lyssi's Designs Logo ebd6f2.svg"
+              alt="Lyssi's Designs logo" width="50px"
             />
             <span className="website-title">Lyssi's Designs</span>
-          </a>
+          </Link>
         </div>
 
         {/* Footer links */}
@@ -85,21 +88,21 @@ function Footer() {
             <h4>Legal :</h4>
             <ul>
               <li>
-                <a href="#">Terms & Conditions</a>
+                <Link to="/terms">Terms & Conditions</Link>
               </li>
               <li>
-                <a href="#">Privacy Policy</a>
+                <Link to="/privacy">Privacy Policy</Link>
               </li>
             </ul>
           </div>
         </div>
       </div>
-
+    </div>
+      
       {/* Copyright bottom */}
       <div className={`footer-hidden${showFooter ? " visible" : ""}`} id="footerHidden">
         <p>&copy; Lyssi's Designs 2025</p>
       </div>
-    </div>
   </footer>
   );
 }

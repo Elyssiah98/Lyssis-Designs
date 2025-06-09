@@ -1,0 +1,17 @@
+.announcements-section {
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.announcements-section h2 {
+  margin-bottom: 20px;
+}
+
+.announcements-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.announcements-section li {
+  margin-bottom: 20px;
+}  
