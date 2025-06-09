@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import arts from "./Data/Arts/index.js";
 import ArtCard from "./components/ArtCard";
 import Pagination from "./components/Pagination";
+import ModalGallery from "./components/ModalGallery.jsx";
 import "./VisualArts.css";
 
 const POSTS_PER_PAGE = 48;
@@ -10,6 +11,16 @@ function VisualArts() {
   const [page, setPage] = useState(1);
   const [selectedYear, setSelectedYear] = useState("All");
   const [selectedType, setSelectedType] = useState("All");
+
+  const [modalOpen, setModalOpen] = useState(false);
+  const [modalImages, setModalImages] = useState([]);
+  const [modalIndex, setModalIndex] = useState(0);
+
+  function openGallery(images, index = 0) {
+    setModalImages(images);
+    setModalIndex(index);
+    setModalOpen(true);
+  }
 
   if (!Array.isArray(arts)) return <p>Loading arts...</p>;
 
@@ -64,7 +75,7 @@ function VisualArts() {
 
         <div className="art-cards">
           {paginated.map(art => (
-            <ArtCard key={art.slug} art={art} />
+            <ArtCard key={art.slug} art={art} openGallery={openGallery} />
           ))}
         </div>
 
@@ -74,6 +85,14 @@ function VisualArts() {
           perPage={POSTS_PER_PAGE}
           onPageChange={setPage}
         />
+
+        {modalOpen && (
+          <ModalGallery
+            images={modalImages}
+            currentIndex={modalIndex}
+            onClose={() => setModalOpen(false)}
+          />
+        )}
       </div>
     </div>
   );

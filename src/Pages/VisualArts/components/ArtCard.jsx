@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import ModalGallery from "/src/Pages/VisualArts/components/ModalGallery.jsx";
 import "./ArtCard.css";
 
 const typeColors = {
@@ -8,18 +7,11 @@ const typeColors = {
   volunteer: "#e8fff1",
   comiccon: "#e8f0ff",
   default: "#f4f4f4",
-  TAFE: "#80EF80"
+  tafe: "#d2e7d6"
 };
 
-function ArtCard({ art }) {
-  const [showGallery, setShowGallery] = useState(false);
-  const [currentIndex, setCurrentIndex] = useState(0);
+function ArtCard({ art, openGallery }) {
   const bgColor = typeColors[art.type?.toLowerCase()] || typeColors.default;
-
-  const handleImageClick = (index) => {
-    setCurrentIndex(index);
-    setShowGallery(true);
-  };
 
   return (
     <div className="art-card" style={{ backgroundColor: bgColor }}>
@@ -34,7 +26,7 @@ function ArtCard({ art }) {
           src={art.images[0]}
           alt={art.title}
           className="art-thumbnail"
-          onClick={() => handleImageClick(0)}
+          onClick={() => openGallery(art.images, 0)}
         />
       )}
 
@@ -47,14 +39,6 @@ function ArtCard({ art }) {
         >
           Read more →
         </Link>
-      )}
-
-      {showGallery && (
-        <ModalGallery
-          images={art.images}
-          currentIndex={currentIndex}
-          onClose={() => setShowGallery(false)}
-        />
       )}
     </div>
   );

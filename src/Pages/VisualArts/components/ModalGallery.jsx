@@ -1,55 +1,76 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./ModalGallery.css";
 
 function ModalGallery({ images, onClose }) {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const autoPlayRef = useRef();
 
   const goNext = () => {
-    setCurrentIndex((currentIndex + 1) % images.length);
+    setCurrentIndex((prev) => (prev + 1) % images.length);
+    setIsAutoPlaying(false);
   };
 
   const goPrev = () => {
-    setCurrentIndex((currentIndex - 1 + images.length) % images.length);
+    setCurrentIndex((prev) => (prev - 1 + images.length) % images.length);
+    setIsAutoPlaying(false);
   };
 
-  // Keyboard handler for arrows and escape
+  const goToIndex = (index) => {
+    setCurrentIndex(index);
+    setIsAutoPlaying(false);
+  };
+
+  // Autoplay every 4 seconds unless interrupted
+  useEffect(() => {
+    if (isAutoPlaying) {
+      autoPlayRef.current = setInterval(() => {
+        setCurrentIndex((prev) => (prev + 1) % images.length);
+      }, 4000);
+    }
+
+    return () => clearInterval(autoPlayRef.current);
+  }, [isAutoPlaying, images.length]);
+
+  // Keyboard navigation
   useEffect(() => {
     const handleKeyDown = (e) => {
-      if (e.key === "ArrowRight") {
-        goNext();
-      } else if (e.key === "ArrowLeft") {
-        goPrev();
-      } else if (e.key === "Escape") {
-        onClose();
-      }
+      if (e.key === "ArrowRight") goNext();
+      else if (e.key === "ArrowLeft") goPrev();
+      else if (e.key === "Escape") onClose();
     };
 
     window.addEventListener("keydown", handleKeyDown);
-
-    // Cleanup listener on unmount
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [currentIndex, images.length, onClose]);
+  }, [onClose]);
 
   return (
     <div className="modal-backdrop" onClick={onClose}>
       <div className="modal-gallery" onClick={(e) => e.stopPropagation()}>
-        <button className="nav-button prev" onClick={goPrev} aria-label="Previous image">
-          &#10094;
-        </button>
+        <div className="modal-controls">
+  <div style={{ display: "flex", gap: "2rem" }}>
+    <button className="nav-button prev" onClick={goPrev} aria-label="Previous">&#10094;</button>
+    <button className="nav-button next" onClick={goNext} aria-label="Next">&#10095;</button>
+  </div>
+  <button className="close-button" onClick={onClose} aria-label="Close modal">&times;</button>
+</div>
 
-        <img
-          src={images[currentIndex]}
-          alt={`Gallery image ${currentIndex + 1}`}
-          className="modal-image"
-        />
+<img
+  src={images[currentIndex]}
+  alt={`Gallery image ${currentIndex + 1}`}
+  className="modal-image"
+/>
 
-        <button className="nav-button next" onClick={goNext} aria-label="Next image">
-          &#10095;
-        </button>
+<div className="dot-nav">
+  {images.map((_, index) => (
+    <span
+      key={index}
+      className={`dot ${index === currentIndex ? "active" : ""}`}
+      onClick={() => goToIndex(index)}
+    ></span>
+  ))}
+</div>
 
-        <button onClick={onClose} className="close-button" aria-label="Close modal">
-          &times;
-        </button>
       </div>
     </div>
   );
