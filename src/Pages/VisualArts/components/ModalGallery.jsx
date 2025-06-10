@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./ModalGallery.css";
 
-function ModalGallery({ images, onClose }) {
+function ModalGallery({ art, onClose }) {
+  const { images = [], title, date, medium, dimensions, description, blogLink } = art || {};
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const autoPlayRef = useRef();
@@ -44,33 +45,70 @@ function ModalGallery({ images, onClose }) {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [onClose]);
 
+  if (!art) return null;  // safety fallback
+
   return (
     <div className="modal-backdrop" onClick={onClose}>
       <div className="modal-gallery" onClick={(e) => e.stopPropagation()}>
+
+        {/* Controls & Close button */}
         <div className="modal-controls">
-  <div style={{ display: "flex", gap: "2rem" }}>
-    <button className="nav-button prev" onClick={goPrev} aria-label="Previous">&#10094;</button>
-    <button className="nav-button next" onClick={goNext} aria-label="Next">&#10095;</button>
-  </div>
-  <button className="close-button" onClick={onClose} aria-label="Close modal">&times;</button>
-</div>
+          {images.length > 1 && (
+            <div style={{ display: "flex", gap: "2rem" }}>
+              <button
+                className="nav-button prev"
+                onClick={() => { setCurrentIndex((currentIndex - 1 + images.length) % images.length); setIsAutoPlaying(false); }}
+                aria-label="Previous"
+              >
+                &#10094;
+              </button>
+              <button
+                className="nav-button next"
+                onClick={() => { setCurrentIndex((currentIndex + 1) % images.length); setIsAutoPlaying(false); }}
+                aria-label="Next"
+              >
+                &#10095;
+              </button>
+            </div>
+          )}
+            <button className="close-button" onClick={onClose} aria-label="Close modal">&times;</button>
+        </div>
 
-<img
-  src={images[currentIndex]}
-  alt={`Gallery image ${currentIndex + 1}`}
-  className="modal-image"
-/>
+        {/* Image */}
+        {images.length > 0 && (
+          <img
+            src={images[currentIndex]}
+            alt={`${title} image ${currentIndex + 1}`}
+            className="modal-image"
+          />
+        )}
 
-<div className="dot-nav">
-  {images.map((_, index) => (
-    <span
-      key={index}
-      className={`dot ${index === currentIndex ? "active" : ""}`}
-      onClick={() => goToIndex(index)}
-    ></span>
-  ))}
-</div>
+        {/* Info section below or beside the image */}
+        <div className="modal-info">
+          <h2>{title}</h2>
+          {date && <p><strong>Date:</strong> {new Date(date).toLocaleDateString()}</p>}
+          {medium && <p><strong>Medium:</strong> {medium}</p>}
+          {dimensions && <p><strong>Dimensions:</strong> {dimensions}</p>}
+          {description && <p>{description}</p>}
+          {blogLink && (
+            <a href={blogLink} target="_blank" rel="noopener noreferrer" className="read-more">
+              Read More →
+            </a>
+          )}
+        </div>
 
+        {/* Dot navigation */}
+        {images.length > 1 && (
+          <div className="dot-nav">
+            {images.map((_, index) => (
+              <span
+                key={index}
+                className={`dot ${index === currentIndex ? "active" : ""}`}
+                onClick={() => { setCurrentIndex(index); setIsAutoPlaying(false); }}
+              ></span>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

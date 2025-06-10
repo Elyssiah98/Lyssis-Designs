@@ -6,9 +6,9 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const ImageCarousel = () => {
   const images = [
-    './src/Components/HomePage/Photos/AerialHoop.jpg',
-    './src/Components/HomePage/Photos/GreatSouthernRuns.jpg',
-    './src/Components/HomePage/Photos/Heartkids.jpg',
+    '/Lyssis-Designs/Images/Costume/AerialHoop.jpg',
+    '/Lyssis-Designs/Images/Costume/GreatSouthernRuns.jpg',
+    '/Lyssis-Designs/Images/Costume/Heartkids.jpg',
   ];
 
   const settings = {

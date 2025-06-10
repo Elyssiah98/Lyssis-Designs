@@ -16,7 +16,7 @@ tags: ["photography", "analoguephotography", "photoenlarger", "darkroom", "devel
     <figcaption>Pressed lily petals and flowers in a Ziplock bag.</figcaption>
 </figure>
 
-In this project, I explored how physical negatives can be used creatively to form unique photographic designs. I have many pressed flowers from about 15 years ago, and their semi-transparency made them excellent options for darkroom experimentation. 
+In this project, I explored how physical negatives can be used creatively to form unique photographic designs. I have many [Pressed Flowers](#blog/Other/Preparing-&-Pressing-Flowers).md from about 15 years ago, and their semi-transparency made them excellent options for darkroom experimentation.
 </div>
 
 ## Tools & Materials :

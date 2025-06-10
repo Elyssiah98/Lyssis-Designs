@@ -28,7 +28,7 @@
 
 .modal-image {
   max-width: 100%;
-  max-height: 70vh !important;
+  max-height: 55vh !important;
   border-radius: 8px;
   object-fit: contain;
   margin-bottom: 1rem;
@@ -105,4 +105,65 @@
 .dot:hover,
 .dot.active {
   background-color: orchid;
+}
+
+.modal-info {
+  max-width: 90%;
+  margin: 1rem auto 0 auto;
+  color: #333;
+  text-align: flex-start;
+}
+
+.modal-info h2 {
+  color: #a64ca6;
+  line-height: 1;
+}
+
+.modal-info p {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.read-more {
+  color: #a64ca6;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.read-more:hover {
+  color: #7c3d8c;
+}
+
+.modal-info {
+  flex: 1 1 40%;
+  max-height: 80vh;
+  overflow-y: auto;
+  color: #333;
+  text-align: left;
+  padding-right: 1rem;
+}
+
+@media (max-width: 768px) {
+  .modal-gallery {
+    flex-direction: column;
+    max-height: 90vh;
+  }
+
+  .modal-image, .modal-info {
+    flex: none;
+    max-height: none;
+    margin-right: 0;
+    overflow: visible;
+  }
+
+  .modal-info {
+    margin-top: 1rem;
+  }
+
+  .modal-controls {
+    position: static;
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
 }

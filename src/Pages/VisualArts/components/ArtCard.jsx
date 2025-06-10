@@ -26,7 +26,7 @@ function ArtCard({ art, openGallery }) {
           src={art.images[0]}
           alt={art.title}
           className="art-thumbnail"
-          onClick={() => openGallery(art.images, 0)}
+          onClick={() => openGallery(art)}
         />
       )}
 

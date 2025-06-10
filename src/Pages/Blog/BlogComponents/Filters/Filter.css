@@ -1,0 +1,91 @@
+/* Filter.css */
+
+/* Filters and buttons */
+/* Sticky filters container */
+.sticky-filters {
+  position: sticky;
+  top: 100px; /* Adjust based on header height */
+  z-index: 100;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filters-container {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Year buttons */
+.year-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.year-button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #e0d4ff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.year-button:hover {
+  background-color: #d1bcff;
+  transform: scale(1.05);
+}
+
+.year-button.active {
+  background-color: #8e44ad;
+  color: white;
+}
+
+.year-dropdown {
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  background-color: #f3e8ff;
+  border: 2px solid #d1bcff;
+  color: #4a235a;
+  width: 100%;
+}
+
+/* Category filter */
+.blog-type-filter {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.blog-type-filter label {
+  font-weight: bold;
+  color: #7c3d8c;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.blog-type-filter select {
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  background-color: #f3e8ff;
+  border: 2px solid #d1bcff;
+  color: #4a235a;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  min-width: 180px;
+}
+
+.blog-type-filter select:focus {
+  outline: none;
+  border-color: #a64ca6;
+  box-shadow: 0 0 5px #c59eff;
+}

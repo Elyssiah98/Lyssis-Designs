@@ -1,43 +1,32 @@
 ---
 title: 'Preparing & Pressing Flowers'
-date: '2025-03-18'
-excerpt: "Sawing is one of the most common ways to cut out shapes from sheet metal..."
+date: '2025-06-10'
+excerpt: "Pressing flowers is a simple and beautiful way to preserve flowers for..."
 thumbnail: "/images/blog1.jpg"
 thumbnailPosition: "top"
 category: "Other"
-subcategory: "TBC" 
-tags: ["metalwork", "jewellery", "sawing"]
+subcategory: "Other" 
+tags: ["flowers", "flowerpress", "flowerpressing", "driedflowers"]
 ---
 
-Sawing is one of the most common ways to cut out shapes from sheet metal in jewellery making. It allows for precision, especially when working with detailed or delicate designs.
+Pressing flowers is a simple and beautiful way to preserve flowers for art, scrapbooking, or decoration. I used an old Avon flower press kit over the years to experiment with different types of flowers and leaves. The process takes a bit of time, but the results a lovely and delicate.
 
-## Tools & Materials:
+## Tools & Materials :
+- Avon flower press kit
+    - wooden boards
+    - Cardboard layers
+    - Blotting paper
+    - Wing nuts and screws
+- Fresh flowers or leaves
 
-- Jeweller’s saw frame
-- Saw blades (various sizes depending on metal thickness)
-- Wooden bench pin
-- Metal sheet (e.g., aluminium, copper, silver)
-- Safety glasses
+### Optional :
+- Notebook (to track what was pressed)
+- Scissors (for trimming stems)
 
-### Optional:
-- Design template
-- Glue (to secure template)
+## Process :
 
-## Process:
-Before starting, ensure the design is clearly marked on the metal. This can be done in many ways; by gently etching or drawing on it, or by gluing a paper template.
+I started by selecting a few fresh flowers and leaves. I looked for pieces that weren't too thick, as well key flowers like roses do not press as well, and less separated into petals. Flat faced flowers tend to give me the better results.
 
-To load the saw blade, first loosen the top wingnut of the jeweller’s saw frame. The blade must be inserted in the correct orientation; the teeth should point downwards and away from the frame. Place the blade into the top clamp and tighten the wingnut. Use the wingnut on the frame to adjust the height of the saw. Press the frame against a bench to slightly compress it. Insert the other end of the blade into the bottom clamp and tighten the corresponding wingnut. A properly tightened blade will produce a high-pitched ping sound when gently flicked with a fingernail. If the sound is dull, it may need to be tightened further. Be careful as overtightening can cause the blade to snap.
+Using the Avon flower press, I unscrewed the wing nuts and open it up. I placed a layer of cardboard on to the base wood and then a layer of blotting paper. I then place my chosen flowers gently onto the blotting paper, adjusting petals and leaves so that they lay flat. I then place another piece of blood paper on top and then the cardboard. This process can be repeated for multiple layers. After the last piece of cardboard, I place the other piece of wood on top, to go over the screws. Attachment the wing nuts evenly on all four corners to apply consistent pressure.
 
-Sawing is done in always done vertically, using a downward motion. This allows the blade to do the work. Do not force the saw forward, instead apply gentle, even pressure.
-
-To begin sawing, use a light up and down motion to create a notch for the blade to sit in.
-
-When navigating corners and curves, reduce the forwards motion and continue sawing in place, while rotating the metal slowly.
-
-To do inner cut-outs or designs, drill a small hole inside the section to be removed. Unclamp the top end of the blade, and thread it through the hole. Re-tighten the blade and saw as you would have on the perimeter of the design.
-
-## Tips and Safety for Sawing:
-- A V-shaped notch in the bench pin is helpful for supporting smaller pieces and allowing room for the blade to move.
-- The non-dominant hand should be holding the metal in place. Always keep the fingers behind the blade and out of its path.
-- Safety glasses and enclosed shoes should be worn in case of a blade snapping or shrapnel coming off the metal.
-- Long hair should be tied back.
+The press is left in a dry space for about two weeks. About once a day I will gently tighten the wing nuts. This gives the flowers enough time to fully dry and flatten when I opened it up again the colours are muted, but the details are preserved beautifully. See [Pressed Flower Negatives](#blog/Analogue-Photography/Analogue-Photos/Pressed-Flower-Negatives) for a unique way to use the pressed flowers.

@@ -13,12 +13,14 @@
 }
 
 .art-card h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #4b0082;
+  font-family: 'Cabin';
 }
 
 .art-card p {
   margin: 0.5rem 0;
+  font-size: small;
 }
 
 .art-thumbnail {

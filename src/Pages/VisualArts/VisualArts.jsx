@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import arts from "./Data/Arts/index.js";
+import arts from "./Data/Arts/Art.js";
 import ArtCard from "./components/ArtCard";
 import Pagination from "./components/Pagination";
 import ModalGallery from "./components/ModalGallery.jsx";
@@ -12,14 +12,13 @@ function VisualArts() {
   const [selectedYear, setSelectedYear] = useState("All");
   const [selectedType, setSelectedType] = useState("All");
 
-  const [modalOpen, setModalOpen] = useState(false);
-  const [modalImages, setModalImages] = useState([]);
-  const [modalIndex, setModalIndex] = useState(0);
+  const [selectedArt, setSelectedArt] = useState(null);
+  const [initialIndex, setInitialIndex] = useState(0);
 
-  function openGallery(images, index = 0) {
-    setModalImages(images);
-    setModalIndex(index);
-    setModalOpen(true);
+
+  function openGallery(art, index = 0) {
+    setSelectedArt(art);
+    setInitialIndex(index);
   }
 
   if (!Array.isArray(arts)) return <p>Loading arts...</p>;
@@ -86,13 +85,14 @@ function VisualArts() {
           onPageChange={setPage}
         />
 
-        {modalOpen && (
+        {selectedArt && (
           <ModalGallery
-            images={modalImages}
-            currentIndex={modalIndex}
-            onClose={() => setModalOpen(false)}
+            art={selectedArt}
+            initialIndex={initialIndex}
+            onClose={() => setSelectedArt(null)}
           />
         )}
+
       </div>
     </div>
   );

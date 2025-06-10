@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Costumes from "./Data/Costumes.js";
+import Costumes from "./Data/Costume";
 import CostumeCard from "./Components/CostumeCard";
 import CostumeModal from "./Components/CostumeModal";
 import "./CostumePortfolio.css";
@@ -13,7 +13,7 @@ function CostumePortfolio() {
       <div className="portfolio-page">
         <div className="costume-grid">
           {Costumes.map(costume => (
-            <CostumeCard key={costume.id} costume={costume} onClick={setSelected} />
+            <CostumeCard key={costume.slug} costume={costume} onClick={setSelected} />
           ))}
         </div>
         <CostumeModal costume={selected} onClose={() => setSelected(null)} />

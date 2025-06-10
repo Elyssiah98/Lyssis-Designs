@@ -124,7 +124,12 @@ function Header({ scrolled }) {
               <Link to="/visualarts" onClick={closeMobileMenu}>Visual Arts</Link>
             </DropdownMenu>
 
-            <Link to="/Blog">Blog</Link>
+            <Link
+              to="/blog"
+              onClick={closeMobileMenu}
+              className="nav-link Blog">
+              Blog
+            </Link>
 
             <DropdownMenu
               title="Contact"

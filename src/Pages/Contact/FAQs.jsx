@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./FAQs.css";
 
 const faqList = [
@@ -25,17 +25,45 @@ const faqList = [
 ];
 
 function FAQs() {
-  return (
+  const [openIndexes, setOpenIndexes] = useState([]);
+
+  const toggleFAQ = (index) => {
+    if (openIndexes.includes(index)) {
+      // close it
+      setOpenIndexes(openIndexes.filter(i => i !== index));
+    } else {
+      // open it (add to array)
+      setOpenIndexes([...openIndexes, index]);
+    }
+  };
+
+ return (
     <div>
       <h1 className="faqs-title">Frequently Asked Questions</h1>
       <div className="faq-page">
         <div className="faq-list">
-          {faqList.map(({ question, answer }, i) => (
-            <div key={i} className="faq-item">
-              <h3>{question}</h3>
-              <p>{answer}</p>
-            </div>
-          ))}
+          {faqList.map(({ question, answer }, i) => {
+            const isOpen = openIndexes.includes(i);
+            return (
+              <div key={i} className="faq-item">
+                <button
+                  className="faq-question"
+                  aria-expanded={isOpen}
+                  onClick={() => toggleFAQ(i)}
+                >
+                  {question}
+                  <span className={`faq-icon ${isOpen ? "open" : ""}`}>
+                    {isOpen ? "−" : "+"}
+                  </span>
+                </button>
+                {isOpen && (
+                  <div className="faq-answer">
+                    <p>{answer}</p>
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

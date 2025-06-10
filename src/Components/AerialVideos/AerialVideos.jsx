@@ -3,6 +3,14 @@ import VideoEmbed from './VideoEmbed';
 
 const videos = [
   {
+    videoId: '1BorN9Tn88A',
+    title: 'Ignite Semi-Pro Aerials',
+    description: 'Video Description',
+    date: 'Date',
+    tags: ['Ignite', 'tag2', 'lyra'],
+    apparatus: 'Lyra',
+  },
+  {
     videoId: 'd5ZAAZ0dxRQ',
     title: 'Cupid Aerials',
     description: 'Video Description',
