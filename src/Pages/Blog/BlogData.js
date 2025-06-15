@@ -8,6 +8,7 @@ const posts = Object.entries(postFiles).map(([path, rawContent]) => {
   return {
     ...attributes,
     slug,
+    url: `/blog/${slug}`,
     content: body,
   };
 });

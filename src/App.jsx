@@ -2,6 +2,7 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 import { Routes, Route } from 'react-router-dom';
 import ScrollToTop from "./Components/ScrollToTop";
+//import ThemeToggle from './Pages/ThemeToggle';
 
 import Header from "./Pages/Header";
 import Footer from "./Pages/Footer";
@@ -33,6 +34,8 @@ function App() {
 
   return (
     <>
+      
+
       <div className="wrapper">
         {!isHome && <Header />}
 

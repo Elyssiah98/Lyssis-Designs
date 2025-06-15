@@ -25,7 +25,7 @@ export default function TagPostsPage() {
       <ul>
         {filteredPosts.map(post => (
           <li key={post.slug}>
-            <Link to={`/${post.slug}`}>{post.title}</Link> — <small>{post.date}</small>
+            <Link to={post.url}>{post.title}</Link> — <small>{post.date}</small>
           </li>
         ))}
       </ul>

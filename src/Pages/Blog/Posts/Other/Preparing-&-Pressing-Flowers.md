@@ -9,11 +9,11 @@ subcategory: "Other"
 tags: ["flowers", "flowerpress", "flowerpressing", "driedflowers"]
 ---
 
-Pressing flowers is a simple and beautiful way to preserve flowers for art, scrapbooking, or decoration. I used an old Avon flower press kit over the years to experiment with different types of flowers and leaves. The process takes a bit of time, but the results a lovely and delicate.
+Pressing flowers is a simple and beautiful way to preserve flowers for art, scrapbooking, or decoration. I have used an old Avon flower press kit over the years to experiment with different types of flowers and leaves. The process takes a bit of time, but the results are lovely and delicate.
 
 ## Tools & Materials :
 - Avon flower press kit
-    - wooden boards
+    - Wooden boards
     - Cardboard layers
     - Blotting paper
     - Wing nuts and screws
@@ -25,8 +25,8 @@ Pressing flowers is a simple and beautiful way to preserve flowers for art, scra
 
 ## Process :
 
-I started by selecting a few fresh flowers and leaves. I looked for pieces that weren't too thick, as well key flowers like roses do not press as well, and less separated into petals. Flat faced flowers tend to give me the better results.
+I started by selecting a few fresh flowers and leaves. I looked for pieces that weren't too thick, as bulky flowers like roses do not press as well, unless separated into petals. Flat-faced flowers tend to give me the best results.
 
-Using the Avon flower press, I unscrewed the wing nuts and open it up. I placed a layer of cardboard on to the base wood and then a layer of blotting paper. I then place my chosen flowers gently onto the blotting paper, adjusting petals and leaves so that they lay flat. I then place another piece of blood paper on top and then the cardboard. This process can be repeated for multiple layers. After the last piece of cardboard, I place the other piece of wood on top, to go over the screws. Attachment the wing nuts evenly on all four corners to apply consistent pressure.
+Using the Avon flower press kit, I unscrewed the wing nuts and opened it up. I placed a layer of cardboard onto the base wood and then a layer of blotting paper. I then placed my chosen flowers gently onto the blotting paper, adjusting petals and leaves so that they lay flat, with ample space between each item. I then placed another piece of blot paper on top, followed by another layer of cardboard. This process can be repeated for multiple layers. After the last piece of cardboard, I placed the other wooden board on top, aligning it with the screws. The wing nuts are then tightened evenly on all four corners to apply consistent pressure.
 
-The press is left in a dry space for about two weeks. About once a day I will gently tighten the wing nuts. This gives the flowers enough time to fully dry and flatten when I opened it up again the colours are muted, but the details are preserved beautifully. See [Pressed Flower Negatives](#blog/Analogue-Photography/Analogue-Photos/Pressed-Flower-Negatives) for a unique way to use the pressed flowers.
+The press is left in a dry space for about two weeks. About once a day, I gently tighten the wing nuts. This gives the flowers enough time to fully dry and flatten. When I opened it up again, the colours were muted, but the details were preserved beautifully. See [Pressed Flower Negatives](#blog/Analogue-Photography/Analogue-Photos/Pressed-Flower-Negatives) for a unique way to use the pressed flowers.

@@ -1,7 +1,21 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 import Thumbnail from "./Thumbnail";
 
+function joinUrl(base, slug) {
+  if (base.endsWith('/')) base = base.slice(0, -1);
+  if (slug.startsWith('/')) slug = slug.slice(1);
+  return `${base}/${slug}`;
+}
+
 export default function BlogPostCard({ post, navigate, selectedCategory, handleCategoryChange }) {
+  const location = useLocation();
+
+  const goToPost = () => {
+    const url = joinUrl('/blog', post.slug) + location.search;
+    navigate(url);
+  };
+
   return (
     <div
       className={`blog-post ${post.thumbnail ? (post.thumbnailPosition === "right" ? "thumbnail-right" : "thumbnail-top") : "no-thumbnail"}`}
@@ -28,8 +42,8 @@ export default function BlogPostCard({ post, navigate, selectedCategory, handleC
             className="blog-title"
             role="button"
             tabIndex={0}
-            onClick={() => navigate(`/blog/${post.slug}`)}
-            onKeyDown={(e) => { if (e.key === 'Enter') navigate(`/blog/${post.slug}`); }}
+            onClick={goToPost}
+            onKeyDown={(e) => { if (e.key === 'Enter') goToPost(); }}
           >
             <span className="blog-title-link">{post.title}</span>
           </h2>
@@ -51,7 +65,7 @@ export default function BlogPostCard({ post, navigate, selectedCategory, handleC
 
           <button
             className="read-more"
-            onClick={() => navigate(`/blog/${post.slug}`)}
+            onClick={goToPost}
           >
             Read more →
           </button>

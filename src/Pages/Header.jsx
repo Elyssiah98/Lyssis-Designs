@@ -5,6 +5,7 @@ import HamburgerMenu from "../Components/Header/HamburgerMenu";
 import NavLink from "../Components/Header/NavLink";
 import DropdownMenu from "../Components/Header/DropdownMenu";
 import SearchBar from "../Components/Header/SearchBar";
+{/*import ThemeToggle from './ThemeToggle';*/}
 
 function Header({ scrolled }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -145,6 +146,8 @@ function Header({ scrolled }) {
               <Link to="/faqs" onClick={closeMobileMenu}>FAQs</Link>
             </DropdownMenu>
           </div>
+
+        {/*   <ThemeToggle /> */}
 
           <div className="search-container">
             <img
