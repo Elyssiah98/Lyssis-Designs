@@ -1,4 +1,4 @@
-// src/blog/Pagination.jsx
+// Pagination.jsx
 import React from "react";
 import './Pagination.css';
 

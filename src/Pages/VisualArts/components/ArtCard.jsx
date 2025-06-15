@@ -16,7 +16,7 @@ function ArtCard({ art, openGallery }) {
   return (
     <div className="art-card" style={{ backgroundColor: bgColor }}>
       <h3>{art.title}</h3>
-      <p>{new Date(art.date).toLocaleDateString()}</p>
+      <p className="date">{new Date(art.date).toLocaleDateString()}</p>
 
       {art.medium && <p><strong>Medium:</strong> {art.medium}</p>}
       {art.dimensions && <p><strong>Dimensions:</strong> {art.dimensions}</p>}

@@ -2,8 +2,8 @@
 title: 'Sawing Metal for Jewellery'
 date: '2020-01-14'
 excerpt: "Sawing is one of the most common ways to cut out shapes from sheet metal..."
-thumbnail: "/images/blog1.jpg"
-thumbnailPosition: "right"
+thumbnail: "/Lyssis-Designs/Images/Jewellery/JewellersSaw.jpg"
+thumbnailPosition: "top"
 category: "Jewellery"
 subcategory: "Techniques"
 tags: ["metalwork", "jewellery", "sawing"]
@@ -26,7 +26,19 @@ Sawing is one of the most common ways to cut out shapes from sheet metal in jewe
 ## Process :
 Before starting, ensure the design is clearly marked on the metal. This can be done in many ways; by gently etching or drawing on it, or by gluing a paper template.
 
+<div class="clearfix">
+<figure class="flex-left" style="width: 15rem;">
+    <img src="/Lyssis-Designs/Images/Jewellery/LabelledJewellersSaw.jpg">
+    <figcaption>Labelled parts of a jeweller's saw.</figcaption>
+</figure>
+
+<figure class="flex-right" style="max-width: 10rem; margin-left: 1rem;">
+  <img src="/Lyssis-Designs/Images/Jewellery/JewellyBlade.jpg">
+  <figcaption>Blade to be loaded into the jeweller's saw, teeth pointing downward.</figcaption>
+</figure>
+
 To load the saw blade, first loosen the top wingnut of the jeweller’s saw frame. The blade must be inserted in the correct orientation; the teeth should point downwards and away from the frame. Place the blade into the top clamp and tighten the wingnut. Use the wingnut on the frame to adjust the height of the saw. Press the frame against a bench to slightly compress it. Insert the other end of the blade into the bottom clamp and tighten the corresponding wingnut. A properly tightened blade will produce a high-pitched ping sound when gently flicked with a fingernail. If the sound is dull, it may need to be tightened further. Be careful as overtightening can cause the blade to snap.
+</div>
 
 Sawing is done in always done vertically, using a downward motion. This allows the blade to do the work. Do not force the saw forward, instead apply gentle, even pressure.
 

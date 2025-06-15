@@ -31,5 +31,3 @@ Some experimentation may be required to achieve a successful print. Printing on 
 As the printing process causes the metal to expand, it is best not to pre-cut the metal unless a particular shape is a stylistic choice.
 
 After printing the metal, it most likely curved. Use a rawhide mallet on a flat surface such as an anvil, to flatten the embossed metal.
-  
-![Photo](/images/shoes.jpg)
