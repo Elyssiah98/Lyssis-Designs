@@ -1,7 +1,7 @@
 ---
 title: "Butterfly Earrings"
 date: "2025-02-11"
-type: "TAFE"
+type: ["TAFE", "Jewellery"]
 medium: "Aluminium, Silver Wire"
 dimensions: ""
 tags:

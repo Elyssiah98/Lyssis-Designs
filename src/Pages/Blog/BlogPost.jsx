@@ -67,13 +67,13 @@ export default function BlogPost() {
             )}
           </span>
           <span className="blog-post-tags">
-            {post.tags && post.tags.map((tag, i) => (
-              <React.Fragment key={tag}>
-                <Link to={`/tag/${encodeURIComponent(tag.toLowerCase())}`} className="blog-post-tag">
-                  {tag}
-                </Link>
-                {i < post.tags.length - 1 ? "" : ""}
-               </React.Fragment>
+            {post.tags &&
+              [...post.tags].sort((a, b) => a.localeCompare(b)).map((tag) => (
+                <React.Fragment key={tag}>
+                  <Link to={`/tag/${encodeURIComponent(tag.toLowerCase())}`} className="blog-post-tag">
+                    {tag}
+                  </Link>
+                </React.Fragment>
             ))}
           </span>
         </div>

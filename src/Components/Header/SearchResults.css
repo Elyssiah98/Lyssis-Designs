@@ -1,0 +1,100 @@
+/* Existing vars */
+:root {
+  --color-primary: #a64ca6;
+  --color-primary-light: #f6d0fa;
+  --color-text: #444444;
+  --color-text-muted: #777777;
+  --color-link: #a64ca6;
+  --color-link-hover: orchid;
+  --font-sans: 'Cabin', sans-serif;
+  --font-script: 'Dancing Script', cursive;
+}
+
+/* Container */
+.search-results-container {
+  padding: 1rem 2rem;
+  font-family: var(--font-sans);
+  color: var(--color-text);
+  min-height: 80vh;
+  background: linear-gradient(135deg, #fce6f2, #ffffff);
+}
+
+/* Back link */
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: var(--color-link);
+  text-decoration: underline;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.back-link:hover {
+  color: var(--color-link-hover);
+}
+
+/* Title */
+.search-results-title {
+  font-family: var(--font-script);
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+/* Result count */
+.result-count {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-text-muted);
+}
+
+/* List */
+.results-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Result item */
+.result-item {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--color-primary-light);
+  padding-bottom: 1rem;
+}
+
+/* Result link */
+.result-link {
+  color: var(--color-link);
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 1.25rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.result-link:hover {
+  color: var(--color-link-hover);
+}
+
+/* Date */
+.result-date {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin: 0.3rem 0 0.7rem 0;
+}
+
+/* Snippet */
+.result-snippet {
+  font-size: 1.05rem;
+  line-height: 1.4;
+  color: var(--color-text);
+}
+
+/* Highlight (mark) */
+.highlight {
+  background-color: #69aaf5;
+  color: white;
+  font-weight: 700;
+  border-radius: 2px;
+}

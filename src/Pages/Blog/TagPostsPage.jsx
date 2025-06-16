@@ -14,6 +14,8 @@ export default function TagPostsPage() {
     return (
       <div className="tag-posts-page">
         <h2>No posts found with tag: {tag}</h2>
+        <Link to="/blog">Back to Blog</Link>
+        <br />
         <Link to="/">Go back home</Link>
       </div>
     );
@@ -29,7 +31,9 @@ export default function TagPostsPage() {
           </li>
         ))}
       </ul>
-      <Link to="/">Back to home</Link>
+      <Link to="/blog">Back to Blog</Link>
+      <br />
+      <Link to="/">Back to Home</Link>
     </div>
   );
 }

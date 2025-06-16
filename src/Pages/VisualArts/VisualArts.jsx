@@ -24,12 +24,18 @@ function VisualArts() {
   if (!Array.isArray(arts)) return <p>Loading arts...</p>;
 
   const years = [...new Set(arts.map(e => new Date(e.date).getFullYear()).filter(Boolean))].sort((a, b) => b - a);
-  const types = [...new Set(arts.map(e => e.type).filter(Boolean))];
+  const types = [...new Set(
+    arts.flatMap(e => Array.isArray(e.type) ? e.type :[e.type])
+  )].filter(Boolean);
 
   // Filter by selected year and art type
   const filteredArts = arts.filter(art => {
     const yearMatch = selectedYear === "All" || new Date(art.date).getFullYear() === Number(selectedYear);
-    const typeMatch = selectedType === "All" || art.type === selectedType;
+    const typeMatch =
+      selectedType === "All" ||
+      (Array.isArray(art.type)
+        ? art.type.includes(selectedType)
+        : art.type === selectedType);
     return yearMatch && typeMatch;
   });
 
