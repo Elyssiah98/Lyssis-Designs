@@ -2528,7 +2528,7 @@ images:
   - "/Lyssis-Designs/Images/Ceramics/BowlFinalSide2.jpg"
 ---
 
-An amazing spring showcase featuring cosplay and aerials.
+A ceramic bowl shaped and glazed to mimic natural textures. I wanted it to feel organic; like something you’d find on a forest table.
 
 [Read blog post](#/blog/Ceramics/Completed-Ceramics/Clay-Bowl)
 `,Mw=`---
@@ -2620,7 +2620,7 @@ images:
   - "/Lyssis-Designs/Images/PrintMaking/BeigeBlueGreenKirin.jpg"
 ---
 
-An amazing spring showcase featuring cosplay and aerials.
+Playing with colour layering on the same kirin design. The overlap gave it extra texture without re-carving.
 
 [Read blog post](/blog/Printmaking/Completed-Pieces/Lino-Kirin)
 `,Fw=`---
@@ -2638,7 +2638,7 @@ images:
   - "/Lyssis-Designs/Images/PrintMaking/BlueGreenLinoKirin.jpg"
 ---
 
-An amazing spring showcase featuring cosplay and aerials.
+A single image print of my lino kirin. Higher contrasts to show the carving clearly.
 
 [Read blog post](/blog/Printmaking/Completed-Pieces/Lino-Kirin)
 `,zw=`---
@@ -2655,7 +2655,7 @@ images:
   - "/Lyssis-Designs/Images/Photography/FlowerFinalEdited.jpg"
 ---
 
-An amazing spring showcase featuring cosplay and aerials.
+A photographic print made using a pressed flower. It’s a negative image, so the soft parts show up sharp and bright.
 
 [Read blog post](#/blog/Analogue-Photography/Analogue-Photos/Pressed-Flower-Negatives)
 `,qw=`---
