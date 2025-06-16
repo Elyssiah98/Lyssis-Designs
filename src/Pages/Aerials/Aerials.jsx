@@ -1,6 +1,6 @@
 import React from 'react';
-import AerialVideos from '../../Components/AerialVideos/AerialVideos';
-import '../../Components/AerialVideos/VideoEmbed.css'; 
+import AerialVideos from './AerialVideos/AerialVideos';
+import '../Aerials/AerialVideos/VideoEmbed.css'; 
 
 function Aerials() {
   return (

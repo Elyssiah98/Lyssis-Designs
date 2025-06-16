@@ -1,10 +1,9 @@
 import React from "react";
-import { useSearch } from "../../context/SearchContext";
+import { useSearch } from "../Header/HeaderComponents/SearchContext";
 import { Link } from "react-router-dom";
 import allContent from "../../Data/allContent";
 import "./SearchResults.css";
-import Pagination from "../../Pages/Blog/BlogComponents/Pagination";
-import "../../Pages/Blog/BlogComponents/Pagination.css";
+import Pagination from "../../Components/Pagination";
 
 // Helper to strip HTML tags from strings
 function stripHtml(html) {

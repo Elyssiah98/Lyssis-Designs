@@ -1,10 +1,20 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./ModalGallery.css";
 
-function ModalGallery({ art, onClose }) {
-  const { images = [], title, date, medium, dimensions, description, blogLink } = art || {};
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+function ModalGallery({ data, onClose, initialIndex = 0 }) {
+  const { 
+    title, 
+    date, 
+    medium, 
+    dimensions, 
+    description, 
+    blogLink,
+    fullImage,
+    images = fullImage ?  [fullImage] : [],
+  } = data || {};
+  
+  const [currentIndex, setCurrentIndex] = useState(initialIndex);
+  const [isAutoPlaying, setIsAutoPlaying] = useState(images.length > 1);
   const autoPlayRef = useRef();
 
   const goNext = () => {
@@ -17,19 +27,13 @@ function ModalGallery({ art, onClose }) {
     setIsAutoPlaying(false);
   };
 
-  const goToIndex = (index) => {
-    setCurrentIndex(index);
-    setIsAutoPlaying(false);
-  };
-
   // Autoplay every 4 seconds unless interrupted
   useEffect(() => {
-    if (isAutoPlaying) {
+    if (isAutoPlaying && images.length > 1) {
       autoPlayRef.current = setInterval(() => {
         setCurrentIndex((prev) => (prev + 1) % images.length);
       }, 4000);
     }
-
     return () => clearInterval(autoPlayRef.current);
   }, [isAutoPlaying, images.length]);
 
@@ -45,7 +49,7 @@ function ModalGallery({ art, onClose }) {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [onClose]);
 
-  if (!art) return null;  // safety fallback
+  if (!data) return null;  // safety fallback
 
   return (
     <div className="modal-backdrop" onClick={onClose}>
@@ -78,14 +82,14 @@ function ModalGallery({ art, onClose }) {
         {images.length > 0 && (
           <img
             src={images[currentIndex]}
-            alt={`${title} image ${currentIndex + 1}`}
+            alt={`${title || "Gallery"} image ${currentIndex + 1}`}
             className="modal-image"
           />
         )}
 
         {/* Info section below or beside the image */}
         <div className="modal-info">
-          <h2>{title}</h2>
+          {title && <h2>{title}</h2>}
           {date && <p><strong>Date:</strong> {new Date(date).toLocaleDateString()}</p>}
           {medium && <p><strong>Medium:</strong> {medium}</p>}
           {dimensions && <p><strong>Dimensions:</strong> {dimensions}</p>}

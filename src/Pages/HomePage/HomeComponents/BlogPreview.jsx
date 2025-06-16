@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import posts from '../../Pages/Blog/BlogData';
+import posts from '../../Blog/BlogData';
 import './BlogPreview.css';
 
 

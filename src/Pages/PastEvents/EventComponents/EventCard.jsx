@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ModalGallery from "./ModalGallery";
+import ModalGallery from "../../VisualArts/ArtComponents/ModalGallery";
 import "./EventCard.css";
 
 const typeColors = {
@@ -11,6 +11,7 @@ const typeColors = {
 
 function EventCard({ event }) {
   const [showGallery, setShowGallery] = useState(false);
+  const [initialIndex, setInitialIndex] = useState(0);
   const bgColor = typeColors[event.type] || typeColors.default;
 
   return (
@@ -19,6 +20,7 @@ function EventCard({ event }) {
       <h3>{event.title}</h3>
       <p>{new Date(event.date).toLocaleDateString()}</p>
       <p>{event.description}</p>
+
       {event.blogLink && (
         <a
           href={event.blogLink}
@@ -33,16 +35,29 @@ function EventCard({ event }) {
           src={event.images[0]}
           alt={event.title}
           className="event-thumbnail"
-          onClick={() => setShowGallery(true)}
+          onClick={() => {
+            setInitialIndex(0);
+            setShowGallery(true);
+          }}
         />
       )}
 
       {event.videos?.map((video, i) => (
-        <iframe key={i} src={video} title={`video-${i}`} frameBorder="0" allowFullScreen />
+        <iframe
+          key={i}
+          src={video}
+          title={`video-${i}`}
+          style={{ border: "none" }}
+          allowFullScreen
+        />
       ))}
 
       {showGallery && (
-        <ModalGallery images={event.images} onClose={() => setShowGallery(false)} />
+        <ModalGallery
+          art={event}
+          initialIndex={initialIndex}
+          onClose={() => setShowGallery(false)}
+        />
       )}
     </div>
   );

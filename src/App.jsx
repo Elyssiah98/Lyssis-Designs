@@ -4,11 +4,11 @@ import { Routes, Route } from 'react-router-dom';
 import ScrollToTop from "./Components/ScrollToTop";
 //import ThemeToggle from './Pages/ThemeToggle';
 
-import Header from "./Pages/Header";
-import Footer from "./Pages/Footer";
-import SearchResults from "./Components/Header/SearchResults";
+import Header from "./Pages/Header/Header";
+import Footer from "./Pages/Footer/Footer";
+import SearchResults from "./Pages/SearchResults/SearchResults";
 
-import Home from "./Pages/Home";
+import Home from "./Pages/HomePage/Home";
 
 import About from "./Pages/About/About";
 import PastEvents from "./Pages/PastEvents/PastEvents";
@@ -17,7 +17,7 @@ import EventPost from "./Pages/PastEvents/EventPost";
 import Portfolio from "./Pages/Portfolio/Portfolio";
 import CostumePortfolio from "./Pages/Costumes/CostumePortfolio";
 import CostumePost from "./Pages/Costumes/CostumePost";
-import Aerials from "./Pages/Portfolio/Aerials";
+import Aerials from "./Pages/Aerials/Aerials";
 import VisualArt from "./Pages/VisualArts/VisualArts";
 import ArtPost from "./Pages/VisualArts/ArtPost";
 

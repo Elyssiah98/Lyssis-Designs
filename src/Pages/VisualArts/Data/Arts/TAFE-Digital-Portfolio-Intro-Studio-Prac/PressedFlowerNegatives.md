@@ -3,7 +3,7 @@ title: "Pressed Flower Negatives"
 date: "2025-03-25"
 type: "TAFE"
 medium: "Photograph Paper, Pressed Flowers"
-dimensions: ""
+dimensions: "26.5cm x 19cm"
 tags:
   - photography
   - analogue

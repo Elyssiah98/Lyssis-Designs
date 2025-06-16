@@ -1,7 +1,7 @@
 ---
 title: "Star and Moon Earrings"
 date: "2025-02-25"
-type: "TAFE"
+type: ["TAFE", "Jewellery"]
 medium: "Aluminium"
 dimensions: ""
 tags:

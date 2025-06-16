@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import Header from "./Header";
-import ImageCarousel from "../Components/HomePage/ImageCarousel";
-import Announcements from "../Components/HomePage/Announcements";
-import BlogPreview from "../Components/HomePage/BlogPreview";
-import supergirlImg from "../Assets/Supergirl.jpg";
+import Header from "../Header/Header";
+import ImageCarousel from "./HomeComponents/ImageCarousel";
+import Announcements from "./HomeComponents/Announcements";
+import BlogPreview from "./HomeComponents/BlogPreview";
+import supergirlImg from "../../Assets/Supergirl.jpg";
 import "./Home.css";
 
 function Home() {

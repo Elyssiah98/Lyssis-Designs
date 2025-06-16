@@ -1,7 +1,7 @@
 // CostumePost.jsx
 import React from "react";
 import { useParams } from "react-router-dom";
-import costumes from "./Data/Costume"; // your costumes data
+import Costumes from "./Data/Costume"; // your costumes data
 import ReactMarkdown from "react-markdown";
 import "./CostumePost.css";
 

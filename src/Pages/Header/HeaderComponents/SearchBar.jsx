@@ -1,7 +1,7 @@
 import React from "react";
-import { useSearch } from "../../context/SearchContext";
+import { useSearch } from "./SearchContext";
 import { useNavigate } from "react-router-dom";
-
+import "./SearchBar.css";
 function SearchBar() {
   const { setQuery } = useSearch();
   const navigate = useNavigate();

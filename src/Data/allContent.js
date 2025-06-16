@@ -1,6 +1,6 @@
 // src/data/allContent.js
 import blogPosts from "../Pages/Blog/BlogData";
-import events from "./Events/Events";
+import events from "../Pages/PastEvents/Data/Events";
 import arts from "../Pages/VisualArts/Data/Arts/Art";
 import costumes from "../Pages/Costumes/Data/Costume";
 

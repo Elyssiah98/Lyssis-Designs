@@ -5,7 +5,7 @@ import posts from "./BlogData";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import './BlogPost.css';
-import ModalImageViewer from "../../Components/ModalImageViewer";
+import ModalImageViewer from "./BlogComponents/ModalImageViewer";
 
 export default function BlogPost() {
   const { category, '*': slug } = useParams();

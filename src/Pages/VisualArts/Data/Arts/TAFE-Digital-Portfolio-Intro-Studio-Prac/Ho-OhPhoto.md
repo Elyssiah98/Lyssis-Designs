@@ -3,7 +3,7 @@ title: "Ho-Oh Line Art - Analogue Photo"
 date: "2025-03-18"
 type: "TAFE"
 medium: "Photograph Paper, OHP Paper"
-dimensions: ""
+dimensions: "11.3cm x 12.8cm"
 tags:
   - photography
   - analogue

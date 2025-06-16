@@ -1,10 +1,11 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Header.css";
-import HamburgerMenu from "../Components/Header/HamburgerMenu";
-import NavLink from "../Components/Header/NavLink";
-import DropdownMenu from "../Components/Header/DropdownMenu";
-import SearchBar from "../Components/Header/SearchBar";
+import "./HeaderMedia.css";
+import HamburgerMenu from "./HeaderComponents/HamburgerMenu";
+import NavLink from "./HeaderComponents/NavLink";
+import DropdownMenu from "./HeaderComponents/DropdownMenu";
+import SearchBar from "./HeaderComponents/SearchBar";
 {/*import ThemeToggle from './ThemeToggle';*/}
 
 function Header({ scrolled }) {

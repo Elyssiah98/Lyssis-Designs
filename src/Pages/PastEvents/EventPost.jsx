@@ -1,7 +1,7 @@
 // EventPost.jsx
 import React from "react";
 import { useParams } from "react-router-dom";
-import events from "../../Data/Events/Events";
+import events from "./Data/Events";
 import ReactMarkdown from "react-markdown";
 import "./EventPost.css";
 

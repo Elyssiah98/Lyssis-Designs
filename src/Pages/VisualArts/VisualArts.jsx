@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import arts from "./Data/Arts/Art.js";
-import ArtCard from "./components/ArtCard";
-import Pagination from "./components/Pagination";
-import ModalGallery from "./components/ModalGallery.jsx";
+import arts from "./Data/Arts/Art";
+import ArtCard from "./ArtComponents/ArtCard";
+import Pagination from "./ArtComponents/Pagination";
+import ModalGallery from "./ArtComponents/ModalGallery";
 import "./VisualArts.css";
 
 const POSTS_PER_PAGE = 48;
@@ -93,7 +93,7 @@ function VisualArts() {
 
         {selectedArt && (
           <ModalGallery
-            art={selectedArt}
+            data={selectedArt}
             initialIndex={initialIndex}
             onClose={() => setSelectedArt(null)}
           />

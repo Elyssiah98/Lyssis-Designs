@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 
 import posts from "./BlogData";
-import Pagination from "./BlogComponents/Pagination";
+import Pagination from "../../Components/Pagination";
 import Filters from "./BlogComponents/Filters/Filters";
 import BlogPostList from "./BlogComponents/BlogPostList";
 

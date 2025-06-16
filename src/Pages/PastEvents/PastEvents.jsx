@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import events from "../../Data/Events/Events";
-import EventCard from "./components/EventCard";
-import Pagination from "./components/Pagination";
+import events from "./Data/Events";
+import EventCard from "./EventComponents/EventCard";
+import Pagination from "../../Components/Pagination";
 import "./PastEvents.css";
 
 const POSTS_PER_PAGE = 4;
