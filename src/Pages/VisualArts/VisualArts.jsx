@@ -80,7 +80,14 @@ function VisualArts() {
 
         <div className="art-cards">
           {paginated.map(art => (
-            <ArtCard key={art.slug} art={art} openGallery={openGallery} />
+            <ArtCard
+              key={art.slug}
+              art={art}
+              openGallery={openGallery}
+              onTypeClick={(clickedType) =>
+                setSelectedType((prev) => (prev === clickedType ? "All" : clickedType))
+              }
+            />
           ))}
         </div>
 

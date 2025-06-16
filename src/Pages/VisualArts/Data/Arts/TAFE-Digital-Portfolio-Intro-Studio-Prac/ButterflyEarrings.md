@@ -3,7 +3,7 @@ title: "Butterfly Earrings"
 date: "2025-02-11"
 type: ["TAFE", "Jewellery"]
 medium: "Aluminium, Silver Wire"
-dimensions: ""
+dimensions: "2.4cm x 2cm (butterfly); 2.2cm x 1.3cm (hook)"
 tags:
   - jewellery
   - aerial

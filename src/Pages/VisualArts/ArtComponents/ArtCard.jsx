@@ -12,7 +12,7 @@ const typeColors = {
   tafe: "#d2e7d6"
 };
 
-function ArtCard({ art, openGallery }) {
+function ArtCard({ art, openGallery, onTypeClick }) {
   const colorArray = art.type?.map(t => typeColors[t.toLowerCase()] || typeColors.default) || [typeColors.default];
   const gradient = colorArray.length === 1
     ? colorArray[0]
@@ -28,8 +28,9 @@ function ArtCard({ art, openGallery }) {
           {art.type.map((t, i) => (
             <span
               key={i}
-              className="type-tag"
+              className="type-tag clickable"
               style={{ backgroundColor: typeColors[t.toLowerCase()] || typeColors.default }}
+              onClick={() => onTypeClick && onTypeClick(t)}
             >
               {t}
             </span>

@@ -2,8 +2,9 @@
 title: "Roller Printing"
 date: "2025-02-11"
 excerpt: "Roller printing is a technique used to create a debossed (indented) design on..."
-thumbnail: "/images/blog1.jpg"
+thumbnail: "/Lyssis-Designs/Images/Jewellery/RolllerPrintingLace.jpg"
 thumbnailPosition: "right"
+zoom: 2
 category: "Jewellery"
 subcategory: "Techniques"
 tags: ["metalwork", "jewellery", "rollerprinting"]

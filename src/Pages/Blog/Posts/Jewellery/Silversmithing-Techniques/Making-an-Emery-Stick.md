@@ -2,7 +2,7 @@
 title: 'Making an Emery Stick'
 date: '2020-01-14'
 excerpt: "An emery stick is a tool used in silversmithing for smoothing and finishing metal edges..."
-thumbnail: "/Lyssis-Designs/Images/Jewellery/EmerySticks.jpg"
+thumbnail: "/Lyssis-Designs/Images/Jewellery/EmerySticksRotated.jpg"
 thumbnailPosition: "top"
 zoom: 1.25
 category: "Jewellery"

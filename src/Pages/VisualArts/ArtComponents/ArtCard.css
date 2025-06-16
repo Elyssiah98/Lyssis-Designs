@@ -80,3 +80,14 @@
   font-size: 0.75rem;
   color: #333;
 }
+
+.type-tag.clickable {
+  cursor: pointer;
+  text-decoration: underline;
+  transition: transform 0.2s ease;
+}
+
+.type-tag.clickable:hover {
+  transform: scale(1.05);
+  opacity: 0.85;
+}
