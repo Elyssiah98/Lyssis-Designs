@@ -10,7 +10,7 @@ subcategory: "Techniques"
 tags: ["ceramics", "ceramictechniques", "glazingclay", "glaze", "finishes", "clay"]
 ---
 
-This post covers how I applied transparent glaze to my bisque-fired ceramic pieces. Transparent glaze is often used to enhance surface decoration, such as [Coloured Slip](#/blog/Ceramics/Ceramics-Techniques/Slip-Decorating-Clay) or [Sgraffito](#/blog/Ceramics/Ceramics-Techniques/Sgraffito), while adding a smooth, glossy finish. This process required careful handling to avoid damaging the glaze surface and ensuring an even coat across the piece.
+This post covers how I applied a transparent glaze to my bisque-fired ceramic pieces. A transparent glaze is often used to enhance surface decoration, such as [Coloured Slip](#/blog/Ceramics/Ceramics-Techniques/Slip-Decorating-Clay) or [Sgraffito](#/blog/Ceramics/Ceramics-Techniques/Sgraffito), while adding a smooth, glossy finish. This process required careful handling to avoid damaging the glaze surface and ensuring an even coat across the piece.
 
 ## Tools & Materials :
 - Bisque-fired ceramic pieces

@@ -38,7 +38,7 @@ Using a soft paintbrush, I applied an even coat of slip to the surface. I made s
 <div class="clearfix">
 <figure class="flex-left" style="width: 15rem;">
   <img src="/Lyssis-Designs/Images/Ceramics/ClayBowlInside.jpg">
-  <figcaption>The swirl design in the centre of the bowl was doen with a stencil.</figcaption>
+  <figcaption>The swirl design in the centre of the bowl was done with a stencil.</figcaption>
 </figure>
 
 For some of the designs, I cut paper stencils in simple shapes and pressed them on to the damp clay surface before applying slip over the top. Once the slip was applied, I carefully peeled the stencils away to reveal clean patterns where the clay body was left exposed. This was a useful method for adding bold contrast and clean edges to a design.
@@ -53,6 +53,6 @@ For some of the designs, I cut paper stencils in simple shapes and pressed them 
 In some areas, I used [Sgraffito](#/blog/Ceramics/Ceramics-Techniques/Sgraffito). This is a technique where I gently scratched back into the slip to reveal the clay underneath. This added texture and linework over the blocked-in shapes created by the stencils and the brush-painted designs.
 </div>
 
-Once the design was finished, I allowed the decorated piece to dry completely before firing. Slip becomes part of the surface during firing and can be further enhanced with [Glaze](#/blog/Ceramics/Ceramics-Techniques/Glazing-Clay).
+Once the design was finished, I allowed the decorated piece to dry completely before firing. The slip becomes part of the surface during firing and can be further enhanced with a [Glaze](#/blog/Ceramics/Ceramics-Techniques/Glazing-Clay).
 
 See [Clay Bowl](#/blog/Posts/Ceramics/Completed-Ceramics/Clay-Bowl), [Clay Pitcher](#/blog/Ceramics/Completed-Ceramics/Clay-Pitcher) & [Clay Strawberry](#/blog/Ceramics/Completed-Ceramics/Clay-Strawberry) for slip decorated examples.

@@ -85,7 +85,7 @@ For the next steps, it is advised to wear gloves and an apron. To apply the ink,
 Next, I used a piece of scrim (similar to cheesecloth) in gentle circular motions to further push the ink into the etched areas, while removing excess from the flat surface. After that, a piece of lightweight paper (we used old phone book pages, but tissue paper works too) was placed over the plate, and I used the flat of my fingers to gently rub and lift away more ink, leaving clean highlights.
 </div>
 
-Once the inking was complete, I carefully remove the paper and placed the plate on to the template by the rollers. I then placed the slightly damp printmaking paper over the plate, ready to be printed. A piece of paper to absorb excess moisture and a stack of felt blankets (used to create pressure and protect the paper bracket was placed over the top). These blankets must not pass completely through the press, otherwise the rollers will need to be realigned.
+Once the inking was complete, I carefully removed the paper and placed the plate on to the template by the rollers. I then placed the slightly damp printmaking paper over the plate, ready to be printed. A piece of paper to absorb excess moisture and a stack of felt blankets (used to create pressure and protect the paper), was placed over the top. These blankets must not pass completely through the press, otherwise the rollers will need to be realigned.
 
 After rolling the whole stack through the press, I carefully peeled the paper back to reveal the finished print. Both the print and the Tetra-Pak plate were laid flat on a drying rack. If I wanted to make more prints, I would need to reapply the ink and repeat the wiping and pressing process.
 

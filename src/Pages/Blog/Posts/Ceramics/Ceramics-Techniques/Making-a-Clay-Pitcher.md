@@ -48,7 +48,7 @@ To help with joining, I flattened one edge of the clay, then scored both the fla
   <figcaption>Diagram of using the roller to join the edges.</figcaption>
 </figure>
 
-I then wrapped the clay slab around a wooden roller, using the roller itself to help create the cylindrical shape. Once the score edges met, I pressed them together firmly with the roller and used a damp sponge and fingers to smooth the seam, to ensure it blended in with the surface and kept the wall even.
+I then wrapped the clay slab around a wooden roller, using the roller itself to help create the cylindrical shape. Once the scored edges met, I pressed them together firmly with the roller and used a damp sponge and fingers to smooth the seam, to ensure it blended in with the surface and kept the wall even.
 </div>
 
 <div class="clearfix">
@@ -74,7 +74,7 @@ Next, I turned the cylinder upright and cut four evenly spaced slots into the ba
   <figcaption>Diagram of flattening the base.</figcaption>
 </figure>
 
-To reinforce the join and fully closed the bottom, I flipped the pitcher over and added a small piece of extra clay inside, pressing it down gently with a rounded tool. This helped to compress the base and ensure the form was sealed and stable.
+To reinforce the join and fully close the base, I flipped the pitcher over and added a small piece of extra clay inside, pressing it down gently with a rounded tool. This helped to compress the base and ensure the joins were sealed and stable.
 </div>
 
 <div class="clearfix">

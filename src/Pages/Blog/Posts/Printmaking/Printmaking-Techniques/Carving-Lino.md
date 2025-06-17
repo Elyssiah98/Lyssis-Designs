@@ -49,6 +49,7 @@ I also cut a smaller test piece, which was what I used for the rest of this post
 </figure>
 
 After cutting most of the way through, I gently bent the lino along the scored line, balanced the lino upright, then used the knife again to complete the cut. This technique gave me clean, precise edges, without cracking or tearing the lino.
+
 To better see the lines I was carving, I brushed a thin layer of block printing ink over the surface and let it dry. This helped visualised the test designs and made the cuts much more visible during practice.
 </div>
 
@@ -75,7 +76,8 @@ I initially found the lino too cold and hard to carve smoothly… most likely be
 </figure>
 
 I drew some simple varying lines to practice with the lino tools; I thought it best to first test out the accuracy and trouble-shoot before carving out my final design.
-I tested both cheap and high-quality carving tools on the lino. The cheaper tools were inconsistent, with duller blades that created rough, untidy lines and made a clean cut on the lino quite difficult.
+
+I tested both cheap and high-quality carving tools on the lino. The cheaper tools were inconsistent, with duller blades that created rough, untidy lines. This made clean cuts in the lino difficult to achieve.
 
 <figure class="flex-right" style="max-width: 12rem; margin-left: 1rem;">
     <img src="/Lyssis-Designs/Images/PrintMaking/PracticeCarving2.jpg">
@@ -87,4 +89,4 @@ When I switched to better quality carving tools, the experience was completely d
 </div>
 </div>
 
-Once I felt comfortable using the lino tools, I was ready to start working on my [Kirin Design](#/blog/Printmaking/Completed-Pieces/Lino-Kirin).
+Once I felt comfortable using the lino tools, I was ready to start working on my [Kirin Design](#/blog/Printmaking/Completed-Pieces/Lino-Kirin). Also see [Printing on Lino](#/blog/Printmaking/Printmaking-Techniques/Printing-on-Lino-Using-Rollers), to see how to ink up a lino cut design.

@@ -10,7 +10,7 @@ subcategory: "Techniques"
 tags: ["lino", "printinglino", "printing", "printmaking"]
 ---
 
-After [Carving my Lino](#/blog/Printmaking/Printmaking-Techniques/Carving-Lino) block, I moved on to the printing process using roller printers. The focus was on learning how to ink the lino evenly and transfer the image cleanly onto paper. Although the concept is straight forward, the technique and control make a big different in the final outcome.
+After [Carving my Lino](#/blog/Printmaking/Printmaking-Techniques/Carving-Lino) block, I moved on to the printing process using roller printers. The focus was on learning how to ink the lino evenly and transfer the image cleanly onto paper. Although the concept is straight forward, the technique can make a big difference in the final outcome.
 
 ## Tools & Materials :
 - Carved lino block

@@ -10,7 +10,7 @@ subcategory: "Techniques"
 tags: ["ceramics", "ceramictechniques", "sgraffito", "carving", "claycarving", "stencils", "clay"]
 ---
 
-This post explains how I used the sgraffito technique to decorate leather-hard clay pieces. Sgraffito involve scratching through a layer of coloured slip to reveal the clay underneath, allowing for detailed designs, linework and contrast. It's a satisfying method for combining drawing with ceramics. I used it to add visual interest to several of my pieces.
+This post explains how I used the sgraffito technique to decorate leather-hard clay pieces. Sgraffito involve scratching through a layer of coloured slip to reveal the clay underneath, allowing for detailed designs, linework and contrast. It's a satisfying method for combining drawing with ceramics. I used this technique to add visually interesting details to my ceramic pieces.
 
 ## Tools & Materials :
 - Leather-hard clay piece
@@ -56,7 +56,7 @@ The key was to carve slowly and confidently. Thin, shallow lines gave clean deta
   <figcaption>Clay bowl with sgraffito designs.</figcaption>
 </figure>
 
-After the design was completed, I left the piece to dry fully before it was bisque fired. After firing, the carved patterns remained clean and were further enhanced with [Transparent Glaze](#/blog/Ceramics/Ceramics-Techniques/Glazing-Clay).
+After the design was completed, I left the piece to dry fully before it was bisque fired. After firing, the carved patterns remained clean and were further enhanced with a [Transparent Glaze](#/blog/Ceramics/Ceramics-Techniques/Glazing-Clay).
 </div>
 
 See [Clay Bowl](#/blog/Posts/Ceramics/Completed-Ceramics/Clay-Bowl), [Clay Pitcher](#/blog/Ceramics/Completed-Ceramics/Clay-Pitcher) & [Clay Strawberry](#/blog/Ceramics/Completed-Ceramics/Clay-Strawberry) for sgraffito examples.

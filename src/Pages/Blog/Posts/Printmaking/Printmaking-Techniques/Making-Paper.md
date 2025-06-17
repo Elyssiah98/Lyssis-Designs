@@ -10,7 +10,7 @@ subcategory: "Techniques"
 tags: [lino", "paper", "papermaking", "printing", "printmaking"]
 ---
 
-This project gave me the chance to explore traditional paper-making techniques using recycled materials. The outcome was a coloured, texture stack of handmade paper sheets that could be used later on in printmaking. See [Printing on Lino] to learn more.
+This project gave me the chance to explore traditional paper-making techniques using recycled materials. The outcome was a coloured, texture stack of handmade paper sheets that could be used later on in printmaking. See [Printing on Lino](#/blog/Printmaking/Printmaking-Techniques/Printing-on-Lino-Using-Rollers) to learn more.
 
 ## Tools & Materials :
 -	Scrap paper
@@ -53,7 +53,7 @@ Before dipping the frame, the mixture is gently stirred to keep the pulp evenly 
   <figcaption>The frame used to make paper.</figcaption>
 </figure>
 
-To form a sheet, the paper-making frame is dipped into the container and lifted slowly, allowing just enough pulp to cover the mesh of the frame. It is important not to overload it, as it can make the sheet of paper too thicken, uneven and takes a long time to dry. Excess water is drained out as much as possible; lifting the frame slightly can help drain even more out.
+To form a sheet, the paper-making frame is dipped into the container and lifted slowly, allowing just enough pulp to cover the mesh of the frame. It is important not to overload the frame, as it can make the sheet of paper too thick and uneven. It may also take longer for the paper to dry. Water is drained through the mesh, and lifting the frame slightly from the silk screen can aid in this.
 
 With the pulp still damp, the frame is carefully flipped upside-down onto a cotton cloth that has been placed on top of a towel. Using the plastic square that comes with the frames, gently push down to help it transfer to the cloth. This can also help squeeze out some of the excess water. To release the paper, gently shake one corner to help it peel away. Slowly shake until the entire piece of paper is off of the frame and on the cotton cloth. The towel underneath can help absorb some of the additional water from the sheet of paper.
 </div>
@@ -67,4 +67,4 @@ The paper is left to dry. Sometimes, placing another cotton cloth on top can hel
 </div>
 
 > ### Notes:
-> For some types of paper, especially those made of fibres that don’t naturally bond well, a substance called sizing can be added to the pulp. This helps the fibres join together and improves the paper’s structure. In this project, sizing did not need to be added because most of the scraps used were from printmaking paper, which already contains sizing.
+> For some types of paper, especially those made of fibres that don’t naturally bond well, a substance called sizing can be added to the pulp. This helps the fibres join together and improves the paper’s structure. In this project, sizing was not required as most of the scraps used were from printmaking paper. Sizing refers to a substance added during the paper manufacturing process.

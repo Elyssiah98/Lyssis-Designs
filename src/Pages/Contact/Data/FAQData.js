@@ -22,11 +22,11 @@ const FAQData = [
       },
       {
         question: "Do you make armor, props, or wigs?",
-        answer: "Yes, feel free to reach out via my Contact page to discuss your idea.",
+        answer: "Yes! I've made armor and props before. I've started styling wigs and am learning to make them from scratch as well.",
       },
       {
         question: "Can you make me a Halloween costume?",
-        answer: "Yes! I've made armor and props before. I've started styling wigs and am learning to make them from scratch as well.",
+        answer: "Yes, feel free to reach out via my Contact page to discuss your idea.",
       },
       {
         question: "Do you sell your cosplays or props?",
