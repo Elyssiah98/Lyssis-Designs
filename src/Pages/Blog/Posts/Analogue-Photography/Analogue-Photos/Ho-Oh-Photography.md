@@ -1,5 +1,5 @@
 ---
-title: 'Ho-Oh Photogrpahy'
+title: ':fire: Ho-Oh Photogrpahy'
 date: '2025-03-18'
 excerpt: "In this experiment, I had the chance to work with Overhead Projector Paper..."
 thumbnail: "/Lyssis-Designs/Images/Photography/HoohBW.jpg"

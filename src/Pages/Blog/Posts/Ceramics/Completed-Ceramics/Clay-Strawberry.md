@@ -1,5 +1,5 @@
 ---
-title: 'Clay-Strawberry'
+title: ':strawberry: Clay-Strawberry'
 date: '2025-04-29'
 excerpt: "This project began as an exploration of hollow clay forms using Pinch Pots..."
 thumbnail: "/Lyssis-Designs/Images/Ceramics/StrawberryFinalFront.jpg"

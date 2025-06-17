@@ -13,6 +13,6 @@ images:
   - "/Lyssis-Designs/Images/Ceramics/StrawberryFinalBottom.jpg"
 ---
 
-An amazing spring showcase featuring cosplay and aerials.
+:strawberry: A hollow handbuilt form shaped into a strawberry. Colourful slip gradients and carved seed textures give the surface a vibrant, lifelike finish under glossy glaze.
 
 [Read blog post](#/blog/Ceramics/Completed-Ceramics/Clay-Strawberry)

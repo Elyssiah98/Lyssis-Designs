@@ -4,6 +4,13 @@ import { Link } from "react-router-dom";
 import allContent from "../../Data/allContent";
 import "./SearchResults.css";
 import Pagination from "../../Components/Pagination";
+import emoji from "emoji-dictionary";
+
+function convertEmoji(text) {
+  return text.replace(/:([a-zA-Z0-9_+-]+):/g, (_, name) =>
+    emoji.getUnicode(name) || `:${name}:`
+  );
+}
 
 // Helper to strip HTML tags from strings
 function stripHtml(html) {
@@ -79,7 +86,7 @@ function SearchResults() {
             {pagedResults.map((item, i) => (
               <li key={i} className="result-item">
                 <Link to={item.url} className="result-link">
-                  <Highlight text={item.title + " — " + item.type} query={query} />
+                  <Highlight text={convertEmoji(item.title + " — " + item.type)} query={query} />
                 </Link>
                 {item.date && (
                   <p className="result-date">
@@ -88,7 +95,7 @@ function SearchResults() {
                 )}
                 <p className="result-snippet">
                   <Highlight
-                    text={getSnippet(stripHtml(item.content || item.description || ""), query)}
+                    text={convertEmoji(getSnippet(stripHtml(item.content || item.description || ""), query))}
                     query={query}
                   />
                 </p>

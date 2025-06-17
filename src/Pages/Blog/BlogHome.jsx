@@ -7,6 +7,7 @@ import Filters from "./BlogComponents/Filters/Filters";
 import BlogPostList from "./BlogComponents/BlogPostList";
 
 import './BlogHome.css'
+import emoji from "emoji-dictionary";
 
 const POSTS_PER_PAGE = 6;
 
@@ -120,6 +121,11 @@ export default function BlogHome() {
     setCurrentPage(1);
   };
 
+  const convertEmoji = text =>
+  text.replace(/:([a-zA-Z0-9_+-]+):/g, (_, name) =>
+    emoji.getUnicode(name) || `:${name}:`
+  );
+
   return (
     <div className="blog-home">
       <h1 className="blog-name-title">Blog</h1>
@@ -143,7 +149,10 @@ export default function BlogHome() {
         </p>
 
         <BlogPostList
-          posts={currentPosts}
+          posts={currentPosts.map(post => ({
+            ...post,
+            title: convertEmoji(post.title)
+          }))}
           navigate={navigate}
           selectedCategory={selectedCategory}
           handleCategoryChange={onCategoryChange}

@@ -14,6 +14,6 @@ images:
   - "/Lyssis-Designs/Images/PrintMaking/DarkPinkBlueKirin.jpg"
 ---
 
-An amazing spring showcase featuring cosplay and aerials.
+:deer: A single-colour lino print of a Kirin, a Japanese mythological creature. Cherry blossoms frame the figure, lending a sense of softness and movement to the composition.
 
 [Read blog post](/blog/Printmaking/Completed-Pieces/Lino-Kirin)

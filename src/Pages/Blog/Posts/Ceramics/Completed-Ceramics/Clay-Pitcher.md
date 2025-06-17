@@ -1,5 +1,5 @@
 ---
-title: 'Clay-Pitcher'
+title: ':deciduous_tree: Clay-Pitcher'
 date: '2025-05-13'
 excerpt: "This piece began as a simple ceramic pitcher made using slab construction..."
 thumbnail: "/Lyssis-Designs/Images/Ceramics/PitcherFinalFront.jpg"

@@ -1,5 +1,5 @@
 ---
-title: 'Butterfly Earrings'
+title: ':butterfly: Butterfly Earrings'
 date: '2025-02-11'
 excerpt: "These earrings started as an experiment with roller printing. I played around with different materials..."
 thumbnail: "/Lyssis-Designs/Images/Jewellery/ButterflyEarringFrontFinal.jpg"

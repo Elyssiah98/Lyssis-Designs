@@ -14,6 +14,6 @@ images:
   - "/Lyssis-Designs/Images/Ceramics/PitcherFinalRight.jpg"
 ---
 
-An amazing spring showcase featuring cosplay and aerials.
+:deciduous_tree: A slab-built ceramic pitcher, decorated with carved woodgrain textures and layered slips. Tree knots and green leaves wrap around the form, blending natural themes with function.
 
 [Read blog post](#/blog/Ceramics/Completed-Ceramics/Clay-Pitcher)

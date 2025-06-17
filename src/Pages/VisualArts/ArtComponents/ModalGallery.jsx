@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./ModalGallery.css";
+import ReactMarkdown from "react-markdown";
+import remarkEmoji from "remark-emoji";
 
 function ModalGallery({ data, onClose, initialIndex = 0 }) {
   const { 
@@ -93,7 +95,13 @@ function ModalGallery({ data, onClose, initialIndex = 0 }) {
           {date && <p><strong>Date:</strong> {new Date(date).toLocaleDateString()}</p>}
           {medium && <p><strong>Medium:</strong> {medium}</p>}
           {dimensions && <p><strong>Dimensions:</strong> {dimensions}</p>}
-          {description && <p>{description}</p>}
+          {description && (
+            <div className="modal-description">
+              <ReactMarkdown remarkPlugins={[remarkEmoji]}>
+                {description}
+              </ReactMarkdown>
+            </div>
+          )}
           {blogLink && (
             <a href={blogLink} target="_blank" rel="noopener noreferrer" className="read-more">
               Read More →

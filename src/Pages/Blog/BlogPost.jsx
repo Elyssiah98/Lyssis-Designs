@@ -6,6 +6,8 @@ import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import './BlogPost.css';
 import ModalImageViewer from "./BlogComponents/ModalImageViewer";
+import remarkEmoji from "remark-emoji";
+import emoji from 'emoji-dictionary';
 
 export default function BlogPost() {
   const { category, '*': slug } = useParams();
@@ -32,10 +34,12 @@ export default function BlogPost() {
   const zoom = post.postThumbnailZoom ?? 1;
   const rotation = post.postThumbnailRotate ?? 0;
 
+  const convertEmoji = text => text.replace(/:([a-zA-Z0-9_+-]+):/g, (_, name) => emoji.getUnicode(name) || `:${name}:`);
+
   return (
     <>
     <article className="blog-post-container">
-      <h1 className="blog-post-title">{post.title}</h1>
+      <h1 className="blog-post-title">{convertEmoji(post.title)}</h1>
       
       {post.thumbnail && (
         <img
@@ -80,7 +84,7 @@ export default function BlogPost() {
         <div className="date-row">{post.date}</div>
       </div>
 
-      <ReactMarkdown components={components} rehypePlugins={[rehypeRaw]}>
+      <ReactMarkdown components={components} rehypePlugins={[rehypeRaw]} remarkPlugins={[remarkEmoji]}>
         {post.content}
       </ReactMarkdown>
     </article>

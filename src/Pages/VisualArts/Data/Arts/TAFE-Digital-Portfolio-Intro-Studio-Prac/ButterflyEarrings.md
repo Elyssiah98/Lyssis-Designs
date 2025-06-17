@@ -13,6 +13,6 @@ images:
   - "/Lyssis-Designs/Images/Jewellery/ButterflyEarringBackFinal.jpg"
 ---
 
-An amazing spring showcase featuring cosplay and aerials.
+:butterfly: These were all about texture and movement. The ribbon left an organic pattern in the aluminium, reminiscent of butterfly wings.
 
 [Read blog post](#/blog/Jewellery/Completed-Jewellery/Butterfly-Earrings)

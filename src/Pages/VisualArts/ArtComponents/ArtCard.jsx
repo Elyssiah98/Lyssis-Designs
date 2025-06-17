@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./ArtCard.css";
+import ReactMarkdown from "react-markdown";
+import remarkEmoji from "remark-emoji";
+import parseEmoji from "../../Utils/ParseEmoji";
+import rehypeRaw from "rehype-raw";
 
 const typeColors = {
 
@@ -17,10 +21,11 @@ function ArtCard({ art, openGallery, onTypeClick }) {
   const gradient = colorArray.length === 1
     ? colorArray[0]
     : `linear-gradient(135deg, ${colorArray.join(", ")})`;
+console.log('description:', art.description);
 
   return (
     <div className="art-card" style={{ background: gradient }}>
-      <h3>{art.title}</h3>
+      <h2 className="art-title">{parseEmoji(art.title)}</h2>
       <p className="date">{new Date(art.date).toLocaleDateString()}</p>
 
       {art.type && (

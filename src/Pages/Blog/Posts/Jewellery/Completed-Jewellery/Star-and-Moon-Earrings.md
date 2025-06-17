@@ -1,5 +1,5 @@
 ---
-title: 'Star & Moon Earrings'
+title: ':crescent_moon: Star & Moon Earrings'
 date: '2025-02-25'
 excerpt: "Sawing is one of the most common ways to cut out shapes from sheet metal..."
 thumbnail: "/Lyssis-Designs/Images/Jewellery/StarMoonEarringFinal.jpg"

@@ -12,6 +12,6 @@ images:
   - "/Lyssis-Designs/Images/Photography/HoohBW.jpg"
 ---
 
-An amazing spring showcase featuring cosplay and aerials.
+:fire: A line drawing of Ho-Oh turned into a darkroom print. A bright and colourful design, translated into black and white.
 
 [Read blog post](#/blog/Analogue-Photography/Analogue-Photos/Ho-Oh-Photography)

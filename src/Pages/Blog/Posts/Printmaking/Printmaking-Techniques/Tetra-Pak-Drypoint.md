@@ -2,15 +2,15 @@
 title: 'Tetra-Pak Drypoint'
 date: '2025-06-10'
 excerpt: "This project was my introduction to drypoint intaglio printing using a recycled..."
-thumbnail: "/Lyssis-Designs/Images/PrintMaking/PracticeCarving1.jpg"
+thumbnail: "/Lyssis-Designs/Images/PrintMaking/InkedKitsune.jpg"
 thumbnailPosition: "right"
-zoom: 1.15
+zoom: 1.9
 category: "Printmaking"
 subcategory: "Techniques"
 tags: ["drypoint", "tetra-pakdrypoint", "intaglio", "intaglioprinting", "printmaking"]
 ---
 
-This project was my introduction to drypoint intaglio printing using a recycled UHT milk carton (Tetra Pak). See how I did the [kitsune](#/blog/Printmaking/Completed-Pieces/Kitsune-Drypoint). Instead of using a traditional metal or glass plate, we used the inside of a milk carton as a print surface. The soft, foil like material is easy to scratch into, making it ideal for beginners learning how to work with line, texture, and intaglio inking methods. This technique let me explore layered mark making hands on way.
+This project was my introduction to drypoint intaglio printing using a recycled UHT milk carton (Tetra-Pak). See how I did the [kitsune](#/blog/Printmaking/Completed-Pieces/Kitsune-Drypoint). Instead of using a traditional metal or glass plate, we used the inside of a milk carton as a print surface. The soft, foil like material is easy to scratch into, making it ideal for beginners learning how to work with line, texture, and intaglio inking methods. This technique let me explore layered mark making hands on way.
 
 ## Tools & Materials :
 - UHT milk carton (clean and opened out flat)
@@ -38,16 +38,61 @@ This project was my introduction to drypoint intaglio printing using a recycled 
 ## Process :
 
 To start, I transferred a design onto the inner foil side of a UHT milk carton using carbon paper. It was important to press just enough to leave a visible line but not so hard that it dented the foil surface, as this would affect the final print.
+
+<div class="clearfix">
+<figure class="side-by-side-2">
+  <img src="/Lyssis-Designs/Images/PrintMaking/TracingKitsune.jpg">
+  <img src="/Lyssis-Designs/Images/PrintMaking/CarbonTracedKitsune.jpg">
+  <figcaption>Lining up carbon paper on Tetra-Pak to trace design.</figcaption>
+</figure>
+</div>
+
+<div class="clearfix">
+<figure class="flex-left" style="width: 20rem;">
+    <img src="/Lyssis-Designs/Images/PrintMaking/DryPointKitsune.jpg">
+    <figcaption>Final etched design.</figcaption>
+</figure>
+
 We had access to different mark making tools, including a traditional etching needle, a tracing wheel for dotted textures, and a wire brush for more variated shaded effects. Each created a different quality of line, allowing for a variety of visual textures in the final image.
 
 I began etching into the surface with an etching needle, gently at first to build up the lines. When I wanted to create more shadows, I use the needle more firmly to, which could then be peeled away for a bolder effect. A scalpel could be used for this technique instead, if desired.
+</div>
+
+<div class="clearfix">
+<figure class="flex-right" style="max-width: 8rem; margin-left: 1rem;">
+  <img src="/Lyssis-Designs/Images/PrintMaking/PaperInWater.jpg">
+  <figcaption>Soaking the paper in water.</figcaption>
+</figure>
 
 The printing paper was soaked in water and then lightly blotted dry with towels, allowing it to be soft and more absorbent for printing.
+</div>
 
-For the next steps, it is advised to wear gloves and an apron. To apply the ink, I used a small piece of cardboard to scrape it across the entire surface, working it into the lines in multiple directions to ensure it reached every etched mark. This method is called intaglio inking, which is when the ink is forced into the recesses and wiped from the surface.
+<div class="clearfix">
+<figure class="flex-left" style="width: 10rem;">
+    <img src="/Lyssis-Designs/Images/PrintMaking/InkScrapScrapers.jpg">
+    <figcaption>Card used to scrape the ink onto the Tetra-Pak.</figcaption>
+</figure>
+
+For the next steps, it is advised to wear gloves and an apron. To apply the ink, I used a small piece of card is used to scrape it across the entire surface, working it into the lines in multiple directions to ensure it reached every etched mark. This method is called intaglio inking, which is when the ink is forced into the recesses and wiped from the surface.
+</div>
+
+<div class="clearfix">
+<figure class="flex-right" style="max-width: 8rem; margin-left: 1rem;">
+  <img src="/Lyssis-Designs/Images/PrintMaking/Scrim.jpg">
+  <figcaption>Scrim used to clear some of the excess ink.</figcaption>
+</figure>
 
 Next, I used a piece of scrim (similar to cheesecloth) in gentle circular motions to further push the ink into the etched areas, while removing excess from the flat surface. After that, a piece of lightweight paper (we used old phone book pages, but tissue paper works too) was placed over the plate, and I used the flat of my fingers to gently rub and lift away more ink, leaving clean highlights.
+</div>
 
 Once the inking was complete, I carefully remove the paper and placed the plate on to the template by the rollers. I then placed the slightly damp printmaking paper over the plate, ready to be printed. A piece of paper to absorb excess moisture and a stack of felt blankets (used to create pressure and protect the paper bracket was placed over the top). These blankets must not pass completely through the press, otherwise the rollers will need to be realigned.
 
-After rolling the whole stack through the press, I carefully peeled the paper back to reveal the finished print. Both the print and the Tetra Pak plate were laid flat on a drying rack. If I wanted to make more prints, I would need to reapply the ink and repeat the wiping and pressing process.
+After rolling the whole stack through the press, I carefully peeled the paper back to reveal the finished print. Both the print and the Tetra-Pak plate were laid flat on a drying rack. If I wanted to make more prints, I would need to reapply the ink and repeat the wiping and pressing process.
+
+<div class="clearfix">
+<figure class="side-by-side-2">
+  <img src="/Lyssis-Designs/Images/PrintMaking/InkedKitsune.jpg">
+  <img src="/Lyssis-Designs/Images/PrintMaking/DryPointKitsuneFinalZoomed.jpg">
+  <figcaption>Left: inked design. Right: printed design.</figcaption>
+</figure>
+</div>

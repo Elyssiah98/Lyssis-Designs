@@ -1,5 +1,5 @@
 ---
-title: 'Clay-Bowl'
+title: ':fallen_leaf: Clay-Bowl'
 date: '2025-04-29'
 excerpt: "This ceramic bowl was my first experience with combining form and surface decoration..."
 thumbnail: "/Lyssis-Designs/Images/Ceramics/BowlFinalTop.jpg"

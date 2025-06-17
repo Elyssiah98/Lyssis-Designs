@@ -14,6 +14,6 @@ images:
   - "/Lyssis-Designs/Images/PrintMaking/BeigeBlueGreenKirin.jpg"
 ---
 
-An amazing spring showcase featuring cosplay and aerials.
+:cyclone: A layered lino print using two ink colours, intentionally offset. The slight misalignment creates a sense of motion and energy, giving the mythical Kirin a dreamlike presence.
 
 [Read blog post](/blog/Printmaking/Completed-Pieces/Lino-Kirin)

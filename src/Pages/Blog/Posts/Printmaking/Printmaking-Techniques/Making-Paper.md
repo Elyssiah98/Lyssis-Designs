@@ -2,9 +2,10 @@
 title: 'Making Paper'
 date: '2025-05-27'
 excerpt: "This project gave me the chance to explore traditional paper-making techniques..."
-thumbnail: "/images/blog1.jpg"
+thumbnail: "/Lyssis-Designs/Images/PrintMaking/HandMadePaper.jpg"
 thumbnailPosition: "top"
 category: "Printmaking"
+zoom: 2.65
 subcategory: "Techniques"
 tags: [lino", "paper", "papermaking", "printing", "printmaking"]
 ---
@@ -57,7 +58,13 @@ To form a sheet, the paper-making frame is dipped into the container and lifted 
 With the pulp still damp, the frame is carefully flipped upside-down onto a cotton cloth that has been placed on top of a towel. Using the plastic square that comes with the frames, gently push down to help it transfer to the cloth. This can also help squeeze out some of the excess water. To release the paper, gently shake one corner to help it peel away. Slowly shake until the entire piece of paper is off of the frame and on the cotton cloth. The towel underneath can help absorb some of the additional water from the sheet of paper.
 </div>
 
+<div class="clearfix">
+<figure class="flex-left" style="width: 20rem;">
+    <img src="/Lyssis-Designs/Images/PrintMaking/HandMadePaper.jpg">
+    <figcaption>A stack of dried, hand-made paper.</figcaption>
+</figure>
 The paper is left to dry. Sometimes, placing another cotton cloth on top can help draw out the remaining water. This also makes it possible to stack multiple sheets by alternating cloth and wet paper is layers. This will also inadvertently save space while the sheets of paper are drying.
+</div>
 
 > ### Notes:
 > For some types of paper, especially those made of fibres that don’t naturally bond well, a substance called sizing can be added to the pulp. This helps the fibres join together and improves the paper’s structure. In this project, sizing did not need to be added because most of the scraps used were from printmaking paper, which already contains sizing.

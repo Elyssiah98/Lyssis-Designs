@@ -14,6 +14,6 @@ images:
   - "/Lyssis-Designs/Images/Ceramics/BowlFinalSide2.jpg"
 ---
 
-An amazing spring showcase featuring cosplay and aerials.
+:fallen_leaf: A ceramic bowl shaped and glazed to mimic natural textures. The carved and layered slip designs, inspired by Māori motifs, wrap the surface like something grown rather than made.
 
 [Read blog post](#/blog/Ceramics/Completed-Ceramics/Clay-Bowl)

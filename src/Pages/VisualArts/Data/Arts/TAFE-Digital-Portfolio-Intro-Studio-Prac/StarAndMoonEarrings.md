@@ -11,6 +11,6 @@ images:
   - "/Lyssis-Designs/Images/Jewellery/StarMoonEarringFinal.jpg"
 ---
 
-An amazing spring showcase featuring cosplay and aerials.
+:crescent_moon: A roller printed earring design based on celestial shapes. Stars and moons reduced to clean forms with subtle texture.
 
 [Read blog post](#/blog/Jewellery/Completed-Jewellery/Star-and-Moon-Earrings)

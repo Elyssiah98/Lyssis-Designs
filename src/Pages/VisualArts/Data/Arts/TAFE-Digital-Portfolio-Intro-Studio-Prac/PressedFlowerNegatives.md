@@ -12,6 +12,6 @@ images:
   - "/Lyssis-Designs/Images/Photography/FlowerFinalEdited.jpg"
 ---
 
-An amazing spring showcase featuring cosplay and aerials.
+:cherry_blossom: A photographic print made using a pressed flower. A negative image where delicate textures become bright, crisp details through contrast.
 
 [Read blog post](#/blog/Analogue-Photography/Analogue-Photos/Pressed-Flower-Negatives)

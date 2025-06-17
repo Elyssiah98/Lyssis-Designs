@@ -1,5 +1,5 @@
 ---
-title: 'Pressed Flower Negatives'
+title: ':cherry_blossom: Pressed Flower Negatives'
 date: '2025-03-25'
 excerpt: "In this project, I explored how physical negatives can be used creatively to..."
 thumbnail: "/Lyssis-Designs/Images/Photography/FlowerFinalEdited.jpg"

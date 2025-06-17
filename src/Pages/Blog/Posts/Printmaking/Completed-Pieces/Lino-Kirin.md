@@ -1,5 +1,5 @@
 ---
-title: 'Lino Kirin'
+title: ':deer: Lino Kirin'
 date: '2025-06-03'
 excerpt: "This project brought together my love for mythical creatures with my recent journey into printmaking..."
 thumbnail: "/Lyssis-Designs/Images/PrintMaking/BlueBeigeKirin.jpg"
@@ -55,7 +55,7 @@ I began by sketching my Kirin design digitally using my iPad and the program Aff
 
 <div class="clearfix">
 <figure class="flex-left" style="width: 15rem;">
-    <img src="/Lyssis-Designs/Images/PrintMaking/KiringDrawing.jpg">
+    <img src="/Lyssis-Designs/Images/PrintMaking/KirinDrawing.jpg">
     <figcaption>Final drawing before adding the cherry blossoms.</figcaption>
 </figure>
 

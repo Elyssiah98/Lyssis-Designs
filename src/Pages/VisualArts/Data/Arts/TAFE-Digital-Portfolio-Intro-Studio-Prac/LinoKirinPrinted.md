@@ -13,6 +13,6 @@ images:
   - "/Lyssis-Designs/Images/PrintMaking/BlueGreenLinoKirin.jpg"
 ---
 
-An amazing spring showcase featuring cosplay and aerials.
+:deer: The carved lino block with dried ink left on the surface. Highlighting the craft itself, the dried ink creates a textured, sculptural impression of the design.
 
 [Read blog post](/blog/Printmaking/Completed-Pieces/Lino-Kirin)

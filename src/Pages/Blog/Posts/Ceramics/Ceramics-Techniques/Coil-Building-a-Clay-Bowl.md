@@ -10,7 +10,7 @@ subcategory: "Techniques"
 tags: ["ceramics", "ceramictechniques", "coil", "coildbuilding", "claybowl", "clay"]
 ---
 
-This clay bowl introduced me to the coil building method, which is one of the oldest hand-building techniques in ceramics. I learnt about layering clay coils, how to carefully construct them, and blending the seams for height and strength. The bowl I made during this process would later be decorated with two different surface techniques, which I have linked at the end of this post/
+This clay bowl introduced me to the coil building method, which is one of the oldest hand-building techniques in ceramics. I learnt about layering clay coils, how to carefully construct them, and blending the seams for height and strength. The bowl I made during this process would later be decorated with two different surface techniques, which I have linked at the end of this post.
 
 ## Tools & Materials :
 - White clay
@@ -64,8 +64,8 @@ For the second layer, I made another coil and scored the top inner edge of the f
 
 <div class="clearfix">
 <figure class="flex-left" style="width: 10rem;">
-  <img src="/Lyssis-Designs/Images/Ceramics/Bowl6.jpg">
-  <figcaption>Diagram of smoothing the bowl.</figcaption>
+  <img src="/Lyssis-Designs/Images/Ceramics/CoilBowlProgress.jpg">
+  <figcaption>Starting to smooth and blend the bowl. Photo credit: Lettice</figcaption>
 </figure>
 
 I repeated this process one final time to add a third coil. After smoothing and blending the joins, I gently pulled the edges outward to start forming the final bowl shape.
