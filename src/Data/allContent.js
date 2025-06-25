@@ -3,6 +3,7 @@ import blogPosts from "../Pages/Blog/BlogData";
 import events from "../Pages/PastEvents/Data/Events";
 import arts from "../Pages/VisualArts/Data/Arts/Art";
 import costumes from "../Pages/Costumes/Data/Costume";
+import aerialPosts from "../Pages/Aerials/Data/loadAerialPosts";
 
 const allContent = [
   ...blogPosts.map(post => ({
@@ -35,6 +36,15 @@ const allContent = [
     tags: costume.tags || [],
     url: `/costumes/${costume.slug}`,
     type: "Costume",
+  })),
+
+   ...aerialPosts.map(aerial => ({
+    title: aerial.title,
+    content: aerial.description || aerial.description || "",
+    tags: aerial.tags || [],
+    url: `/aerials/${aerial.slug}`,
+    type: "Aerial",
+    date: aerial.date || null,
   })),
 ];
 

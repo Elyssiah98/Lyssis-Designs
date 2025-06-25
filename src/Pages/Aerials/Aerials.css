@@ -1,0 +1,24 @@
+/* Aerials.css */
+
+.aerial-page-content {
+  padding: 2rem;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.aerial-title {
+  padding: 2rem 2rem 0rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #a64ca6;
+  text-align: center;
+  border-bottom: 3px solid #b14eb5;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  line-height: 1.1;
+}
+
+body {
+  background: linear-gradient(135deg, #fce6f2, #ffffff);
+  font-family: 'Cabin', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}

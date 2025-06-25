@@ -3,7 +3,7 @@ import { useSearch } from "../Header/HeaderComponents/SearchContext";
 import { Link } from "react-router-dom";
 import allContent from "../../Data/allContent";
 import "./SearchResults.css";
-import Pagination from "../../Components/Pagination";
+import Pagination from "../../Components/Pagination/Pagination";
 import emoji from "emoji-dictionary";
 
 function convertEmoji(text) {

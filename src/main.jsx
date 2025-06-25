@@ -1,3 +1,7 @@
+// Buffer polyfill for gray-matter in browser
+import { Buffer } from 'buffer';
+window.Buffer = Buffer;
+
 import React, { StrictMode } from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'

@@ -1,0 +1,247 @@
+
+
+/* Container for all posts */
+.aerial-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem 3rem;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+/* Category heading */
+.performance-category {
+  font-size: 2.2rem;
+  color: #b14eb5;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+/* Each video + info container */
+.video-container {
+  display: flex;
+  gap: 2.5rem;
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+  padding: 1.8rem 2rem;
+  margin-bottom: 3rem;
+  align-items: flex-start;
+}
+
+/* Video column */
+.video-column {
+  flex: 2;
+  min-width: 320px;
+  max-width: 640px;
+  position: relative;
+}
+
+/* Video aspect ratio */
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 ratio = 9/16 = 0.5625 = 56.25% */
+  height: 0;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+/* Iframe styling */
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 1rem;
+}
+
+/* Info column */
+.info-column {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+/* Title */
+.video-title {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #b14eb5;
+  margin-bottom: 0.3rem;
+}
+
+/* Date, apparatus, tags */
+.video-date,
+.video-apparatus,
+.video-tags {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 500;
+}
+
+/* Description */
+.video-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #444;
+  margin-top: 0.3rem;
+}
+
+/* Tags container - better visual tags */
+.video-tags {
+  margin-top: 0.5rem;
+}
+
+.video-tags span {
+  display: inline-block;
+  background-color: #f9eaff;
+  color: #5a2a6f;
+  padding: 0.35rem 0.7rem;
+  margin-right: 0.4rem;
+  margin-bottom: 0.3rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* Photo styling */
+.video-photo {
+  margin-top: 1rem;
+  width: 100%;
+  border-radius: 0.8rem;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .video-container {
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+  }
+
+  .video-column,
+  .info-column {
+    max-width: 100%;
+    min-width: auto;
+  }
+
+  .video-column {
+    margin-bottom: 1.5rem;
+  }
+  
+  .video-title {
+    font-size: 1.5rem;
+  }
+  
+  .performance-category {
+    font-size: 1.8rem;
+  }
+  
+  .aerial-title {
+    font-size: 2.2rem;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  .aerial-title {
+    font-size: 1.9rem;
+  }
+  
+  .video-title {
+    font-size: 1.3rem;
+  }
+  
+  .video-description {
+    font-size: 0.95rem;
+  }
+  
+  .video-tags span {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .video-container {
+    gap: 1rem; /* less gap */
+    padding: 1rem 1.5rem;
+  }
+
+  .video-title {
+    margin-top: 0.25rem; /* push it closer */
+    margin-bottom: 0.25rem;
+    font-size: 1.5rem;
+  }
+  
+  .video-column {
+    width: 100% !important;   /* force full width */
+    min-width: auto !important;
+    margin-bottom: 1rem;
+  }
+  
+  .video-wrapper {
+    aspect-ratio: 16 / 9;
+    width: 100% !important;
+    position: relative;
+  }
+  
+  .video-wrapper iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+/* Title link style matching blog-title-link */
+.video-title a {
+  cursor: pointer;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #a64ca6;
+  margin-bottom: 0.3rem;
+  transition: color 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.video-title a:hover,
+.video-title a:focus {
+  color: orchid;
+  text-decoration: underline;
+  outline: none;
+}
+
+/* See More button matching blog read-more */
+.see-more {
+  margin-top: 1rem;
+  display: inline-block;
+  color: #a64ca6;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+  text-decoration: none;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.see-more:hover,
+.see-more:focus {
+  color: orchid;
+  text-decoration: underline;
+  outline: none;
+}
+
+@media (max-width: 900px) {
+  .info-column {
+    gap: 0rem; /* smaller vertical spacing */
+  }
+}

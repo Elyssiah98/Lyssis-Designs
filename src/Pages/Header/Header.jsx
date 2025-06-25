@@ -150,6 +150,18 @@ function Header({ scrolled }) {
 
         {/*   <ThemeToggle /> */}
 
+        {isMobile && mobileMenuOpen && (
+          <div className="search-mobile">
+            <img
+              src="/Lyssis-Designs/SVG/Search.svg"
+              alt="Search Icon"
+              className="search-icon"
+            />
+            <SearchBar />
+          </div>
+        )}
+        
+        {!isMobile && (
           <div className="search-container">
             <img
               src="/Lyssis-Designs/SVG/Search.svg"
@@ -158,6 +170,8 @@ function Header({ scrolled }) {
             />
             <SearchBar />
           </div>
+        )}
+
         </div>
       </nav>
     </header>

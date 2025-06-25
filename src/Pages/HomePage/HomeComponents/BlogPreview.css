@@ -52,3 +52,12 @@
   text-decoration: none;
   font-weight: bold;
 }
+
+.blog-preview-title-link {
+  text-decoration: none;
+  color: #a64ca6;
+}
+
+.blog-preview-title-link:hover h3 {
+  text-decoration: underline;
+}

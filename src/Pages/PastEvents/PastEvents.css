@@ -24,6 +24,35 @@ html, body {
   animation: fadeIn 0.5s ease-in;
 }
 
+.event-list {
+  display: grid;
+  gap: 1.5rem;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.fade-in {
+  animation: fadeInUp 0.5s ease;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.result-count {
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
 .filters {
   display: flex;
   flex-wrap: wrap;
@@ -87,33 +116,4 @@ html, body {
   outline: none;
   border-color: #a64ca6;
   box-shadow: 0 0 5px #c59eff;
-}
-
-.event-list {
-  display: grid;
-  gap: 1.5rem;
-  transition: opacity 0.4s ease, transform 0.4s ease;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-}
-
-.fade-in {
-  animation: fadeInUp 0.5s ease;
-}
-
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.result-count {
-  font-style: italic;
-  margin-bottom: 1rem;
-  color: #555;
 }

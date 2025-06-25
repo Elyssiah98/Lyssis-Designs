@@ -18,6 +18,7 @@ import Portfolio from "./Pages/Portfolio/Portfolio";
 import CostumePortfolio from "./Pages/Costumes/CostumePortfolio";
 import CostumePost from "./Pages/Costumes/CostumePost";
 import Aerials from "./Pages/Aerials/Aerials";
+import AerialPost from "./Pages/Aerials/AerialPost";
 import VisualArt from "./Pages/VisualArts/VisualArts";
 import ArtPost from "./Pages/VisualArts/ArtPost";
 
@@ -57,6 +58,7 @@ function App() {
             <Route path="/costumes" element={<CostumePortfolio />} />
             <Route path="/costumes/:slug" element={<CostumePost />} />
             <Route path="/Aerials" element={<Aerials />} />
+            <Route path="/aerials/:slug" element={<AerialPost />} />
             <Route path="/VisualArts" element={<VisualArt />} />
             <Route path="/arts/:slug" element={<ArtPost />} />
             
