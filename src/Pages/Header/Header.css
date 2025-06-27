@@ -70,7 +70,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 1rem;
   flex: 1 1 100%;
   min-width: 0;
@@ -81,10 +81,18 @@
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
   flex: 1 1 auto;
   min-width: 0;
   text-align: center;
+}
+
+.nav-links > * {
+  margin-right: 1rem;
+  flex-shrink: 1;
+}
+
+.nav-links > *:last-child {
+  margin-right: 0;
 }
 
 /* === Links & Hover === */
@@ -197,7 +205,6 @@ nav a.Homepage-link:hover,
   box-shadow: var(--shadow-glow);
   backdrop-filter: blur(5px);
 }
-
 
 /* Search Bar */
 .search-container,

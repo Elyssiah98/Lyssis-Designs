@@ -84,7 +84,7 @@ main {
   --shadow-glow: 0 0 10px rgba(235, 214, 242, 0.3);
 }
 
-body.light {
+html[data-theme="light"] {
    /* General Layout */
   --background-main: var(--color-purple-900);
   --background-dropdown: var(--color-purple-800);
@@ -141,7 +141,7 @@ body.light {
   --dot: var(--color-grey-300);
 }
 
-body.dark {
+html[data-theme="dark"] {
    /* General Layout */
   --background-main: #1a0c1f;
   --background-dropdown: #2b1233;

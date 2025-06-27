@@ -1,7 +1,7 @@
 // src/ThemeToggle.jsx
 import React, { useEffect, useState } from 'react';
-import { SunIcon } from './icons/SunIcon';
-import { MoonIcon } from './icons/MoonIcon';
+import { SunIcon } from '../Icons/SunIcon';
+import { MoonIcon } from '../Icons/MoonIcon';
 
 const ThemeToggle = () => {
   const [theme, setTheme] = useState(() => {

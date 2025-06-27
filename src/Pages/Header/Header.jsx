@@ -6,7 +6,7 @@ import HamburgerMenu from "./HeaderComponents/HamburgerMenu";
 import NavLink from "./HeaderComponents/NavLink";
 import DropdownMenu from "./HeaderComponents/DropdownMenu";
 import SearchBar from "./HeaderComponents/SearchBar";
-{/*import ThemeToggle from './ThemeToggle';*/}
+import ThemeToggle from '../ThemeToggle';
 
 function Header({ scrolled }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -87,7 +87,7 @@ function Header({ scrolled }) {
         <div className="nav-main">
           <div className={`nav-links ${mobileMenuOpen ? "show" : ""}`}>
             
-          {scrolled && (
+          {!isHome && (
             <NavLink
               to="/"
               icon="./SVG/Home.svg"
@@ -146,11 +146,22 @@ function Header({ scrolled }) {
             >
               <Link to="/faqs" onClick={closeMobileMenu}>FAQs</Link>
             </DropdownMenu>
+            
+            {/* Add ThemeToggle ONLY if on mobile and menu is open */}
+            {isMobile && mobileMenuOpen && (
+              <div className="theme-toggle-mobile" style={{ marginTop: '1rem', paddingLeft: '1rem' }}>
+                <ThemeToggle />
+              </div>
+            )}
           </div>
 
-        {/*   <ThemeToggle /> */}
+          {!isMobile && (
+            <div className="theme-toggle-desktop" style={{ marginLeft: '1rem' }}>
+              <ThemeToggle />
+            </div>
+          )}
 
-        {isMobile && mobileMenuOpen && (
+          {isMobile && mobileMenuOpen && (
           <div className="search-mobile">
             <img
               src="/Lyssis-Designs/SVG/Search.svg"

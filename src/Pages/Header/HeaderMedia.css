@@ -109,6 +109,16 @@
   .website-title {
     font-size: 2rem !important;
   }
+
+  .theme-toggle-mobile {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.5rem 1rem;
+  }
+
+  .theme-toggle-desktop {
+    display: none;
+  }
 }
 
 /* === Desktop Styles === */
@@ -126,10 +136,44 @@
     display: flex;
     justify-content: flex-end;
     padding: 0.5rem 1rem;
+    flex: 0 0 auto;
+    max-width: 300px;
   }
 
   .search-mobile {
     display: none;
+  }
+
+  .homepage-redirect-header {
+    display: flex;
+    align-items: center;
+    flex-shrink: 1;
+    min-width: 100px;
+    gap: 0.5rem;
+  }
+
+  .homepage-redirect-header img {
+    height: clamp(30px, 5vw, 65px);
+    width: auto;
+    flex-shrink: 0;
+  }
+
+  .website-title {
+    font-size: clamp(1.6rem, calc(1vw + 1.2rem), 2.4rem) !important;
+    white-space: nowrap;
+    flex-shrink: 1;
+    min-width: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .theme-toggle-mobile {
+    display: none;
+  }
+
+  .theme-toggle-desktop {
+    display: flex;
+    align-items: center;
   }
 }
 

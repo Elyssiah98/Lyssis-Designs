@@ -38,7 +38,7 @@
 .blog-post-container h2 {
   font-size: 1.8rem;
   border-bottom: 1px solid #d6a8ff;
-  color: #6a2a8c;
+  color: var(--text-heading);
   padding-bottom: 0.25em;
 }
 
@@ -50,7 +50,7 @@
 .blog-post-container p {
   margin: 1em 0;
   font-size: 1rem;
-  color: #444;
+  color: var(--text-color);
 }
 
 /* Links */
@@ -68,11 +68,11 @@
 /* Blockquotes */
 .blog-post-container blockquote {
   border-left: 4px solid #bb86fc;
-  background: #f9f4ff;
+  background: var(--background-card);
   margin: 1.5em 0;
   padding: 0.05rem 1em;
   font-style: italic;
-  color: #5a2a7a;
+  color: var(--card-label);
   border-radius: 3px;
   box-shadow: 0 0 8px rgba(187, 134, 252, 0.3);
 }
@@ -90,7 +90,7 @@
 
 /* Code blocks */
 .blog-post-container pre {
-  background: #ebd6f2;
+  background: var(--background-card);
   color: #f8f8f2;
   padding: 1em;
   border-radius: 5px;
@@ -181,13 +181,13 @@
   max-width: 720px;
   margin-bottom: 1rem;
   font-family: Cabin, Verdana, sans-serif;
-  color: #7a5bbf;
+  color: var(--card-label);
   font-size: 0.9rem;
 }
 
 .blog-post-date {
   font-style: italic;
-  color: #6a2a8c;
+  color: var(--card-label);
 }
 
 .blog-post-category {
