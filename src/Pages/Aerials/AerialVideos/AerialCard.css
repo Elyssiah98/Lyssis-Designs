@@ -11,7 +11,7 @@
 /* Category heading */
 .performance-category {
   font-size: 2.2rem;
-  color: #b14eb5;
+  color: var(--tags);
   margin-bottom: 1.5rem;
   font-weight: 600;
 }
@@ -20,7 +20,7 @@
 .video-container {
   display: flex;
   gap: 2.5rem;
-  background: #fff;
+  background: var(--background-card);
   border-radius: 1.5rem;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
   padding: 1.8rem 2rem;
@@ -71,7 +71,7 @@
   font-family: 'Dancing Script', cursive;
   font-weight: 700;
   font-size: 1.8rem;
-  color: #b14eb5;
+  color: var(--text-heading);
   margin-bottom: 0.3rem;
 }
 
@@ -80,7 +80,7 @@
 .video-apparatus,
 .video-tags {
   font-size: 0.9rem;
-  color: #666;
+  color: var(--tags);
   font-weight: 500;
 }
 
@@ -88,7 +88,7 @@
 .video-description {
   font-size: 1rem;
   line-height: 1.5;
-  color: #444;
+  color: var(--text-color);
   margin-top: 0.3rem;
 }
 
@@ -99,8 +99,8 @@
 
 .video-tags span {
   display: inline-block;
-  background-color: #f9eaff;
-  color: #5a2a6f;
+  background-color: var(--background-card);
+  color: var(--tags);
   padding: 0.35rem 0.7rem;
   margin-right: 0.4rem;
   margin-bottom: 0.3rem;
@@ -115,7 +115,7 @@
   width: 100%;
   border-radius: 0.8rem;
   object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  box-shadow: var(--shadow-mid);
 }
 
 /* Responsive adjustments */
@@ -204,7 +204,7 @@
   font-family: 'Dancing Script', cursive;
   font-size: 1.8rem;
   font-weight: bold;
-  color: #a64ca6;
+  color: var(--text-heading);
   margin-bottom: 0.3rem;
   transition: color 0.2s ease-in-out;
   text-decoration: none;
@@ -212,7 +212,7 @@
 
 .video-title a:hover,
 .video-title a:focus {
-  color: orchid;
+  color: var(--more);
   text-decoration: underline;
   outline: none;
 }
@@ -221,7 +221,7 @@
 .see-more {
   margin-top: 1rem;
   display: inline-block;
-  color: #a64ca6;
+  color: var(--more);
   font-weight: 600;
   cursor: pointer;
   font-size: 1.1rem;
@@ -235,7 +235,7 @@
 
 .see-more:hover,
 .see-more:focus {
-  color: orchid;
+  color: var(--more-hover);
   text-decoration: underline;
   outline: none;
 }

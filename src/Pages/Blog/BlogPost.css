@@ -3,9 +3,9 @@
   max-width: 720px;
   margin: 2rem auto;
   padding: 1rem 2rem;
-  color: #333;
+  color: var(--light-text-color);
   line-height: 1.6;
-  background: #fff;
+  background: var(--background-card);
   border-radius: 6px;
   box-shadow: 0 0 8px rgba(60, 23, 66, 0.1);
 }
@@ -21,7 +21,7 @@
 .blog-post-container h4,
 .blog-post-container h5,
 .blog-post-container h6 {
-  color: #6a2a8c;
+  color: var(--card-label);
   margin-top: 1.5rem;
   margin-bottom: 0.5em;
   font-weight: 700;
@@ -82,7 +82,7 @@
 .blog-post-container ol {
   margin: 1em 0 1em 1.5em;
   padding-left: 0;
-  color: #555;
+  color: var(--text-color);
 }
 .blog-post-container li {
   margin-bottom: 0.5em;
@@ -153,7 +153,7 @@
     width: 100%;
     text-align: center;
     font-size: 0.85rem;
-    color: #555;
+    color: var(--text-color);
   }
 
   .flex-left,
@@ -191,7 +191,7 @@
 }
 
 .blog-post-category {
-  background: #d6a8ff;
+  background: var(--tags);
   color: #3c1742;
   padding: 0.3em 0.8em;
   border-radius: 12px;
@@ -212,7 +212,7 @@
 }
 
 .blog-post-tag {
-  color: #a05cdf;
+  color: var(--tags);
   margin-right: 0;
   text-decoration: none;
   font-weight: 500;
@@ -220,7 +220,7 @@
 
 .blog-post-tag::before {
   content: "#";
-  color: #bb86fc;
+  color: var(--tags);
 }
 
 .blog-post-tag:hover {
@@ -258,7 +258,7 @@ figure img {
 
 figcaption {
   font-size: 0.8rem;
-  color: #555;
+  color: var(--text-color);
   text-align: center;
   margin-top: 0rem;
   margin-bottom: 1rem;

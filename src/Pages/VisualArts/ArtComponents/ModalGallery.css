@@ -13,7 +13,7 @@
 
 .modal-gallery {
   position: relative;
-  background-color: #fff;
+  background-color: var(--background-card);
   padding: 2rem 3rem;
   width: 80vw;
   max-width: 1200px;
@@ -28,7 +28,7 @@
 
 .modal-image {
   max-width: 100%;
-  max-height: 55vh !important;
+  max-height: 50vh !important;
   border-radius: 8px;
   object-fit: contain;
   margin-bottom: 1rem;
@@ -42,9 +42,9 @@
   position: static;
   top: auto;
   transform: none;
-  background-color: rgba(166, 76, 166, 0.7); /* orchid-ish with transparency */
+  background-color: var(--modal-button);
   border: none;
-  color: white;
+  color: var(--modal-button-color);
   font-size: 1.75rem;
   padding: 0.2rem 0.8rem;
   border-radius: 50%;
@@ -60,7 +60,7 @@
 }
 
 .nav-button:hover {
-  background-color: orchid;
+  background-color: var(--modal-button-hover);
 }
 
 .modal-controls {
@@ -74,14 +74,14 @@
 
 .close-button {
   position: static;
-  background: orchid;
-  color: white;
+  background: var(--modal-button);
+  color: var(--modal-button-color);
   border: none;
-  padding: 0.6rem 1.2rem;
+  padding: 0rem 0.8rem;
   font-weight: bold;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 2rem;
   z-index: 10;
 }
 
@@ -95,7 +95,7 @@
 .dot {
   width: 12px;
   height: 12px;
-  background-color: #bbb;
+  background-color: var(--dot);
   border-radius: 50%;
   display: inline-block;
   cursor: pointer;
@@ -104,18 +104,22 @@
 
 .dot:hover,
 .dot.active {
-  background-color: orchid;
+  background-color: var(--modal-button);
 }
 
 .modal-info {
+  flex: 1 1 40%;
   max-width: 90%;
+  max-height: 80vh;
   margin: 1rem auto 0 auto;
-  color: #333;
-  text-align: flex-start;
+  overflow-y: auto;
+  color: var(--text-color);
+  text-align: left;
+  padding-right: 1rem;
 }
 
 .modal-info h2 {
-  color: #a64ca6;
+  color: var(--modal-button);
   line-height: 1;
 }
 
@@ -125,23 +129,14 @@
 }
 
 .read-more {
-  color: #a64ca6;
+  color: var(--more);
   font-weight: bold;
   text-decoration: none;
   line-height: 1;
 }
 
 .read-more:hover {
-  color: #7c3d8c;
-}
-
-.modal-info {
-  flex: 1 1 40%;
-  max-height: 80vh;
-  overflow-y: auto;
-  color: #333;
-  text-align: left;
-  padding-right: 1rem;
+  color: var(--more-hover);
 }
 
 @media (max-width: 768px) {

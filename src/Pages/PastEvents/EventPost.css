@@ -2,8 +2,8 @@
 .event-post {
   max-width: 720px;
   margin: 2rem auto;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #333;
+  font-family: 'Cabon', Geneva, Tahoma, sans-serif;
+  color: var(--text-color);
   padding: 1rem;
   line-height: 1.5;
 }
@@ -11,7 +11,7 @@
 .event-post h1 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
-  color: #5a2a82;
+  color: var(--card-label);
 }
 
 .event-post p {
@@ -25,7 +25,7 @@
   height: auto;
   margin: 1rem 0;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: var(--shadow-mid);
 }
 
 .event-post > div {
@@ -37,12 +37,12 @@
   font-size: 1rem;
 }
 
-.event-post > div a {
-  color: #5a2a82;
+a {
+  color: var(--more);
   text-decoration: underline;
 }
 
-.event-post > div a:hover {
-  color: #42215a;
+a:hover {
+  color: var(--more-hover);
   text-decoration: none;
 }

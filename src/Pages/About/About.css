@@ -22,14 +22,14 @@ html, body {
   padding-bottom: 2rem;
   padding-right: 4rem;
   min-height: 100vh;
-  background: linear-gradient(135deg, #fce6f2, #ffffff);
+  background: var(--page-bg);
 }
   
 .about-card {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background: #fff;
+  background: var(--background-card);
   border-radius: 1.5rem;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
   max-width: 1500px;
@@ -59,9 +59,9 @@ html, body {
   padding-top: 2rem;
   font-size: 3rem;
   font-weight: bold;
-  color: #a64ca6;
+  color: var(--text-heading);
   text-align: center;
-  border-bottom: 3px solid #b14eb5; /* underline */
+  border-bottom: 3px solid var(--text-heading); /* underline */
   line-height: 1.1;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -70,19 +70,19 @@ html, body {
 .about-title {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #b14eb5;
+  color: var(--text-heading);
   margin-bottom: 0.5rem;
 }
 
 .about-subtitle {
   font-size: 1.2rem;
-  color: #3c1742;
+  color: var(--card-label);
   margin-bottom: 1.5rem;
 }
 
 .about-text {
   font-size: 1.05rem;
-  color: #444;
+  color: var(--text-color);
   line-height: 1.7;
   margin-bottom: 1rem;
 }
@@ -104,19 +104,19 @@ html, body {
 .artist-statement {
   margin-top: 3rem;
   padding: 1.5rem 2rem;
-  background-color: #f9eaff; /* soft orchid-tinted background */
-  border-left: 6px solid orchid;
+  background-color: var(--alt-background);
+  border-left: 6px solid var(--text-heading);
   border-radius: 6px;
   max-width: 700px;
   font-style: italic;
-  color: #5a2a6f; /* deep purple for contrast */
+  color: var(--card-label);
 }
 
 .artist-statement-title {
   margin-bottom: 0.75rem;
   font-weight: 700;
   font-size: 1.8rem;
-  color: #9b59b6; /* orchid */
+  color: var(--card-label); /* orchid */
 }
 
 .artist-statement-text {

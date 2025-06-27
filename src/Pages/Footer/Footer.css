@@ -1,16 +1,16 @@
 /* Footer */
 footer {
-  background-color: #3c1742;
-  color: #ebd6f2;
+  background-color: var(--background-main);
+  color: var(--nav-color);
   padding: 0px 10px;
-  font-family: Cabin, sans-serif;
+  font-family: "Cabin", sans-serif;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  z-index: 100; /* Make sure it’s above other content */
+  z-index: 100;
   display: flex;
-  flex-direction: column;  /* stack top and bottom sections */
+  flex-direction: column;
   align-items: center;
   box-sizing: border-box;
 }
@@ -31,13 +31,13 @@ footer a {
   grid-template-columns: 1fr 2.5fr 2fr;
   align-items: center;
   gap: 2rem;
-  border-bottom: 1px solid #ebd6f2;
+  border-bottom: 1px solid var(--border-color);
 }
 
 footer h4 {
   font-size: 1.3rem;
   font-weight: bold;
-  color: #ebd6f2;
+  color: var(--nav-color);
 }
 
 /* Footer Social Links */
@@ -91,10 +91,10 @@ footer h4 {
 }
 
 .website-title {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script', 'cursive';
   font-size: 2.5rem;
   font-weight: bold;
-  color: #ebd6f2;
+  color: var(--nav-color);
   text-decoration: none;
 }
 
@@ -127,7 +127,7 @@ footer h4 {
 }
 
 .footer-pair a {
-  color: #ebd6f2;
+  color: var(--nav-color);
   text-decoration: none;
   font-size: 0.75rem;
 }
@@ -146,9 +146,9 @@ footer h4 {
 
 /* Hide the footer when it’s not needed */
 .footer-hidden {
-  background-color: #3c1742;
-  color: #ebd6f2;
-  font-family: Cabin, sans-serif;
+  background-color: var(--background-main);
+  color: var(--nav-color);
+  font-family: 'Cabin', sans-serif;
   font-size: 0.85rem;
   width: 100%;
   opacity: 0;

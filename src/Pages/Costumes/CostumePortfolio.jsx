@@ -87,7 +87,7 @@ function CostumePortfolio() {
           totalPages={totalPages}
           totalCount={total}
           perPage={POSTS_PER_PAGE}
-          onPageChange={setPage}
+          setCurrentPage={setPage}
         />
 
         {/* Modal Viewer */}

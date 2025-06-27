@@ -18,5 +18,5 @@
 nav input[type="text"] {
   padding: 5px;
   border-radius: 4px;
-  border: 1px solid #e6d1f2;
+  border: var(--border-color);
 }

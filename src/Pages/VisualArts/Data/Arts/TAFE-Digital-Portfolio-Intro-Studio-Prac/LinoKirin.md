@@ -16,4 +16,4 @@ images:
 
 :deer: A single-colour lino print of a Kirin, a Japanese mythological creature. Cherry blossoms frame the figure, lending a sense of softness and movement to the composition.
 
-[Read blog post](/blog/Printmaking/Completed-Pieces/Lino-Kirin)
+[Read blog post](#/blog/Printmaking/Completed-Pieces/Lino-Kirin)

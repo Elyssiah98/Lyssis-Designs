@@ -2,14 +2,14 @@
 
 @font-face {
   font-family: 'Dancing Script';
-  src: url('/public/Fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf') format('opentype');
+  src: url('/Fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Cabin';
-  src: url('/public/Fonts/Cabin/Cabin-Variable.ttf') format('opentype');
+  src: url('/Fonts/Cabin/Cabin-Variable.ttf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -19,7 +19,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Cabin;
+  font-family: 'Cabin', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,11 +27,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  font-family: Verdana, sans-serif;
-  background-color: #fff;
-  color: #333;
+  font-family: "Cabin", sans-serif;
   line-height: 1.6;
   min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 html, body {
@@ -50,17 +49,150 @@ main {
 }
 
 :root {
-  --bg-color: #ffffff;
-  --text-color: #000000;
+  /* Purples */
+  --color-purple-100: #f3e8ff;
+  --color-purple-200: #e0d4ff;
+  --color-purple-300: #d1bcff;
+  --color-purple-400: #c59eff;
+  --color-purple-500: #a64ca6;
+  --color-purple-600: #8e44ad;
+  --color-purple-700: #7a3682;
+  --color-purple-800: #542259;
+  --color-purple-900: #3c1742;
+  
+  /* Deep Purples */
+  --color-deep-purple-400: #6b21a8;
+  --color-deep-purple-300: #9d4edd;
+  
+  /* Pinks */
+  --color-pink-100: #fce6f2;
+  --color-pink-200: #d1a5e8;
+  --color-pink-soft: #ebd6f2;
+
+  /* Neutrals */
+  --color-white: #ffffff;
+  --color-grey-100: #eee;
+  --color-grey-200: #ddd;
+  --color-grey-300: #ccc;
+  --color-grey-400: #555;
+  --color-grey-500: #333;
+  --color-black: #000000;
+
+  /* Shadows */
+  --shadow-soft: 0 2px 6px rgba(0, 0, 0, 0.2);
+  --shadow-mid: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-glow: 0 0 10px rgba(235, 214, 242, 0.3);
 }
 
-[data-theme="dark"] {
-  --bg-color: #121212;
-  --text-color: #ffffff;
+body.light {
+   /* General Layout */
+  --background-main: var(--color-purple-900);
+  --background-dropdown: var(--color-purple-800);
+  --background-hover: var(--color-purple-700);
+  --background-card: var(--color-white);
+  --alt-background: var(--color-pink-soft);
+  --page-bg: linear-gradient(135deg, var(--color-pink-100), var(--color-white));
+  
+  /* Text */
+  --text-main: var(--color-pink-soft);
+  --text-heading: var(--color-purple-500);
+  --text-dark: var(--color-black);
+  --text-color: var(--color-grey-500);
+  --light-text-color: var(--color-grey-400);
+
+  /* Border & Icons */
+  --border-color: var(--color-pink-soft);
+  --nav-color: var(--color-pink-soft);
+  --alt-border: var(--color-grey-300);
+
+  /* Buttons / Tags / Filters */
+  
+  --filter-label: var(--color-purple-700);
+  --filter-select: var(--color-purple-900);
+  --filter-bg: var(--color-purple-100);
+  --filter-border: var(--color-purple-300);
+  --filter-focus: var(--color-purple-500);
+  
+  --year-button-bg: var(--color-purple-200);
+  --year-button-hover: var(--color-purple-300);
+  --year-button-active-bg: var(--color-purple-600);
+  --year-button-active-text: var(--color-white);
+
+  --card-label: var(--color-purple-700);
+  --count-text: var(--color-grey-400);
+  --tags: var(--color-purple-400);
+  --category: var(--color-deep-purple-400);
+  --category-hover: var(--color-deep-purple-300);
+
+  /* Links / Read More */
+  --more: var(--color-purple-600);
+  --more-hover: var(--color-purple-500);
+
+  /* Pagination */
+  --pagination-background: var(--color-grey-100);
+  --pagination-color: var(--color-purple-500);
+  --pagination-hover: var(--color-grey-200);
+  --pagination-active-text: var(--color-white);
+
+  /* Modal */
+  --modal-button: var(--color-purple-500);
+  --modal-button-hover: var(--color-purple-700);
+  --modal-button-color: var(--color-white);
+  --dot: var(--color-grey-300);
 }
 
-body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  transition: background-color 0.3s ease, color 0.3s ease;
+body.dark {
+   /* General Layout */
+  --background-main: #1a0c1f;
+  --background-dropdown: #2b1233;
+  --background-hover: #5e2970;
+  --background-card: #2a1333;
+  --alt-background: #311d3f;
+  --page-bg: linear-gradient(135deg, #2b1233, #1a0c1f);
+
+  /* Text */
+  --text-main: #f4eaff;
+  --text-heading: #d4a0e0;
+  --text-dark: #ffffff;
+  --text-color: #e4d6f1;
+  --light-text-color: #bda6cc;
+
+  /* Borders & Icons */
+  --border-color: #c191dd;
+  --alt-border: #4b2a58;
+  --nav-color: #f4eaff;
+
+  /* Buttons / Tags / Filters */
+  --filter-label: #e9c6ff;
+  --filter-select: #e9c6ff;
+  --filter-bg: #3c1b44;
+  --filter-border: #5e3a78;
+  --filter-focus: #c191dd;
+
+  --year-button-bg: #5e3a78;
+  --year-button-hover: #6c2c7d;
+  --year-button-active-bg: #8e44ad;
+  --year-button-active-text: var(--color-white);
+
+  --card-label: #c59eff;
+  --count-text: #bba3cc;
+  --tags: #c59eff;
+  --category: #c59eff;
+  --category-hover: #d1bcff;
+
+  /* Links / Read More */
+  --more: #c59eff;
+  --more-hover: #d1bcff;
+
+  /* Pagination */
+  --pagination-background: #2a1333;
+  --pagination-color: #c59eff;
+  --pagination-hover: #3e1a4c;
+  --pagination-active-text: var(--color-white);
+
+  /* Modal */
+  --modal-button: #c59eff;
+  --modal-button-hover: #a64ca6;
+  --modal-button-color: #1a0c1f;
+  --dot: #8c5ca3;
 }

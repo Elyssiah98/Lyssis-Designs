@@ -15,6 +15,7 @@ export default function CategoryFilter({
       <label htmlFor="category-select">{label}</label>
       <select
         id="category-select"
+        aria-label="Filter posts by category"
         value={selectedCategory}
         onChange={(e) => onChange(e.target.value)}
       >

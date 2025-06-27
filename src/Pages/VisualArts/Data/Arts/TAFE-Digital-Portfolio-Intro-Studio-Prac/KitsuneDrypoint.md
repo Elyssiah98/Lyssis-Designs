@@ -16,4 +16,4 @@ images:
 
 :fox_face: A drypoint print of a kitsune—a Japanese fox spirit—captured mid-run with flowing tails and swirling flames. Stylised clouds frame the scene, and careful cuts in the Tetra-Pak plate add extra contrast and texture. A layered, symbolic design that blends movement and myth.
 
-[Read blog post](/blog/Printmaking/Completed-Pieces/Kitsune-Drypoint)
+[Read blog post](#/blog/Printmaking/Completed-Pieces/Kitsune-Drypoint)

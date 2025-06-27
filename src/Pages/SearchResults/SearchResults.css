@@ -2,7 +2,7 @@
 :root {
   --color-primary: #a64ca6;
   --color-primary-light: #f6d0fa;
-  --color-text: #444444;
+  --color-text: #333;
   --color-text-muted: #777777;
   --color-link: #a64ca6;
   --color-link-hover: orchid;
@@ -16,7 +16,7 @@
   font-family: var(--font-sans);
   color: var(--color-text);
   min-height: 80vh;
-  background: linear-gradient(135deg, #fce6f2, #ffffff);
+  background: var(--page-bg);
 }
 
 /* Back link */

@@ -1,12 +1,16 @@
 /* Legal */
 
+.body {
+  background-color: var(--page-bg);
+}
+
 .legal-title {
   padding-top: 2rem;
   font-size: 3rem;
   font-weight: bold;
-  color: #a64ca6;
+  color: var(--text-heading);
   text-align: center;
-  border-bottom: 3px solid #b14eb5; /* underline */
+  border-bottom: 3px solid var(--text-heading); /* underline */
   line-height: 1.1;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -16,7 +20,7 @@
   max-width: 800px;
   margin: 2rem auto;
   padding: 1rem 2rem;
-  background: linear-gradient(white, #f8f8f8);
+  background: var(--background-card);
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1.2s ease-in-out;
@@ -25,15 +29,11 @@
 .legal-page h2 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
-  color: #5a5a5a;
+  color: var(--card-label);
 }
 
 .legal-page p {
   margin: 0.5rem 0;
   line-height: 1.6;
-}
-
-legal-page a {
-  text-decoration: none;
-  color: #3c1742;
+  color: var(--text-color)
 }

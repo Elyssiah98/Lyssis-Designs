@@ -9,8 +9,8 @@
 .art-post {
   max-width: 720px;
   margin: 2rem auto;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #333;
+  font-family: 'Cabin', Tahoma, sans-serif;
+  color: var(--text-color);
   padding: 1rem;
   line-height: 1.5;
 }
@@ -18,7 +18,7 @@
 .art-post h1 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
-  color: #5a2a82; /* orchid-like color */
+  color: var(--card-label); /* orchid-like color */
 }
 
 .art-post p {
@@ -28,7 +28,7 @@
 
 .art-post strong {
   font-weight: 600;
-  color: #333;
+  color: var(--text-color);
 }
 
 .art-post-image {
@@ -37,25 +37,14 @@
   height: auto;
   margin: 1rem 0;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: var(--shadow-soft);
 }
 
-/* Style markdown content */
-.art-post > div {
-  margin-top: 1rem;
+a:hover {
+  color: var(--more-hover);
 }
 
-.art-post > div p {
-  margin-bottom: 1rem;
-  font-size: 1rem;
-}
-
-.art-post > div a {
-  color: #5a2a82;
+a {
+  color: var(--more);
   text-decoration: underline;
-}
-
-.art-post > div a:hover {
-  color: #42215a;
-  text-decoration: none;
 }

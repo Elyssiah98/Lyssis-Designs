@@ -21,10 +21,9 @@ function ArtCard({ art, openGallery, onTypeClick }) {
   const gradient = colorArray.length === 1
     ? colorArray[0]
     : `linear-gradient(135deg, ${colorArray.join(", ")})`;
-console.log('description:', art.description);
 
   return (
-    <div className="art-card" style={{ background: gradient }}>
+    <div className={`art-card ${art.type?.map(t => t.toLowerCase()).join(" ") || "default"}`}>
       <h2 className="art-title">{parseEmoji(art.title)}</h2>
       <p className="date">{new Date(art.date).toLocaleDateString()}</p>
 

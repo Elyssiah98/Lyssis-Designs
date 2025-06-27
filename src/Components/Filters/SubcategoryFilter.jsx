@@ -9,6 +9,7 @@ const SubcategoryFilter = ({ subcategories, selectedSubcategory, onChange }) => 
       </label>
       <select
         id="subcategory-select"
+        aria-label="Filter posts by subcategory"
         value={selectedSubcategory}
         onChange={(e) => onChange(e.target.value)}
       >

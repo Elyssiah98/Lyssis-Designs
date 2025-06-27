@@ -85,7 +85,7 @@ function PastEvents() {
         totalPages={totalPages}
         totalCount={total}
         perPage={POSTS_PER_PAGE}
-        onPageChange={setPage}
+        setCurrentPage={setPage}
       />
     </div>
   );

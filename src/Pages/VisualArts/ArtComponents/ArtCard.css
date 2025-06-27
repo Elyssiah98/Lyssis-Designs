@@ -1,10 +1,10 @@
 .art-card {
-  background: white;
+  background: var(--background-card);
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 1rem 1.5rem;
   margin-bottom: 2rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-mid);
   transition: transform 0.3s ease;
 }
 
@@ -12,10 +12,8 @@
   transform: translateY(-5px);
 }
 
-.art-card h3 {
-  font-size: 1.25rem;
-  color: #4b0082;
-  font-family: 'Cabin';
+.art-card h2 {
+  color: var(--card-label);
 }
 
 .art-card p {
@@ -31,7 +29,7 @@
   margin-top: 1rem;
   cursor: pointer;
   border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--shadow-soft);
 }
 
 .art-card iframe {
@@ -42,28 +40,17 @@
   border-radius: 6px;
 }
 
-.art-tag {
-  display: inline-block;
-  margin-top: 0.5rem;
-  background: #ddd;
-  color: #333;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  font-size: 0.85rem;
-  text-transform: capitalize;
-}
-
 .read-more-link {
   display: inline-block;
   margin-top: 0.8rem;
-  color: #8e44ad;
+  color: var(--more);
   font-weight: bold;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .read-more-link:hover {
-  color: #5e3375;
+  color: var(--more-hover);
   text-decoration: underline;
 }
 
@@ -78,7 +65,7 @@
   padding: 0.15rem 0.5rem;
   border-radius: 12px;
   font-size: 0.75rem;
-  color: #333;
+  color: var(--text-color);
 }
 
 .type-tag.clickable {
@@ -90,4 +77,58 @@
 .type-tag.clickable:hover {
   transform: scale(1.05);
   opacity: 0.85;
+}
+
+/* === Light Mode === */
+body:not(.dark) .art-card.jewellery {
+  background-color: #ffefef;
+}
+body:not(.dark) .art-card.painting {
+  background-color: #ffefef;
+}
+body:not(.dark) .art-card.drawing {
+  background-color: #e8fff1;
+}
+body:not(.dark) .art-card.sculpture {
+  background-color: #e8f0ff;
+}
+body:not(.dark) .art-card.tafe {
+  background-color: #d2e7d6;
+}
+body:not(.dark) .art-card.default {
+  background-color: #ffffff;
+}
+
+/* Optional: mixed types as gradients (manually defined) */
+body:not(.dark) .art-card.painting.drawing {
+  background: linear-gradient(135deg, #ffefef, #e8fff1);
+}
+body:not(.dark) .art-card.jewellery.sculpture {
+  background: linear-gradient(135deg, #ffefef, #e8f0ff);
+}
+/* Add more combos as needed */
+
+/* === Dark Mode === */
+body.dark .art-card.jewellery {
+  background-color: #4a2e36;
+}
+body.dark .art-card.painting {
+  background-color: #4a2e36;
+}
+body.dark .art-card.drawing {
+  background-color: #2d4438;
+}
+body.dark .art-card.sculpture {
+  background-color: #263348;
+}
+body.dark .art-card.tafe {
+  background-color: #2f4534;
+}
+body.dark .art-card.default {
+  background-color: #1f1f1f;
+}
+
+/* Optional gradients for dark mode mixed types */
+body.dark .art-card.painting.drawing {
+  background: linear-gradient(135deg, #4a2e36, #2d4438);
 }

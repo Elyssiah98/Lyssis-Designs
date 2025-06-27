@@ -1,6 +1,6 @@
 .event-card {
-  background: white;
-  border: 1px solid #ddd;
+  background: var(--background-card);
+  border: 1px solid var(--alt-border);
   border-radius: 8px;
   padding: 1rem 1.5rem;
   margin-bottom: 2rem;
@@ -14,7 +14,7 @@
 
 .event-card h3 {
   font-size: 1.5rem;
-  color: #4b0082;
+  color: var(--card-label);
 }
 
 .event-card p {
@@ -27,7 +27,7 @@
   margin-top: 1rem;
   cursor: pointer;
   border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--shadow-soft);
 }
 
 .event-card iframe {
@@ -41,8 +41,8 @@
 .event-tag {
   display: inline-block;
   margin-top: 0.5rem;
-  background: #ddd;
-  color: #333;
+  background: var(--alt-border);
+  color: var(--text-color);
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
   font-size: 0.85rem;
@@ -52,13 +52,41 @@
 .read-more-link {
   display: inline-block;
   margin-top: 0.8rem;
-  color: #8e44ad;
+  color: var(--more);
   font-weight: bold;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .read-more-link:hover {
-  color: #5e3375;
+  color: var(--more-hover);
   text-decoration: underline;
+}
+
+/* === Light Mode Event Backgrounds === */
+body:not(.dark) .event-card.charity {
+  background-color: #ffefef;
+}
+body:not(.dark) .event-card.volunteer {
+  background-color: #e8fff1;
+}
+body:not(.dark) .event-card.comiccon {
+  background-color: #e8f0ff;
+}
+body:not(.dark) .event-card.default {
+  background-color: #ffffff; /* White as requested */
+}
+
+/* === Dark Mode Event Backgrounds === */
+body.dark .event-card.charity {
+  background-color: #4a2e36;
+}
+body.dark .event-card.volunteer {
+  background-color: #2d4438;
+}
+body.dark .event-card.comiccon {
+  background-color: #263348;
+}
+body.dark .event-card.default {
+  background-color: #1f1f1f;
 }

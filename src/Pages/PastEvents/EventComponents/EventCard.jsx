@@ -15,8 +15,7 @@ function EventCard({ event }) {
   const bgColor = typeColors[event.type] || typeColors.default;
 
   return (
-    <div className="event-card"
-      style={{ backgroundColor: bgColor }}>
+    <div className={`event-card ${event.type || "default"}`}>
       <h3>{event.title}</h3>
       <p>{new Date(event.date).toLocaleDateString()}</p>
       <p>{event.description}</p>

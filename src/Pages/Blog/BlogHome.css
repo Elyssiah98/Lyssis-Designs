@@ -2,7 +2,7 @@
 
 /* General page layout */
 .blog-home {
-  background: linear-gradient(135deg, #fce6f2, #ffffff);
+  background: var(--page-bg);
   padding: 0.5rem 2rem;
   min-height: 100vh;
 }
@@ -11,22 +11,22 @@
   padding-top: 1.5rem;
   font-size: 3rem;
   font-weight: bold;
-  color: #a64ca6;
+  color: var(--text-heading);
   text-align: center;
-  border-bottom: 3px solid #b14eb5;
+  border-bottom: 3px solid var(--text-heading);
   line-height: 1.1;
 }
 
 
 /* Blog post container and layout */
 .blog-post {
-  background: white;
+  background:var(--background-card);
   max-width: 900px;
   margin: 2rem auto;
   border-radius: 1rem;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
   padding: 2rem;
-  border: 2px solid #e6d1eb;
+  border: 2px solid var(--border-color);
 }
 
 .blog-post-inner {
@@ -79,7 +79,7 @@
   font-family: 'Dancing Script';
   font-size: 1.8rem;
   font-weight: bold;
-  color: #a64ca6;
+  color: var(--text-heading);
   margin-bottom: 0.3rem;
   transition: color 0.2s ease-in-out;
   text-decoration: none;
@@ -98,8 +98,8 @@
 
 .blog-category {
   display: inline-block;
-  background: #f6d0fa;
-  color: #701070;
+  background: var(--border-color);
+  color: var(--card-label);
   font-size: 0.75rem;
   font-weight: 600;
   padding: 0.3rem 0.75rem;
@@ -110,14 +110,14 @@
 .blog-excerpt {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #444;
+  color: var(--text-color);
   margin-bottom: 1rem;
 }
 
 .read-more {
   margin-top: 1rem;
   display: inline-block;
-  color: #a64ca6;
+  color: var(--more);
   font-weight: 600;
   cursor: pointer;
   font-size: 1.1rem;
@@ -129,6 +129,7 @@
 }
 
 .read-more a:hover {
+  color: var(--more-hover);
   text-decoration: underline;
 }
 
@@ -152,11 +153,11 @@
 .result-count {
   font-size: 1rem;
   margin-bottom: 1rem;
-  color: #444;
+  color: var(--count-text);
 }
 
 .no-posts-message {
   font-style: italic;
-  color: #888;
+  color: var(--count-text);
   padding: 1rem 0;
 }

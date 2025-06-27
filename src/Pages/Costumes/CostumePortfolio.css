@@ -3,7 +3,7 @@
 /* Page Styling */
 .portfolio-page {
   padding: 2rem;
-  background: linear-gradient(135deg, #fce6f2, #ffffff);
+  background: var(--page-bg);
   min-height: 100vh;
   animation: fadeIn 0.5s ease-in;
 }
@@ -14,9 +14,9 @@
   font-size: 3rem;
   font-weight: bold;
   padding-left: 2rem;
-  color: #a64ca6;
+  color: var(--text-heading);
   text-align: center;
-  border-bottom: 3px solid #b14eb5; /* underline */
+  border-bottom: 3px solid var(--text-heading); /* underline */
   line-height: 1.1;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -42,20 +42,13 @@
   padding: 0.6rem 1.2rem;
   border: none;
   border-radius: 6px;
-  background-color: #e0d4ff;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .year-button:hover {
-  background-color: #d1bcff;
   transform: scale(1.05);
-}
-
-.year-button.active {
-  background-color: #8e44ad;
-  color: white;
 }
 
 .type-filter {
@@ -67,7 +60,6 @@
 
 .type-filter label {
   font-weight: bold;
-  color: #7c3d8c;
   font-size: 1rem;
 }
 
@@ -75,16 +67,11 @@
   padding: 0.6rem;
   font-size: 1rem;
   border-radius: 6px;
-  background-color: #f3e8ff;
-  border: 2px solid #d1bcff;
-  color: #4a235a;
   transition: all 0.3s ease;
 }
 
 .type-filter select:focus {
   outline: none;
-  border-color: #a64ca6;
-  box-shadow: 0 0 5px #c59eff;
 }
 
 /* Costume Grid */
@@ -96,10 +83,10 @@
 
 /* Costume Card */
 .costume-card {
-  background-color: #fefefe;
+  background-color: var(--background-card);
   border-radius: 10px;
   cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-soft);
   transition: transform 0.2s ease;
 }
 
@@ -120,59 +107,18 @@
 .costume-card p {
   margin: 0.5rem;
   font-size: 0.95rem;
-  color: #555;
-}
-
-/* Modal Styling */
-.costume-modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(30, 30, 30, 0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999;
-}
-
-.costume-modal-content {
-  background: white;
-  padding: 1rem;
-  border-radius: 10px;
-  max-width: 90%;
-  max-height: 90%;
-  position: relative;
-}
-
-.costume-modal-content img {
-  max-width: 100%;
-  max-height: 80vh;
-  display: block;
-  margin: auto;
-}
-
-.close-btn {
-  position: absolute;
-  top: 0.5rem;
-  right: 1rem;
-  font-size: 2rem;
-  background: transparent;
-  border: none;
-  color: #444;
-  cursor: pointer;
+  color: var(--text-color);
 }
 
 .read-more {
   display: inline-block;
   margin-top: 0.5rem;
-  color: #a64ca6;
+  color: var(--more);
   font-weight: bold;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .read-more:hover {
-  color: #7c3d8c;
+  color: var(--more-hover);
 }

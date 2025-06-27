@@ -5,7 +5,7 @@ import ArtCard from "./ArtComponents/ArtCard";
 
 import YearFilter from "../../Components/Filters/YearFilter";
 import CategoryFilter from "../../Components/Filters/CategoryFilter";
-import Pagination from "./ArtComponents/Pagination";
+import Pagination from "../../Components/Pagination/Pagination";
 import ModalGallery from "./ArtComponents/ModalGallery";
 import useFilters from "../../Components/Hooks/useFilters";
 import usePagination from "../../Components/Hooks/usePagination";
@@ -74,7 +74,7 @@ function VisualArts() {
             categories={types}
             selectedCategory={selectedType}
             onChange={setSelectedType}
-            label="Filter by type:"
+            label="Filter by art:"
           />
         </div>
 
@@ -102,7 +102,7 @@ function VisualArts() {
           totalPages={totalPages}
           totalCount={total}
           perPage={POSTS_PER_PAGE}
-          onPageChange={setPage}
+          setCurrentPage={setPage}
         />
 
         {/* Modal Gallery */}

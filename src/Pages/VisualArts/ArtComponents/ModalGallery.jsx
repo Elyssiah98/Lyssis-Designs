@@ -3,7 +3,7 @@ import "./ModalGallery.css";
 import ReactMarkdown from "react-markdown";
 import remarkEmoji from "remark-emoji";
 
-function ModalGallery({ data, onClose, initialIndex = 0 }) {
+function ModalGallery({ data, onClose }) {
   const { 
     title, 
     date, 
@@ -15,7 +15,7 @@ function ModalGallery({ data, onClose, initialIndex = 0 }) {
     images = fullImage ?  [fullImage] : [],
   } = data || {};
   
-  const [currentIndex, setCurrentIndex] = useState(initialIndex);
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(images.length > 1);
   const autoPlayRef = useRef();
 
@@ -50,8 +50,6 @@ function ModalGallery({ data, onClose, initialIndex = 0 }) {
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [onClose]);
-
-  if (!data) return null;  // safety fallback
 
   return (
     <div className="modal-backdrop" onClick={onClose}>

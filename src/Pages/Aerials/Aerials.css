@@ -9,16 +9,16 @@
   padding: 2rem 2rem 0rem;
   font-size: 3rem;
   font-weight: bold;
-  color: #a64ca6;
+  color: var(--text-heading);
   text-align: center;
-  border-bottom: 3px solid #b14eb5;
+  border-bottom: 3px solid var(--text-heading);
   margin-left: 2rem;
   margin-right: 2rem;
   line-height: 1.1;
 }
 
 body {
-  background: linear-gradient(135deg, #fce6f2, #ffffff);
+  background: var(--page-bg);
   font-family: 'Cabin', Tahoma, Geneva, Verdana, sans-serif;
-  color: #333;
+  color: var(--text-color);
 }

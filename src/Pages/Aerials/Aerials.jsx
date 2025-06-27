@@ -1,12 +1,14 @@
 import React from "react";
 import aerialPosts from "./Data/loadAerialPosts";
 import AerialVideos from "./AerialVideos/AerialVideos";
+
 import YearFilter from "../../Components/Filters/YearFilter";
 import CategoryFilter from "../../Components/Filters/CategoryFilter";
 import Pagination from "../../Components/Pagination/Pagination";
 import useFilters from "../../Components/Hooks/useFilters";
 import usePagination from "../../Components/Hooks/usePagination";
 import useURLSync from "../../Components/Hooks/useURLSync";
+
 import "./AerialVideos/AerialCard.css";
 import "./Aerials.css"
 
@@ -84,7 +86,7 @@ function Aerials() {
           totalPages={totalPages}
           totalCount={total}
           perPage={POSTS_PER_PAGE}
-          onPageChange={setPage}
+          setCurrentPage={setPage}
         />
       </div>
     </div>
